@@ -23,7 +23,7 @@ No additional setup is required.
 
 ## Using a model
 
-You are able to interact with a Squire model just like you would any other Eloquent model, except it can only handle read-only operations.
+You can interact with a Squire model just like you would any other Eloquent model, except it can only handle read-only operations.
 
 ```php
 use Squire\Models\Country;
@@ -51,7 +51,7 @@ Implementing an Eloquent relationship between a model in your app and a Squire m
 
 ### Using inheritance
 
-The simplest option is to create a new model in your app, and let it extend the Squire model. Your new app model will now behave like the original Squire model, except you are able to register new methods and customise it to your liking:
+The simplest option is to create a new model in your app, and let it extend the Squire model. Your new app model will now behave like the original Squire model, except you can register new methods and customise it to your liking:
 
 ```php
 <?php
@@ -88,7 +88,7 @@ Country::resolveRelationUsing('users', function (Country $country) {
 
 Squire allows you to customise the column names on any provided model.
 
-Create a new model within your appand let it extend the Squire model that you would like to customise:
+Create a new model within your app and let it extend the Squire model that you would like to customise:
 
 ```php
 <?php
@@ -115,6 +115,6 @@ Country::find('us')->dial_code; // 1
 
 ## Contributing
 
-If you have fixture data to contibute to the library, please open a pull request!
+If you have fixture data to contribute to the library, please open a pull request!
 
 For reference, check out the existing models.
