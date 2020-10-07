@@ -8,5 +8,9 @@ class Country extends Model
 {
     public $incrementing = false;
 
+    protected $schema = [
+        'dial_code' => 'string',
+    ];
+
     protected $source = 'countries';
 }
