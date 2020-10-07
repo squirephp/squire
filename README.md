@@ -71,7 +71,7 @@ class Country extends SquireCountry
 
 See our section on [model customisation](#column-customisation) for more customisation possibilities that are made available if you utilise this method.
 
-### Using resolveRelationUsing()
+### Using `resolveRelationUsing()`
 
 Another option is the `resolveRelationUsing()` method. This allows you to dynamically register a relationship for a Squire model from anywhere in your app, for example, within a service provider:
 
