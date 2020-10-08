@@ -6,9 +6,9 @@ Common use cases for Squire include:
 - Populating dropdown options, such as a country selector on an address form.
 - Attaching extra data to other models in your app, such as airport information to a `Flight` model. See the section on [model relationships](#model-relationships).
 
-[![CI Status](https://github.com/danharrin/squire/workflows/run-tests/badge.svg)](https://github.com/danharrin/squire/actions)
-[![Total Downloads](https://packagist.org/packages/danharrin/squire)](https://poser.pugx.org/danharrin/squire/d/total.svg)
-[![Latest Stable Version](https://packagist.org/packages/danharrin/squire")](https://poser.pugx.org/danharrin/squire/v/stable.svg)
+[![CI status](https://github.com/danharrin/squire/workflows/run-tests/badge.svg)](https://github.com/danharrin/squire/actions)
+[![Total downloads](https://packagist.org/packages/danharrin/squire)](https://poser.pugx.org/danharrin/squire/d/total.svg)
+[![Latest stable version](https://packagist.org/packages/danharrin/squire")](https://poser.pugx.org/danharrin/squire/v/stable.svg)
 [![License](https://packagist.org/packages/danharrin/squire")](https://poser.pugx.org/danharrin/squire/license.svg)
 
 - [Installing Squire](#installing-squire)
