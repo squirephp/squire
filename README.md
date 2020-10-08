@@ -7,9 +7,6 @@ Common use cases for Squire include:
 - Attaching extra data to other models in your app, such as airport information to a `Flight` model. See the section on [model relationships](#model-relationships).
 
 [![CI status](https://github.com/danharrin/squire/workflows/run-tests/badge.svg)](https://github.com/danharrin/squire/actions)
-[![Total downloads](https://packagist.org/packages/danharrin/squire)](https://poser.pugx.org/danharrin/squire/d/total.svg)
-[![Latest stable version](https://packagist.org/packages/danharrin/squire")](https://poser.pugx.org/danharrin/squire/v/stable.svg)
-[![License](https://packagist.org/packages/danharrin/squire")](https://poser.pugx.org/danharrin/squire/license.svg)
 
 - [Installing Squire](#installing-squire)
 - [Using a model](#using-a-model)
