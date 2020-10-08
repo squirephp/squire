@@ -8,6 +8,8 @@ Common use cases for Squire include:
 - Populating dropdown options, such as a country selector on an address form.
 - Attaching extra data to other models in your app, such as airport information to a `Flight` model. See the section on [model relationships](#model-relationships).
 
+## Contents
+
 - [Installing Squire](#installing-squire)
 - [Using a model](#using-a-model)
 - [Available models](#available-models)
