@@ -36,7 +36,7 @@ No additional setup is required.
 
 ## Using a model
 
-You can interact with a Squire model just like you would any other Eloquent model, except it can only handle read-only operations.
+You can interact with a Squire model just like you would any other Eloquent model, except that it only handles read-only operations.
 
 ```php
 use Squire\Models\Country;
