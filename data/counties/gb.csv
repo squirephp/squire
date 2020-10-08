@@ -1,0 +1,163 @@
+id,code,name,region_id
+gb-abd,gb-abd,Aberdeenshire,gb-sct
+gb-abe,gb-abe,Aberdeen City,gb-sct
+gb-agb,gb-agb,Argyll and Bute,gb-sct
+gb-agy,gb-agy,Isle of Anglesey (Sir Ynys M\u00f4n),gb-wls
+gb-ans,gb-ans,Angus,gb-sct
+gb-ant,gb-ant,Antrim,gb-nir
+gb-ard,gb-ard,Ards,gb-nir
+gb-arm,gb-arm,Armagh,gb-nir
+gb-bas,gb-bas,Bath and North East Somerset,gb-eng
+gb-bbd,gb-bbd,Blackburn with Darwen,gb-eng
+gb-bdf,gb-bdf,Bedford,gb-eng
+gb-bfs,gb-bfs,Belfast,gb-nir
+gb-bge,gb-bge,Bridgend (Pen-y-bont ar Ogwr),gb-wls
+gb-bgw,gb-bgw,Blaenau Gwent,gb-wls
+gb-bkm,gb-bkm,Buckinghamshire,gb-eng
+gb-bla,gb-bla,Ballymena,gb-nir
+gb-bly,gb-bly,Ballymoney,gb-nir
+gb-bmh,gb-bmh,Bournemouth,gb-eng
+gb-bnb,gb-bnb,Banbridge,gb-nir
+gb-bnh,gb-bnh,Brighton and Hove,gb-eng
+gb-bpl,gb-bpl,Blackpool,gb-eng
+gb-brc,gb-brc,Bracknell Forest,gb-eng
+gb-bst,gb-bst,Bristol,gb-eng
+gb-cam,gb-cam,Cambridgeshire,gb-eng
+gb-cay,gb-cay,Caerphilly (Caerffili),gb-wls
+gb-cbf,gb-cbf,Central Bedfordshire,gb-eng
+gb-cgn,gb-cgn,Ceredigion (Sir Ceredigion),gb-wls
+gb-cgv,gb-cgv,Craigavon,gb-nir
+gb-che,gb-che,Cheshire East,gb-eng
+gb-chw,gb-chw,Cheshire West and Chester,gb-eng
+gb-ckf,gb-ckf,Carrickfergus,gb-nir
+gb-ckt,gb-ckt,Cookstown,gb-nir
+gb-clk,gb-clk,Clackmannanshire,gb-sct
+gb-clr,gb-clr,Coleraine,gb-nir
+gb-cma,gb-cma,Cumbria,gb-eng
+gb-cmn,gb-cmn,Carmarthenshire (Sir Gaerfyrddin),gb-wls
+gb-con,gb-con,Cornwall,gb-eng
+gb-crf,gb-crf,Cardiff (Caerdydd),gb-wls
+gb-csr,gb-csr,Castlereagh,gb-nir
+gb-cwy,gb-cwy,Conwy,gb-wls
+gb-dal,gb-dal,Darlington,gb-eng
+gb-dby,gb-dby,Derbyshire,gb-eng
+gb-den,gb-den,Denbighshire (Sir Ddinbych),gb-wls
+gb-der,gb-der,Derby,gb-eng
+gb-dev,gb-dev,Devon,gb-eng
+gb-dgn,gb-dgn,Dungannon and South Tyrone,gb-nir
+gb-dgy,gb-dgy,Dumfries and Galloway,gb-sct
+gb-dnd,gb-dnd,Dundee City,gb-sct
+gb-dor,gb-dor,Dorset,gb-eng
+gb-dow,gb-dow,Down,gb-nir
+gb-dry,gb-dry,Derry,gb-nir
+gb-dur,gb-dur,Durham,gb-eng
+gb-eay,gb-eay,East Ayrshire,gb-sct
+gb-edh,gb-edh,Edinburgh,gb-sct
+gb-edu,gb-edu,East Dunbartonshire,gb-sct
+gb-eln,gb-eln,East Lothian,gb-sct
+gb-els,gb-els,Eilean Siar,gb-sct
+gb-erw,gb-erw,East Renfrewshire,gb-sct
+gb-ery,gb-ery,East Riding of Yorkshire,gb-eng
+gb-ess,gb-ess,Essex,gb-eng
+gb-esx,gb-esx,East Sussex,gb-eng
+gb-fal,gb-fal,Falkirk,gb-sct
+gb-fer,gb-fer,Fermanagh,gb-nir
+gb-fif,gb-fif,Fife,gb-sct
+gb-fln,gb-fln,Flintshire (Sir y Fflint),gb-wls
+gb-glg,gb-glg,Glasgow City,gb-sct
+gb-gls,gb-gls,Gloucestershire,gb-eng
+gb-gwn,gb-gwn,Gwynedd,gb-wls
+gb-hal,gb-hal,Halton,gb-eng
+gb-ham,gb-ham,Hampshire,gb-eng
+gb-hef,gb-hef,Herefordshire,gb-eng
+gb-hld,gb-hld,Highland,gb-sct
+gb-hpl,gb-hpl,Hartlepool,gb-eng
+gb-hrt,gb-hrt,Hertfordshire,gb-eng
+gb-iow,gb-iow,Isle of Wight,gb-eng
+gb-ivc,gb-ivc,Inverclyde,gb-sct
+gb-ken,gb-ken,Kent,gb-eng
+gb-khl,gb-khl,Kingston upon Hull,gb-eng
+gb-lan,gb-lan,Lancashire,gb-eng
+gb-lce,gb-lce,Leicester,gb-eng
+gb-lec,gb-lec,Leicestershire,gb-eng
+gb-lin,gb-lin,Lincolnshire,gb-eng
+gb-lmv,gb-lmv,Limavady,gb-nir
+gb-lrn,gb-lrn,Larne,gb-nir
+gb-lsb,gb-lsb,Lisburn,gb-nir
+gb-lut,gb-lut,Luton,gb-eng
+gb-mdb,gb-mdb,Middlesbrough,gb-eng
+gb-mdw,gb-mdw,Medway,gb-eng
+gb-mft,gb-mft,Magherafelt,gb-nir
+gb-mik,gb-mik,Milton Keynes,gb-eng
+gb-mln,gb-mln,Midlothian,gb-sct
+gb-mon,gb-mon,Monmouthshire (Sir Fynwy),gb-wls
+gb-mry,gb-mry,Moray,gb-sct
+gb-mty,gb-mty,Merthyr Tydfil (Merthyr Tudful),gb-wls
+gb-myl,gb-myl,Moyle,gb-nir
+gb-nay,gb-nay,North Ayrshire,gb-sct
+gb-nbl,gb-nbl,Northumberland,gb-eng
+gb-ndn,gb-ndn,North Down,gb-nir
+gb-nel,gb-nel,North East Lincolnshire,gb-eng
+gb-nfk,gb-nfk,Norfolk,gb-eng
+gb-ngm,gb-ngm,Nottingham,gb-eng
+gb-nlk,gb-nlk,North Lanarkshire,gb-sct
+gb-nln,gb-nln,North Lincolnshire,gb-eng
+gb-nsm,gb-nsm,North Somerset,gb-eng
+gb-nta,gb-nta,Newtownabbey,gb-nir
+gb-nth,gb-nth,Northamptonshire,gb-eng
+gb-ntl,gb-ntl,Neath Port Talbot (Castell-nedd Port Talbot),gb-wls
+gb-ntt,gb-ntt,Nottinghamshire,gb-eng
+gb-nwp,gb-nwp,Newport (Casnewydd),gb-wls
+gb-nyk,gb-nyk,North Yorkshire,gb-eng
+gb-nym,gb-nym,Newry and Mourne District,gb-nir
+gb-omh,gb-omh,Omagh,gb-nir
+gb-ork,gb-ork,Orkney Islands,gb-sct
+gb-oxf,gb-oxf,Oxfordshire,gb-eng
+gb-pem,gb-pem,Pembrokeshire (Sir Benfro),gb-wls
+gb-pkn,gb-pkn,Perth and Kinross,gb-sct
+gb-ply,gb-ply,Plymouth,gb-eng
+gb-pol,gb-pol,Poole,gb-eng
+gb-por,gb-por,Portsmouth,gb-eng
+gb-pow,gb-pow,Powys,gb-wls
+gb-pte,gb-pte,Peterborough,gb-eng
+gb-rcc,gb-rcc,Redcar and Cleveland,gb-eng
+gb-rct,gb-rct,Rhondda Cynon Taff,gb-wls
+gb-rdg,gb-rdg,Reading,gb-eng
+gb-rfw,gb-rfw,Renfrewshire,gb-sct
+gb-rut,gb-rut,Rutland,gb-eng
+gb-say,gb-say,South Ayrshire,gb-sct
+gb-scb,gb-scb,Scottish Borders,gb-sct
+gb-sfk,gb-sfk,Suffolk,gb-eng
+gb-sgc,gb-sgc,South Gloucestershire,gb-eng
+gb-shr,gb-shr,Shropshire,gb-eng
+gb-slg,gb-slg,Slough,gb-eng
+gb-slk,gb-slk,South Lanarkshire,gb-sct
+gb-som,gb-som,Somerset,gb-eng
+gb-sos,gb-sos,Southend-on-Sea,gb-eng
+gb-sry,gb-sry,Surrey,gb-eng
+gb-stb,gb-stb,Strabane,gb-nir
+gb-ste,gb-ste,Stoke-on-Trent,gb-eng
+gb-stg,gb-stg,Stirling,gb-sct
+gb-sth,gb-sth,Southampton,gb-eng
+gb-sts,gb-sts,Staffordshire,gb-eng
+gb-stt,gb-stt,Stockton-on-Tees,gb-eng
+gb-swa,gb-swa,Swansea (Abertawe),gb-wls
+gb-swd,gb-swd,Swindon,gb-eng
+gb-tfw,gb-tfw,Telford and Wrekin,gb-eng
+gb-thr,gb-thr,Thurrock,gb-eng
+gb-tob,gb-tob,Torbay,gb-eng
+gb-tof,gb-tof,Torfaen (Tor-faen),gb-wls
+gb-vgl,gb-vgl,Vale of Glamorgan (Bro Morgannwg),gb-wls
+gb-war,gb-war,Warwickshire,gb-eng
+gb-wbk,gb-wbk,West Berkshire,gb-eng
+gb-wdu,gb-wdu,West Dunbartonshire,gb-sct
+gb-wil,gb-wil,Wiltshire,gb-eng
+gb-wln,gb-wln,West Lothian,gb-sct
+gb-wnm,gb-wnm,Windsor and Maidenhead,gb-eng
+gb-wok,gb-wok,Wokingham,gb-eng
+gb-wor,gb-wor,Worcestershire,gb-eng
+gb-wrt,gb-wrt,Warrington,gb-eng
+gb-wrx,gb-wrx,Wrexham (Wrecsam),gb-wls
+gb-wsx,gb-wsx,West Sussex,gb-eng
+gb-yor,gb-yor,York,gb-eng
+gb-zet,gb-zet,Shetland Islands,gb-sct

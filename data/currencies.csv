@@ -1,0 +1,115 @@
+id,code_alphabetic,code_numeric,decimal_digits,name,name_plural,rounding,symbol,symbol_native
+aed,aed,784,2,United Arab Emirates Dirham,UAE dirhams,0,AED,د.إ.‏
+afn,afn,971,0,Afghan Afghani,Afghan Afghanis,0,Af,؋
+all,all,008,0,Albanian Lek,Albanian lekë,0,ALL,Lek
+amd,amd,051,0,Armenian Dram,Armenian drams,0,AMD,դր.
+ars,ars,032,2,Argentine Peso,Argentine pesos,0,AR$,$
+aud,aud,036,2,Australian Dollar,Australian dollars,0,AU$,$
+azn,azn,944,2,Azerbaijani Manat,Azerbaijani manats,0,man.,ман.
+bam,bam,977,2,Bosnia-Herzegovina Convertible Mark,Bosnia-Herzegovina convertible marks,0,KM,KM
+bdt,bdt,050,2,Bangladeshi Taka,Bangladeshi takas,0,Tk,৳
+bgn,bgn,975,2,Bulgarian Lev,Bulgarian leva,0,BGN,лв.
+bhd,bhd,048,3,Bahraini Dinar,Bahraini dinars,0,BD,د.ب.‏
+bif,bif,108,0,Burundian Franc,Burundian francs,0,FBu,FBu
+bnd,bnd,096,2,Brunei Dollar,Brunei dollars,0,BN$,$
+bob,bob,068,2,Bolivian Boliviano,Bolivian bolivianos,0,Bs,Bs
+brl,brl,986,2,Brazilian Real,Brazilian reals,0,R$,R$
+bwp,bwp,072,2,Botswanan Pula,Botswanan pulas,0,BWP,P
+byn,byn,933,2,Belarusian Ruble,Belarusian rubles,0,Br,руб.
+bzd,bzd,084,2,Belize Dollar,Belize dollars,0,BZ$,$
+cad,cad,124,2,Canadian Dollar,Canadian dollars,0,CA$,$
+cdf,cdf,976,2,Congolese Franc,Congolese francs,0,CDF,FrCD
+chf,chf,756,2,Swiss Franc,Swiss francs,0.05,CHF,CHF
+clp,clp,152,0,Chilean Peso,Chilean pesos,0,CL$,$
+cny,cny,156,2,Chinese Yuan,Chinese yuan,0,CN¥,CN¥
+cop,cop,170,0,Colombian Peso,Colombian pesos,0,CO$,$
+crc,crc,188,0,Costa Rican Colón,Costa Rican colóns,0,₡,₡
+cve,cve,132,2,Cape Verdean Escudo,Cape Verdean escudos,0,CV$,CV$
+czk,czk,203,2,Czech Republic Koruna,Czech Republic korunas,0,Kč,Kč
+djf,djf,262,0,Djiboutian Franc,Djiboutian francs,0,Fdj,Fdj
+dkk,dkk,208,2,Danish Krone,Danish kroner,0,Dkr,kr
+dop,dop,214,2,Dominican Peso,Dominican pesos,0,RD$,RD$
+dzd,dzd,012,2,Algerian Dinar,Algerian dinars,0,DA,د.ج.‏
+egp,egp,818,2,Egyptian Pound,Egyptian pounds,0,EGP,ج.م.‏
+ern,ern,232,2,Eritrean Nakfa,Eritrean nakfas,0,Nfk,Nfk
+etb,etb,230,2,Ethiopian Birr,Ethiopian birrs,0,Br,Br
+eur,eur,978,2,Euro,euros,0,€,€
+gbp,gbp,826,2,British Pound Sterling,British pounds sterling,0,£,£
+gel,gel,981,2,Georgian Lari,Georgian laris,0,GEL,GEL
+ghs,ghs,936,2,Ghanaian Cedi,Ghanaian cedis,0,GH₵,GH₵
+gnf,gnf,324,0,Guinean Franc,Guinean francs,0,FG,FG
+gtq,gtq,320,2,Guatemalan Quetzal,Guatemalan quetzals,0,GTQ,Q
+hkd,hkd,344,2,Hong Kong Dollar,Hong Kong dollars,0,HK$,$
+hnl,hnl,340,2,Honduran Lempira,Honduran lempiras,0,HNL,L
+hrk,hrk,191,2,Croatian Kuna,Croatian kunas,0,kn,kn
+huf,huf,348,0,Hungarian Forint,Hungarian forints,0,Ft,Ft
+idr,idr,360,0,Indonesian Rupiah,Indonesian rupiahs,0,Rp,Rp
+ils,ils,376,2,Israeli New Sheqel,Israeli new sheqels,0,₪,₪
+inr,inr,356,2,Indian Rupee,Indian rupees,0,Rs,টকা
+iqd,iqd,368,0,Iraqi Dinar,Iraqi dinars,0,IQD,د.ع.‏
+irr,irr,364,0,Iranian Rial,Iranian rials,0,IRR,﷼
+isk,isk,352,0,Icelandic Króna,Icelandic krónur,0,Ikr,kr
+jmd,jmd,388,2,Jamaican Dollar,Jamaican dollars,0,J$,$
+jod,jod,400,3,Jordanian Dinar,Jordanian dinars,0,JD,د.أ.‏
+jpy,jpy,392,0,Japanese Yen,Japanese yen,0,¥,￥
+kes,kes,404,2,Kenyan Shilling,Kenyan shillings,0,Ksh,Ksh
+khr,khr,116,2,Cambodian Riel,Cambodian riels,0,KHR,៛
+kmf,kmf,174,0,Comorian Franc,Comorian francs,0,CF,FC
+krw,krw,410,0,South Korean Won,South Korean won,0,₩,₩
+kwd,kwd,414,3,Kuwaiti Dinar,Kuwaiti dinars,0,KD,د.ك.‏
+kzt,kzt,398,2,Kazakhstani Tenge,Kazakhstani tenges,0,KZT,тңг.
+lbp,lbp,422,0,Lebanese Pound,Lebanese pounds,0,LB£,ل.ل.‏
+lkr,lkr,144,2,Sri Lankan Rupee,Sri Lankan rupees,0,SLRs,SL Re
+lvl,lvl,428,2,Latvian Lats,Latvian lati,0,Ls,Ls
+lyd,lyd,434,3,Libyan Dinar,Libyan dinars,0,LD,د.ل.‏
+mad,mad,504,2,Moroccan Dirham,Moroccan dirhams,0,MAD,د.م.‏
+mdl,mdl,498,2,Moldovan Leu,Moldovan lei,0,MDL,MDL
+mga,mga,969,0,Malagasy Ariary,Malagasy Ariaries,0,MGA,MGA
+mkd,mkd,807,2,Macedonian Denar,Macedonian denari,0,MKD,MKD
+mmk,mmk,104,0,Myanma Kyat,Myanma kyats,0,MMK,K
+mop,mop,446,2,Macanese Pataca,Macanese patacas,0,MOP$,MOP$
+mur,mur,480,0,Mauritian Rupee,Mauritian rupees,0,MURs,MURs
+mxn,mxn,484,2,Mexican Peso,Mexican pesos,0,MX$,$
+myr,myr,458,2,Malaysian Ringgit,Malaysian ringgits,0,RM,RM
+mzn,mzn,943,2,Mozambican Metical,Mozambican meticals,0,MTn,MTn
+nad,nad,516,2,Namibian Dollar,Namibian dollars,0,N$,N$
+ngn,ngn,566,2,Nigerian Naira,Nigerian nairas,0,₦,₦
+nio,nio,558,2,Nicaraguan Córdoba,Nicaraguan córdobas,0,C$,C$
+nok,nok,578,2,Norwegian Krone,Norwegian kroner,0,Nkr,kr
+npr,npr,524,2,Nepalese Rupee,Nepalese rupees,0,NPRs,नेरू
+nzd,nzd,554,2,New Zealand Dollar,New Zealand dollars,0,NZ$,$
+omr,omr,512,3,Omani Rial,Omani rials,0,OMR,ر.ع.‏
+pab,pab,590,2,Panamanian Balboa,Panamanian balboas,0,B/.,B/.
+pen,pen,604,2,Peruvian Nuevo Sol,Peruvian nuevos soles,0,S/.,S/.
+php,php,608,2,Philippine Peso,Philippine pesos,0,₱,₱
+pkr,pkr,586,0,Pakistani Rupee,Pakistani rupees,0,PKRs,₨
+pln,pln,985,2,Polish Zloty,Polish zlotys,0,zł,zł
+pyg,pyg,600,0,Paraguayan Guarani,Paraguayan guaranis,0,₲,₲
+qar,qar,634,2,Qatari Rial,Qatari rials,0,QR,ر.ق.‏
+ron,ron,946,2,Romanian Leu,Romanian lei,0,RON,RON
+rsd,rsd,941,0,Serbian Dinar,Serbian dinars,0,din.,дин.
+rub,rub,643,2,Russian Ruble,Russian rubles,0,RUB,₽.
+rwf,rwf,646,0,Rwandan Franc,Rwandan francs,0,RWF,FR
+sar,sar,682,2,Saudi Riyal,Saudi riyals,0,SR,ر.س.‏
+sdg,sdg,938,2,Sudanese Pound,Sudanese pounds,0,SDG,SDG
+sek,sek,752,2,Swedish Krona,Swedish kronor,0,Skr,kr
+sgd,sgd,702,2,Singapore Dollar,Singapore dollars,0,S$,$
+sos,sos,706,0,Somali Shilling,Somali shillings,0,Ssh,Ssh
+syp,syp,760,0,Syrian Pound,Syrian pounds,0,SY£,ل.س.‏
+thb,thb,764,2,Thai Baht,Thai baht,0,฿,฿
+tnd,tnd,788,3,Tunisian Dinar,Tunisian dinars,0,DT,د.ت.‏
+top,top,776,2,Tongan Paʻanga,Tongan paʻanga,0,T$,T$
+try,try,949,2,Turkish Lira,Turkish Lira,0,TL,TL
+ttd,ttd,780,2,Trinidad and Tobago Dollar,Trinidad and Tobago dollars,0,TT$,$
+twd,twd,901,2,New Taiwan Dollar,New Taiwan dollars,0,NT$,NT$
+tzs,tzs,834,0,Tanzanian Shilling,Tanzanian shillings,0,TSh,TSh
+uah,uah,980,2,Ukrainian Hryvnia,Ukrainian hryvnias,0,₴,₴
+ugx,ugx,800,0,Ugandan Shilling,Ugandan shillings,0,USh,USh
+usd,usd,840,2,US Dollar,US dollars,0,$,$
+uyu,uyu,858,2,Uruguayan Peso,Uruguayan pesos,0,$U,$
+uzs,uzs,860,0,Uzbekistan Som,Uzbekistan som,0,UZS,UZS
+vnd,vnd,704,0,Vietnamese Dong,Vietnamese dong,0,₫,₫
+xaf,xaf,950,0,CFA Franc BEAC,CFA francs BEAC,0,FCFA,FCFA
+xof,xof,952,0,CFA Franc BCEAO,CFA francs BCEAO,0,CFA,CFA
+yer,yer,886,0,Yemeni Rial,Yemeni rials,0,YR,ر.ي.‏
+zar,zar,710,2,South African Rand,South African rand,0,R,R

@@ -15,8 +15,6 @@ class Model extends EloquentModel
 
     protected $rawData;
 
-    protected $rows;
-
     protected $schema;
 
     protected $source;
@@ -34,8 +32,21 @@ class Model extends EloquentModel
 
     public function getRows()
     {
-        $this->rawData = collect($this->rawData ?: require __DIR__."/../resources/{$this->source}.php");
+        if (! $this->rawData) {
+            $this->rawData = collect(file(__DIR__."/../data/{$this->source}.csv"))
+                ->map(function ($line) {
+                    return collect(str_getcsv($line));
+                });
 
+            $this->rawData = $this->rawData->map(function ($line) {
+                return $this->rawData->first()->combine($line);
+            });
+
+            $this->rawData->shift();
+        }
+
+        $this->rawData = collect($this->rawData);
+        
         $map = $this->getMap();
 
         return $this->rawData->map(function ($row) use ($map) {

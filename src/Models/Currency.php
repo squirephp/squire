@@ -6,5 +6,10 @@ use Squire\Model;
 
 class Currency extends Model
 {
-    protected $source = 'currency';
+    protected $source = 'currencies';
+
+    public function countries()
+    {
+        return $this->hasMany(Country::class);
+    }
 }
