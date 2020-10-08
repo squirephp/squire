@@ -9,6 +9,8 @@ class Model extends EloquentModel
 {
     use Sushi;
 
+    public $incrementing = false;
+
     protected $map;
 
     protected $rawData;
