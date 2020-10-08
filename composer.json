@@ -1,10 +1,11 @@
 {
     "name": "danharrin/squire",
-    "description": "A collection of static Eloquent models for common fixture data.",
+    "description": "A library of static Eloquent models for common fixture data.",
     "keywords": [
         "squire",
-        "squire",
         "eloquent",
+        "model",
+        "sushi",
         "laravel"
     ],
     "homepage": "https://github.com/danharrin/squire",
