@@ -135,7 +135,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | ----------------- | ---------------------------------------------------------------------------- | --------------- |
 | `code_alphabetic` | [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) alphabetic currency code. | `usd`           |
 | `code_numeric`    | [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) numeric currency code.    | `840`           |
-| `decimal_digits`  | Number of decimal digits to use when formatting this currency.               | `United States` |
+| `decimal_digits`  | Number of decimal digits to use when formatting this currency.               | `2`             |
 | `name`            | Currency name.                                                               | `US Dollar`     |
 | `name_plural`     | Plural currency name.                                                        | `US Dollars`    |
 | `rounding`        | The formatting precison of this currency.                                    | `0`             |
