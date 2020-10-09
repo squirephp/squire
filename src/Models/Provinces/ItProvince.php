@@ -1,13 +1,13 @@
 <?php
 
-namespace Squire\Models\Counties;
+namespace Squire\Models\Provinces;
 
 use Squire\Model;
 use Squire\Models\Region;
 
-class ItCounty extends Model
+class ItProvince extends Model
 {
-    protected $source = 'counties/it';
+    protected $source = 'provinces/it';
 
     public function region()
     {
