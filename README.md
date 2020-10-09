@@ -5,7 +5,6 @@
 Squire is a library of static Eloquent models for fixture data that is commonly needed in web applications, such as countries, currencies and airports. It's built on top of [Caleb Porzio's Sushi package](https://github.com/calebporzio/sushi).
 
 Common use cases for Squire include:
-
 - Populating dropdown options, such as a country selector on an address form.
 - Attaching extra data to other models in your app, such as airport information to a `Flight` model. See the section on [model relationships](#model-relationships).
 
