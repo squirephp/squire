@@ -20,8 +20,7 @@
     "require": {
         "php": "^7.2",
         "calebporzio/sushi": "^2.1",
-        "illuminate/database": "^6.0 || ^7.0 || ^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0"
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.2",
