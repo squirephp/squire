@@ -172,7 +172,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `continent`       | [`Squire\Models\Continent`](#squiremodelscontinent)                  |
 | `country`         | [`Squire\Models\Country`](#squiremodelscountry)                      |
 | `gbCounties`      | [`Squire\Models\County\GbCounty`](#squiremodelscountiesgbcounty)     |
-| `itProvinces`      | [`Squire\Models\County\GbCounty`](#squiremodelsprovincesitprovince) |
+| `itProvinces`     | [`Squire\Models\County\GbCounty`](#squiremodelsprovincesitprovince)  |
 
 ## Model relationships
 
