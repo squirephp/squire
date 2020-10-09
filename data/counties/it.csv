@@ -1,0 +1,94 @@
+id,code,name,region_id
+it-ag,it-ag,Agrigento,it-82
+it-al,it-al,Alessandria,it-21
+it-an,it-an,Ancona,it-57
+it-ao,it-ao,Valle d'Aosta,it-23
+it-ar,it-ar,Arezzo,it-52
+it-ap,it-ap,Ascoli Piceno,it-57
+it-at,it-at,Asti,it-21
+it-av,it-av,Avellino,it-72
+it-bt,it-bt,Barletta-Andria-Trani,it-75
+it-bl,it-bl,Belluno,it-34
+it-bn,it-bn,Benevento,it-72
+it-bg,it-bg,Bergamo,it-25
+it-bi,it-bi,Biella,it-21
+it-bz,it-bz,Bolzano,it-32
+it-bs,it-bs,Brescia,it-25
+it-br,it-br,Brindisi,it-75
+it-cl,it-cl,Caltanissetta,it-82
+it-cb,it-cb,Campobasso,it-67
+it-ce,it-ce,Caserta,it-72
+it-cz,it-cz,Catanzaro,it-78
+it-ch,it-ch,Chieti,it-65
+it-co,it-co,Como,it-25
+it-cs,it-cs,Cosenza,it-78
+it-cr,it-cr,Cremona,it-25
+it-kr,it-kr,Crotone,it-78
+it-cn,it-cn,Cuneo,it-21
+it-en,it-en,Enna,it-82
+it-fm,it-fm,Fermo,it-57
+it-fe,it-fe,Ferrara,it-45
+it-fg,it-fg,Foggia,it-75
+it-fc,it-fc,Forlì-Cesena,it-45
+it-fr,it-fr,Frosinone,it-62
+it-go,it-go,Gorizia,it-36
+it-gr,it-gr,Grosseto,it-52
+it-im,it-im,Imperia,it-42
+it-is,it-is,Isernia,it-67
+it-sp,it-sp,La Spezia,it-42
+it-aq,it-aq,L'Aquila,it-65
+it-lt,it-lt,Latina,it-62
+it-le,it-le,Lecce,it-75
+it-lc,it-lc,Lecco,it-25
+it-li,it-li,Livorno,it-52
+it-lo,it-lo,Lodi,it-25
+it-lu,it-lu,Lucca,it-52
+it-mc,it-mc,Macerata,it-57
+it-mn,it-mn,Mantova,it-25
+it-ms,it-ms,Massa-Carrara,it-52
+it-mt,it-mt,Matera,it-77
+it-mb,it-mb,Monza e Brianza,it-25
+it-mo,it-mo,Modena,it-45
+it-no,it-no,Novara,it-21
+it-nu,it-nu,Nuoro,it-88
+it-or,it-or,Oristano,it-88
+it-pd,it-pd,Padova,it-34
+it-pr,it-pr,Parma,it-45
+it-pv,it-pv,Pavia,it-25
+it-pg,it-pg,Perugia,it-55
+it-pu,it-pu,Pesaro e Urbino,it-57
+it-pe,it-pe,Pescara,it-65
+it-pc,it-pc,Piacenza,it-45
+it-pi,it-pi,Pisa,it-52
+it-pt,it-pt,Pistoia,it-52
+it-pn,it-pn,Pordenone,it-36
+it-pz,it-pz,Potenza,it-77
+it-po,it-po,Prato,it-52
+it-rg,it-rg,Ragusa,it-82
+it-ra,it-ra,Ravenna,it-45
+it-re,it-re,Reggio Emilia,it-45
+it-ri,it-ri,Rieti,it-62
+it-rn,it-rn,Rimini,it-45
+it-ro,it-ro,Rovigo,it-34
+it-sa,it-sa,Salerno,it-72
+it-ss,it-ss,Sassari,it-88
+it-sv,it-sv,Savona,it-42
+it-si,it-si,Siena,it-52
+it-sr,it-sr,Siracusa,it-82
+it-so,it-so,Sondrio,it-25
+it-sd,it-sd,Sud Sardegna,it-88
+it-ta,it-ta,Taranto,it-75
+it-te,it-te,Teramo,it-65
+it-tr,it-tr,Terni,it-55
+it-tp,it-tp,Trapani,it-82
+it-tn,it-tn,Trento,it-32
+it-tv,it-tv,Treviso,it-34
+it-ts,it-ts,Trieste,it-36
+it-ud,it-ud,Udine,it-36
+it-va,it-va,Varese,it-25
+it-vb,it-vb,Verbano-Cusio-Ossola,it-21
+it-vc,it-vc,Vercelli,it-21
+it-vr,it-vr,Verona,it-34
+it-vv,it-vv,Vibo Valentia,it-78
+it-vi,it-vi,Vicenza,it-34
+it-vt,it-vt,Viterbo,it-62
