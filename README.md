@@ -20,6 +20,7 @@ Common use cases for Squire include:
   - [`Squire\Models\Counties\GbCounty`](#squiremodelscountiesgbcounty)
   - [`Squire\Models\Country`](#squiremodelscountry)
   - [`Squire\Models\Currency`](#squiremodelscurrency)
+  - [`Squire\Models\Provinces\ItProvince`](#squiremodelsprovincesitprovince)
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model relationships](#model-relationships)
 - [Column customisation](#column-customisation)
@@ -108,18 +109,6 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | ----------------- | --------------------------------------------- |
 | `region`          | [`Squire\Models\Region`](#squiremodelsregion) |
 
-### `Squire\Models\Counties\ItCounty`
-
-| Column Name | Description                                                                       | Example  |
-| ----------- | --------------------------------------------------------------------------------- | -------- |
-| `code`      | [ISO 3166-2 county code](https://en.wikipedia.org/wiki/ISO_3166-2).               | `it-pd`  |
-| `name`      | County name.                                                                      | `Padova` |
-| `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the county. | `it-34`  |
-
-| Relationship name | Model                                         |
-| ----------------- | --------------------------------------------- |
-| `region`          | [`Squire\Models\Region`](#squiremodelsregion) |
-
 ### `Squire\Models\Country`
 
 | Column Name    | Description                                                                                 | Example         |
@@ -158,6 +147,18 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | ----------------- | ----------------------------------------------- |
 | `countries`       | [`Squire\Models\Country`](#squiremodelscountry) |
 
+### `Squire\Models\Provinces\ItProvince`
+
+| Column Name | Description                                                                         | Example  |
+| ----------- | ----------------------------------------------------------------------------------- | -------- |
+| `code`      | [ISO 3166-2 province code](https://en.wikipedia.org/wiki/ISO_3166-2).               | `it-pd`  |
+| `name`      | Province name.                                                                      | `Padova` |
+| `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the province. | `it-34`  |
+
+| Relationship name | Model                                         |
+| ----------------- | --------------------------------------------- |
+| `region`          | [`Squire\Models\Region`](#squiremodelsregion) |
+
 ### `Squire\Models\Region`
 
 | Column Name  | Description                                                                          | Example    |
@@ -166,12 +167,13 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `country_id` | [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). | `us`       |
 | `name`       | Region name.                                                                         | `New York` |
 
-| Relationship name | Model                                                            |
-| ----------------- | ---------------------------------------------------------------- |
-| `airports`        | [`Squire\Models\Airport`](#squiremodelsairport)                  |
-| `continent`       | [`Squire\Models\Continent`](#squiremodelscontinent)              |
-| `country`         | [`Squire\Models\Country`](#squiremodelscountry)                  |
-| `gbCounties`      | [`Squire\Models\County\GbCounty`](#squiremodelscountiesgbcounty) |
+| Relationship name | Model                                                                |
+| ----------------- | -------------------------------------------------------------------- |
+| `airports`        | [`Squire\Models\Airport`](#squiremodelsairport)                      |
+| `continent`       | [`Squire\Models\Continent`](#squiremodelscontinent)                  |
+| `country`         | [`Squire\Models\Country`](#squiremodelscountry)                      |
+| `gbCounties`      | [`Squire\Models\County\GbCounty`](#squiremodelscountiesgbcounty)     |
+| `itProvinces`      | [`Squire\Models\County\GbCounty`](#squiremodelsprovincesitprovince) |
 
 ## Model relationships
 
