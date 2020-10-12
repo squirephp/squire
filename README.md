@@ -20,6 +20,7 @@ Common use cases for Squire include:
   - [`Squire\Models\Country`](#squiremodelscountry)
   - [`Squire\Models\Currency`](#squiremodelscurrency)
   - [`Squire\Models\Region`](#squiremodelsregion)
+  - [`Squire\Models\Language`](#squiremodelslanguage)
 - [Model relationships](#model-relationships)
 - [Column customisation](#column-customisation)
 - [Contributing](#contributing)
