@@ -3,9 +3,9 @@
 namespace Squire\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Squire\Models\County;
+use Squire\Models\Country;
 
-class CountyRule implements Rule
+class CountryRule implements Rule
 {
     /**
      * Determine if the validation rule passes.
@@ -16,7 +16,7 @@ class CountyRule implements Rule
      */
     public function passes($attribute, $value)
     {
-        return County::whereId($value)->exists();
+        return Country::whereId($value)->exists();
     }
 
     /**
@@ -26,6 +26,6 @@ class CountyRule implements Rule
      */
     public function message()
     {
-        return 'Unknown county';
+        return 'Unknown country';
     }
 }
