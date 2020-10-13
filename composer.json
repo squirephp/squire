@@ -20,6 +20,7 @@
     "require": {
         "php": "^7.2",
         "calebporzio/sushi": "^2.1",
+        "illuminate/contracts": "^6.0 || ^7.0 || ^8.0",
         "illuminate/database": "^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {

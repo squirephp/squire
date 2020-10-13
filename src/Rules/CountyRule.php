@@ -7,7 +7,7 @@ use Squire\Models\Counties\GbCounty;
 
 class CountyRule implements Rule
 {
-    const COUNTIES = [
+    public const COUNTIES = [
         'gb' => GbCounty::class,
     ];
 
@@ -15,7 +15,7 @@ class CountyRule implements Rule
 
     public function __construct($county)
     {
-        if (!array_key_exists($county, COUNTIES)) {
+        if (!array_key_exists($county, static::COUNTIES)) {
             throw new \IllegalArgumentException("Unknown county code '$county'");
         }
         $this->county = $county;
@@ -30,7 +30,7 @@ class CountyRule implements Rule
      */
     public function passes($attribute, $value)
     {
-        return COUNTIES[$this->county]::whereId($value)->exists();
+        return static::COUNTIES[$this->county]::whereId($value)->exists();
     }
 
     /**
