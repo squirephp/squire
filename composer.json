@@ -8,7 +8,7 @@
         "sushi",
         "laravel"
     ],
-    "homepage": "https://github.com/danharrin/squire",
+    "homepage": "https://github.com/squirephp/squire",
     "type": "library",
     "license": "MIT",
     "authors": [
