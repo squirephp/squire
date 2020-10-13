@@ -4,7 +4,6 @@ namespace Squire\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Squire\Models\Counties\GbCounty;
-use Squire\Models\County;
 
 class CountyRule implements Rule
 {
