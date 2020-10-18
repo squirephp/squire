@@ -10,19 +10,24 @@ Common use cases for Squire include:
 
 ## Contents
 
-- [Installing Squire](#installing-squire)
-- [Using a model](#using-a-model)
-- [Available models](#available-models)
-  - [`Squire\Models\Airline`](#squiremodelsairline)
-  - [`Squire\Models\Airport`](#squiremodelsairport)
-  - [`Squire\Models\Continent`](#squiremodelscontinent)
-  - [`Squire\Models\Counties\GbCounty`](#squiremodelscountiesgbcounty)
-  - [`Squire\Models\Country`](#squiremodelscountry)
-  - [`Squire\Models\Currency`](#squiremodelscurrency)
-  - [`Squire\Models\Region`](#squiremodelsregion)
-- [Model relationships](#model-relationships)
-- [Column customisation](#column-customisation)
-- [Contributing](#contributing)
+- [Laravel Squire 📜](#laravel-squire-)
+  - [Contents](#contents)
+  - [Installing Squire](#installing-squire)
+  - [Using a model](#using-a-model)
+  - [Available models](#available-models)
+    - [`Squire\Models\Aircraft`](#squiremodelsaircraft)
+    - [`Squire\Models\Airline`](#squiremodelsairline)
+    - [`Squire\Models\Airport`](#squiremodelsairport)
+    - [`Squire\Models\Continent`](#squiremodelscontinent)
+    - [`Squire\Models\Counties\GbCounty`](#squiremodelscountiesgbcounty)
+    - [`Squire\Models\Country`](#squiremodelscountry)
+    - [`Squire\Models\Currency`](#squiremodelscurrency)
+    - [`Squire\Models\Region`](#squiremodelsregion)
+  - [Model relationships](#model-relationships)
+    - [Using inheritance](#using-inheritance)
+    - [Using `resolveRelationUsing()`](#using-resolverelationusing)
+  - [Column customisation](#column-customisation)
+  - [Contributing](#contributing)
 
 ## Installing Squire
 
@@ -49,6 +54,15 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 ```
 
 ## Available models
+
+### `Squire\Models\Aircraft`
+
+| Column Name | Description | Example |
+|--|--|--|
+| `code_icao` | [ICAO code](https://en.wikipedia.org/wiki/List_of_aircraft_type_designators) of the aircraft manufacturing company. |`ERCO` |
+| `manufacturer` | Aircraft manufacturing company name | `ERCO` |
+| `type_model` | Type of the aircraft (with a model designation, if available) | `Ercoupe` |
+| `wake_turbulence_category` | [Wake turbulence category](https://en.wikipedia.org/wiki/Wake_turbulence#Wake_turbulence_category) based upon the Maximum Takeoff Weight (MTOW) of the aircraft | `L` |
 
 ### `Squire\Models\Airline`
 
