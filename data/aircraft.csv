@@ -1,4 +1,4 @@
-code_icao, manufacturer, type_model, wake
+code_icao, manufacturer, type_model, wake_turbulence_category
 A1, Douglas, AD-1 / A-1 / EA-1 Skyraider, M
 A10, Fairchild,, A-10 Thunderbolt 2, M
 A109, Agusta / AgustaWestland, A-109, L
