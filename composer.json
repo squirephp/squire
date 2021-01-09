@@ -1,20 +1,5 @@
 {
-<<<<<<< Updated upstream
-    "name": "danharrin/squire",
-    "description": "A library of static Eloquent models for common fixture data.",
-    "keywords": [
-        "squire",
-        "eloquent",
-        "model",
-        "sushi",
-        "laravel"
-    ],
-    "homepage": "https://github.com/squirephp/squire",
-    "type": "library",
-    "license": "MIT",
-=======
     "name": "squirephp/squire",
->>>>>>> Stashed changes
     "authors": [
         {
             "name": "Dan Harrin",
@@ -24,7 +9,8 @@
     "require": {
         "php": "^7.2|^8.0",
         "calebporzio/sushi": "^2.1",
-        "illuminate/database": "^6.0 || ^7.0 || ^8.0"
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.2",
@@ -53,8 +39,7 @@
                 "Squire\\RepositoryServiceProvider"
             ],
             "aliases": {
-                "RepositoryManager": "Squire\\Repository\\Facades\\Repository",
-                "Repository": "Squire\\Repository\\Facades\\Repository"
+                "RepositoryManager": "Squire\\Repository\\Facades\\Repository"
             }
         }
     },
