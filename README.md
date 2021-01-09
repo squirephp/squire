@@ -39,13 +39,13 @@ No additional setup is required.
 You can interact with a Squire model just like you would any other Eloquent model, except that it only handles read-only operations.
 
 ```php
-use Squire\Models\Country;
+use Squire\Models\Airline;
 
-Country::all(); // Get information about all countries.
+Airline::all(); // Get information about all countries.
 
-Country::find('us'); // Get information about the United States.
+Airline::find('us'); // Get information about the United States.
 
-Country::where('name', 'like', 'a%')->get(); // Get information about all countries beginning with the letter "a".
+Airline::where('name', 'like', 'a%')->get(); // Get information about all countries beginning with the letter "a".
 ```
 
 ## Available models
@@ -174,7 +174,7 @@ The simplest option is to create a new model in your app, and let it extend the 
 
 namespace App\Models;
 
-use Squire\Models\Country as SquireCountry;
+use Squire\Models\Airline as SquireCountry;
 
 class Country extends SquireCountry
 {
@@ -193,9 +193,9 @@ Another option is the `resolveRelationUsing()` method. This allows you to dynami
 
 ```php
 use App\Models\User;
-use Squire\Models\Country;
+use Squire\Models\Airline;
 
-Country::resolveRelationUsing('users', function (Country $country) {
+Airline::resolveRelationUsing('users', function (Airline $country) {
     return $country->hasMany(User::class);
 });
 ```
@@ -211,7 +211,7 @@ Create a new model within your app and let it extend the Squire model that you w
 
 namespace App\Models;
 
-use Squire\Models\Country as SquireCountry;
+use Squire\Models\Airline as SquireCountry;
 
 class Country extends SquireCountry
 {

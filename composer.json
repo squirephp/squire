@@ -20,9 +20,21 @@
     "autoload": {
         "psr-4": {
             "Squire\\": [
+                "packages/airlines-en/src",
+                "packages/airlines/src",
+                "packages/airports-en/src",
+                "packages/airports/src",
+                "packages/continents-en/src",
+                "packages/continents/src",
                 "packages/countries-en/src",
                 "packages/countries/src",
+                "packages/currencies-en/src",
+                "packages/currencies/src",
+                "packages/gb-counties-en/src",
+                "packages/gb-counties/src",
                 "packages/model/src",
+                "packages/regions-en/src",
+                "packages/regions/src",
                 "packages/repository/src"
             ]
         }
@@ -35,7 +47,13 @@
     "extra": {
         "laravel": {
             "providers": [
+                "Squire\\ContinentsEnServiceProvider",
+                "Squire\\RegionsEnServiceProvider",
+                "Squire\\GbCountiesEnServiceProvider",
+                "Squire\\AirlinesEnServiceProvider",
                 "Squire\\CountriesEnServiceProvider",
+                "Squire\\AirportsEnServiceProvider",
+                "Squire\\CurrenciesEnServiceProvider",
                 "Squire\\RepositoryServiceProvider"
             ],
             "aliases": {
@@ -44,9 +62,21 @@
         }
     },
     "replace": {
+        "squirephp/airlines": "self.version",
+        "squirephp/airlines-en": "self.version",
+        "squirephp/airports": "self.version",
+        "squirephp/airports-en": "self.version",
+        "squirephp/continents": "self.version",
+        "squirephp/continents-en": "self.version",
         "squirephp/countries": "self.version",
         "squirephp/countries-en": "self.version",
+        "squirephp/currencies": "self.version",
+        "squirephp/currencies-en": "self.version",
+        "squirephp/gb-counties": "self.version",
+        "squirephp/gb-counties-en": "self.version",
         "squirephp/model": "self.version",
+        "squirephp/regions": "self.version",
+        "squirephp/regions-en": "self.version",
         "squirephp/repository": "self.version"
     }
 }
