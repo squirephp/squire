@@ -9,6 +9,6 @@ class CountriesEnServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        Repository::registerSource(Country::class, 'en', __DIR__.'./../data.csv');
+        Repository::registerSource(Country::class, 'en', __DIR__.'/../data.csv');
     }
 }

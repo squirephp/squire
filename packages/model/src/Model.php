@@ -49,7 +49,6 @@ class Model extends EloquentModel
 
             case file_exists($cacheDirectory) && is_writable($cacheDirectory):
                 $states['cache-file-not-found-or-stale']();
-                dd('bad');
                 break;
 
             default:

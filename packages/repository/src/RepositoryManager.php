@@ -33,7 +33,7 @@ class RepositoryManager
         return $data;
     }
 
-    public function getLocale($name)
+    public function getLocale($name = null)
     {
         $appLocale = App::getLocale();
         if ($this->sourceIsRegistered($name, $appLocale)) return $appLocale;
