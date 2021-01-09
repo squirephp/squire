@@ -1,9 +1,8 @@
 <?php
 
-namespace Squire\Facades;
+namespace Squire;
 
 use Illuminate\Support\Facades\Facade;
-use Squire\RepositoryManager;
 
 class Repository extends Facade
 {

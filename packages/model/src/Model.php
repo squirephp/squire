@@ -4,7 +4,6 @@ namespace Squire;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Str;
-use Squire\Facades\Repository;
 use Sushi\Sushi;
 
 class Model extends EloquentModel

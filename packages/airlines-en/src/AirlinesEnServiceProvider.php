@@ -3,7 +3,6 @@
 namespace Squire;
 
 use Illuminate\Support\ServiceProvider;
-use Squire\Facades\Repository;
 use Squire\Models\Airline;
 
 class AirlinesEnServiceProvider extends ServiceProvider
