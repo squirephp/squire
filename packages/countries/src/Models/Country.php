@@ -10,8 +10,6 @@ class Country extends Model
         'calling_code' => 'string',
     ];
 
-    protected $source = 'countries';
-
     public function airlines()
     {
         return $this->hasMany(Airline::class);

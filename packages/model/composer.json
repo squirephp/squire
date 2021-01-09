@@ -1,0 +1,31 @@
+{
+    "name": "squirephp/model",
+    "description": "A library containing the base Squire model class.",
+    "keywords": ["squire"],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Dan Harrin",
+            "email": "dan@danharrin.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "calebporzio/sushi": "^2.1",
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

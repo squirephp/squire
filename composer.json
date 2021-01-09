@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
     "name": "danharrin/squire",
     "description": "A library of static Eloquent models for common fixture data.",
     "keywords": [
@@ -11,6 +12,9 @@
     "homepage": "https://github.com/squirephp/squire",
     "type": "library",
     "license": "MIT",
+=======
+    "name": "squirephp/squire",
+>>>>>>> Stashed changes
     "authors": [
         {
             "name": "Dan Harrin",
@@ -24,16 +28,40 @@
     },
     "require-dev": {
         "orchestra/testbench": "^6.2",
-        "phpunit/phpunit": "^9.4"
+        "phpunit/phpunit": "^9.4",
+        "symplify/monorepo-builder": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Squire\\": "src"
+            "Squire\\": [
+                "packages/countries-en/src",
+                "packages/countries/src",
+                "packages/model/src",
+                "packages/repository/src"
+            ]
         }
     },
-    "config": {
-        "sort-packages": true
+    "autoload-dev": {
+        "psr-4": {
+            "Squire\\Tests\\": "tests"
+        }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squire\\CountriesEnServiceProvider",
+                "Squire\\RepositoryServiceProvider"
+            ],
+            "aliases": {
+                "RepositoryManager": "Squire\\Repository\\Facades\\Repository",
+                "Repository": "Squire\\Repository\\Facades\\Repository"
+            }
+        }
+    },
+    "replace": {
+        "squirephp/countries": "self.version",
+        "squirephp/countries-en": "self.version",
+        "squirephp/model": "self.version",
+        "squirephp/repository": "self.version"
+    }
 }
