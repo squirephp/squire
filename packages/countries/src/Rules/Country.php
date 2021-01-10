@@ -2,7 +2,7 @@
 
 namespace Squire\Rules;
 
-use Squire\Models\Country as CountryModel;
+use Squire\Models;
 use Squire\Rule;
 
 class Country extends Rule
@@ -11,6 +11,6 @@ class Country extends Rule
 
     protected function getQueryBuilder()
     {
-        return CountryModel::query();
+        return Models\Country::query();
     }
 }

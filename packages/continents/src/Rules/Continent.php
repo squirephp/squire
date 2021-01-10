@@ -2,7 +2,7 @@
 
 namespace Squire\Rules;
 
-use Squire\Models\Continent as ContinentModel;
+use Squire\Models;
 use Squire\Rule;
 
 class Continent extends Rule
@@ -11,6 +11,6 @@ class Continent extends Rule
 
     protected function getQueryBuilder()
     {
-        return ContinentModel::query();
+        return Models\Continent::query();
     }
 }

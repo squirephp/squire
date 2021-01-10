@@ -2,7 +2,7 @@
 
 namespace Squire\Rules;
 
-use Squire\Models\Airport as AirportModel;
+use Squire\Models;
 use Squire\Rule;
 
 class Airport extends Rule
@@ -11,6 +11,6 @@ class Airport extends Rule
 
     protected function getQueryBuilder()
     {
-        return AirportModel::query();
+        return Models\Airport::query();
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Squire\Rules;
 
-use Squire\Models\GbCounty as GbCountyModel;
+use Squire\Models;
 use Squire\Rule;
 
 class GbCounty extends Rule
@@ -11,6 +11,6 @@ class GbCounty extends Rule
 
     protected function getQueryBuilder()
     {
-        return GbCountyModel::query();
+        return Models\GbCounty::query();
     }
 }

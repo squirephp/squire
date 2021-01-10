@@ -2,7 +2,7 @@
 
 namespace Squire\Rules;
 
-use Squire\Models\Airline as AirlineModel;
+use Squire\Models;
 use Squire\Rule;
 
 class Airline extends Rule
@@ -11,6 +11,6 @@ class Airline extends Rule
 
     protected function getQueryBuilder()
     {
-        return AirlineModel::query();
+        return Models\Airline::query();
     }
 }

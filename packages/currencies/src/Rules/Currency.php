@@ -2,7 +2,7 @@
 
 namespace Squire\Rules;
 
-use Squire\Models\Currency as CurrencyModel;
+use Squire\Models;
 use Squire\Rule;
 
 class Currency extends Rule
@@ -11,6 +11,6 @@ class Currency extends Rule
 
     protected function getQueryBuilder()
     {
-        return CurrencyModel::query();
+        return Models\Currency::query();
     }
 }
