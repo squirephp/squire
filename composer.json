@@ -9,6 +9,7 @@
     "require": {
         "php": "^7.2|^8.0",
         "calebporzio/sushi": "^2.1",
+        "illuminate/contracts": "^6.0 || ^7.0 || ^8.0",
         "illuminate/database": "^6.0 || ^7.0 || ^8.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0"
     },
@@ -35,7 +36,8 @@
                 "packages/model/src",
                 "packages/regions-en/src",
                 "packages/regions/src",
-                "packages/repository/src"
+                "packages/repository/src",
+                "packages/rule/src"
             ]
         }
     },
@@ -47,13 +49,20 @@
     "extra": {
         "laravel": {
             "providers": [
+                "Squire\\GbCountiesServiceProvider",
                 "Squire\\ContinentsEnServiceProvider",
+                "Squire\\AirportsServiceProvider",
+                "Squire\\AirlinesServiceProvider",
+                "Squire\\CountriesServiceProvider",
                 "Squire\\RegionsEnServiceProvider",
                 "Squire\\GbCountiesEnServiceProvider",
                 "Squire\\AirlinesEnServiceProvider",
                 "Squire\\CountriesEnServiceProvider",
+                "Squire\\ContinentsServiceProvider",
                 "Squire\\AirportsEnServiceProvider",
                 "Squire\\CurrenciesEnServiceProvider",
+                "Squire\\CurrenciesServiceProvider",
+                "Squire\\RegionsServiceProvider",
                 "Squire\\RepositoryServiceProvider"
             ],
             "aliases": {
@@ -77,6 +86,7 @@
         "squirephp/model": "self.version",
         "squirephp/regions": "self.version",
         "squirephp/regions-en": "self.version",
-        "squirephp/repository": "self.version"
+        "squirephp/repository": "self.version",
+        "squirephp/rule": "self.version"
     }
 }
