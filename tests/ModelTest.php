@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests;
+namespace Squire\Tests;
 
 use Illuminate\Support\Facades\App;
-use Orchestra\Testbench\TestCase;
 use Squire\Model;
+use Squire\Models;
 use Squire\Repository;
 
-class SquireTest extends TestCase
+class ModelTest extends TestCase
 {
     /** @test */
     public function basic_usage()
@@ -35,6 +35,18 @@ class SquireTest extends TestCase
 
         $this->assertEquals(Baz::first()->new_foo, '1.0');
         $this->assertEquals(Baz::first()->new_bob, '1');
+    }
+
+    /** @test */
+    public function models()
+    {
+        $this->assertIsObject(Models\Airline::first());
+        $this->assertIsObject(Models\Airport::first());
+        $this->assertIsObject(Models\Continent::first());
+        $this->assertIsObject(Models\Country::first());
+        $this->assertIsObject(Models\Currency::first());
+        $this->assertIsObject(Models\GbCounty::first());
+        $this->assertIsObject(Models\Region::first());
     }
 }
 

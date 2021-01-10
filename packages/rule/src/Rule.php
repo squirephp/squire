@@ -2,10 +2,10 @@
 
 namespace Squire;
 
-use Illuminate\Contracts\Validation\Rule as RuleContract;
+use Illuminate\Contracts\Validation;
 use Illuminate\Support\Facades\Validator;
 
-class Rule implements RuleContract
+class Rule implements Validation\Rule
 {
     protected $column = 'id';
 

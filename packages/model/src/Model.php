@@ -2,11 +2,11 @@
 
 namespace Squire;
 
-use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent;
 use Illuminate\Support\Str;
 use Sushi\Sushi;
 
-class Model extends EloquentModel
+class Model extends Eloquent\Model
 {
     use Sushi;
 
