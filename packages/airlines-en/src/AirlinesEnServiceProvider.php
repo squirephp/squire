@@ -9,6 +9,6 @@ class AirlinesEnServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        Repository::registerSource(Airline::class, 'en', __DIR__.'/../data.csv');
+        Repository::registerSource(Airline::class, 'en', __DIR__.'/../resources/data.csv');
     }
 }

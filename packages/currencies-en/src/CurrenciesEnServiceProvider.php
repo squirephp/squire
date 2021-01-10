@@ -9,6 +9,6 @@ class CurrenciesEnServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        Repository::registerSource(Currency::class, 'en', __DIR__.'/../data.csv');
+        Repository::registerSource(Currency::class, 'en', __DIR__.'/../resources/data.csv');
     }
 }
