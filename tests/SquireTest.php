@@ -5,7 +5,6 @@ namespace Tests;
 use Illuminate\Support\Facades\App;
 use Orchestra\Testbench\TestCase;
 use Squire\Model;
-use Squire\Models\Country;
 use Squire\Repository;
 
 class SquireTest extends TestCase
