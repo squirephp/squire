@@ -64,9 +64,13 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Airline`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/airlines-en` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -77,6 +81,8 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `country_id` | [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) of the airline. | `gb` |
 | `name` | Name of the airline. | `easyJet` |
 
+#### Relationships
+
 | Relationship name | Model |
 |--|--|
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
@@ -85,9 +91,13 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Airport`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/airports-en` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -99,6 +109,8 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the airport. | `pg-nik` |
 | `type` | Type of airport. | `small_airport` |
 
+#### Relationships
+
 | Relationship name | Model |
 |--|--|
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
@@ -106,14 +118,20 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Continent`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/continents-en` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
 | `code` | Two letter continent code. | `na` |
 | `name` | Continent name. | `North America` |
+
+#### Relationships
 
 | Relationship name | Model |
 |--|--|
@@ -122,12 +140,16 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Country`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/airlines-en` |
 | French | `composer require squirephp/airlines-fr` |
 | German | `composer require squirephp/airlines-de` |
 | Spanish | `composer require squirephp/airlines-es` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -140,6 +162,8 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `flag` | Unicode flag of the country. | `🇺🇸` |
 | `name` | Country name. | `United States` |
 
+#### Relationships
+
 | Relationship name | Model |
 |--|--|
 | `airlines` | [`Squire\Models\Airline`](#squiremodelsairline) |
@@ -150,9 +174,13 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Currency`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/currencies-en` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -165,15 +193,21 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `symbol` | International currency symbol. | `$` |
 | `symbol_native` | Native currency symbol. | `$` |
 
+#### Relationships
+
 | Relationship name | Model |
 |--|--|
 | `countries` | [`Squire\Models\Country`](#squiremodelscountry) |
 
 ### `Squire\Models\GbCounty`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/gb-counties-en` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -181,21 +215,29 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `name` | County name. | `Essex` |
 | `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the county. | `gb-eng` |
 
+#### Relationships
+
 | Relationship name | Model |
 |--|--|
 | `region` | [`Squire\Models\Region`](#squiremodelsregion) |
 
 ### `Squire\Models\Region`
 
+#### Installation
+
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/regions-en` |
+
+#### Schema
 
 | Column Name | Description | Example |
 |--|--|--|
 | `code` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2). | `us-ny` |
 | `country_id` | [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). | `us` |
 | `name` | Region name. | `New York` |
+
+#### Relationships
 
 | Relationship name | Model |
 |--|--|
