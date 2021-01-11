@@ -14,6 +14,7 @@ Squire is a library of static Eloquent models for fixture data that is commonly 
 Common use cases for Squire include:
 - Populating dropdown options, such as a country selector on an address form.
 - Attaching extra data to other models in your app, such as airport information to a `Flight` model. See the section on [model relationships](#model-relationships).
+- [Validating user input.](#validation)
 
 ## Contents
 
@@ -28,6 +29,7 @@ Common use cases for Squire include:
   - [`Squire\Models\GbCounty`](#squiremodelsgbcounty)
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model Relationships](#model-relationships)
+- [Validation](#validation)
 - [Upgrading from 1.x](#upgrading-from-1x)
 - [Need Help?](#need-help)
 
@@ -234,6 +236,22 @@ Country::resolveRelationUsing('users', function (Country $country) {
     return $country->hasMany(User::class);
 });
 ```
+
+## Validation
+
+Squire includes a validation rule for each model installed in your app. These allow you to easily validate user input to ensure that it matches a record in a specific model.
+
+Rules can be found in the `Squire\Rules` namespace. To use one, simply construct a new rule class and pass in the model column name that you would like to validate against:
+
+```php
+use Squire\Rules;
+
+$request->validate([
+    'country' => ['required', 'string', new Rules\Country('name')],
+]);
+```
+
+This code will validate the `country` input against the `name` column on the [`Squire\Models\Country` model](#squiremodelscountry).
 
 ## Upgrading from 1.x
 
