@@ -17,7 +17,7 @@ Common use cases for Squire include:
 
 ## Contents
 
-- [Installing Squire](#installing-squire)
+- [Installing a model](#installing-a-model)
 - [Using a model](#using-a-model)
 - [Available models](#available-models)
   - [`Squire\Models\Airline`](#squiremodelsairline)
@@ -30,8 +30,9 @@ Common use cases for Squire include:
 - [Model relationships](#model-relationships)
 - [Column customisation](#column-customisation)
 - [Contributing](#contributing)
+- [Need help?](#need-help)
 
-## Installing Squire
+## Installing a model
 
 You can use Composer to install Squire models into your application. Each model is available in a variety of languages, and you need only install the ones you will use.
 
@@ -238,8 +239,10 @@ use App\Models\Country;
 Country::find('us')->dial_code; // 1
 ```
 
-## Contributing
+## Need Help?
 
-If you have fixture data to contribute to the library, please open a pull request!
+🐞 If you spot a bug with Squire, please [submit a detailed issue](https://github.com/squirephp/squire/issues/new), and wait for assistance.
 
-For reference, check out the existing models.
+🤔 If you have a question or feature request, please [start a new discussion](https://github.com/squirephp/squire/discussions/new).
+
+🔐 If you discover a vulnerability within Squire, please review our [security policy](https://github.com/squirephp/squire/blob/main/SECURITY.md).
