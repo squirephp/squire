@@ -79,8 +79,8 @@ class Model extends Eloquent\Model
 
     protected static function getCacheFileName($locale = null)
     {
-        $kebabCaseLocale = Str::of($locale ?? Repository::getLocale(static::class))->replace('_', '-')->lower();
-        $kebabCaseModelClassName = Str::of( static::class)->replace('\\', '')->kebab();
+        $kebabCaseLocale = strtolower(str_replace('_', '-', $locale ?? Repository::getLocale(static::class)));
+        $kebabCaseModelClassName = Str::kebab(str_replace( '\\', '', static::class));
 
         return config('squire.cache-prefix', 'squire').'-'.$kebabCaseModelClassName.'-'.$kebabCaseLocale.'.sqlite';
     }
