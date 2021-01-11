@@ -276,7 +276,7 @@ As an example, we will install the `Squire\Models\Country` and `Squire\Models\Co
 composer require squirephp/countries-en squirephp/continents-en
 ```
 
-### Breaking changes made in 2.x
+### Breaking Changes Introduced in 2.x
 
 - The original `Squire\Models\Counties\GbCounty` model has now been moved to `Squire\Models\GbCounty`.
 
