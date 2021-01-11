@@ -1,6 +1,6 @@
 # Laravel Squire 📜
 
-[![CI status](https://github.com/squirephp/squire/workflows/run-tests/badge.svg)](https://github.com/squirephp/squire/actions)
+[![CI status](https://github.com/squirephp/squire/workflows/tests/badge.svg)](https://github.com/squirephp/squire/actions)
 
 Squire is a library of static Eloquent models for fixture data that is commonly needed in web applications, such as countries, currencies and airports. It's built on top of [Caleb Porzio's Sushi package](https://github.com/calebporzio/sushi).
 
