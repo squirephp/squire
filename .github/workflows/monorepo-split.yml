@@ -31,6 +31,8 @@ jobs:
                 package: ${{fromJson(needs.provide-packages-list.outputs.matrix)}}
         steps:
             - uses: actions/checkout@v2
+            - id: previous-tag
+              uses: "WyriHaximus/github-action-get-previous-tag@master"
             - name: Monorepo Split of ${{ matrix.package }}
               uses: symplify/github-action-monorepo-split@master
               env:
@@ -39,5 +41,6 @@ jobs:
                   package-directory: 'packages/${{ matrix.package }}'
                   split-repository-organization: 'squirephp'
                   split-repository-name: '${{ matrix.package }}'
+                  tag: ${{ steps.previous-tag.outputs.tag }}
                   user-name: "Dan Harrin"
                   user-email: "dan@danharrin.com"
