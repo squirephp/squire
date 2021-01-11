@@ -60,6 +60,13 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Airline`
 
+#### Installation
+
+##### English
+```
+composer require squirephp/airlines-en
+```
+
 | Column Name | Description | Example |
 |--|--|--|
 | `alias` | Alternative name of the airline. | `EasyJet Airline` |
