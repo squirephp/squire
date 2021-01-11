@@ -42,6 +42,14 @@ class ModelTest extends TestCase
 
     protected function testModel($model)
     {
-        $this->assertIsObject($model::all());
+        $locales = array_keys(Repository::getSources($model));
+
+        foreach ($locales as $locale) {
+            App::setLocale($locale);
+
+            $model::clearBootedModels();
+
+            $this->assertIsObject($model::all());
+        }
     }
 }

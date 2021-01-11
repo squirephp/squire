@@ -64,9 +64,9 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Airline`
 
-```
-composer require squirephp/airlines-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/airlines-en` |
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -85,9 +85,9 @@ composer require squirephp/airlines-en
 
 ### `Squire\Models\Airport`
 
-```
-composer require squirephp/airports-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/airports-en` |
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -106,9 +106,9 @@ composer require squirephp/airports-en
 
 ### `Squire\Models\Continent`
 
-```
-composer require squirephp/continents-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/continents-en` |
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -122,9 +122,12 @@ composer require squirephp/continents-en
 
 ### `Squire\Models\Country`
 
-```
-composer require squirephp/countries-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/airlines-en` |
+| French | `composer require squirephp/airlines-fr` |
+| German | `composer require squirephp/airlines-de` |
+| Spanish | `composer require squirephp/airlines-es` |
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -147,9 +150,9 @@ composer require squirephp/countries-en
 
 ### `Squire\Models\Currency`
 
-```
-composer require squirephp/currencies-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/currencies-en` |
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -168,9 +171,9 @@ composer require squirephp/currencies-en
 
 ### `Squire\Models\GbCounty`
 
-```
-composer require squirephp/gb-counties-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/gb-counties-en` |
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -184,9 +187,9 @@ composer require squirephp/gb-counties-en
 
 ### `Squire\Models\Region`
 
-```
-composer require squirephp/regions-en
-```
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/regions-en` |
 
 | Column Name | Description | Example |
 |--|--|--|
