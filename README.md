@@ -35,7 +35,7 @@ Common use cases for Squire include:
 
 You can use Composer to install Squire models into your application. Each model is available in a variety of languages, and you need only install the ones you will use.
 
-As an example, you can install the `Squire\Country` model in English:
+As an example, you can install the `Squire\Models\Country` model in English:
 
 ```
 composer require squirephp/countries-en
@@ -236,6 +236,26 @@ Country::resolveRelationUsing('users', function (Country $country) {
 ```
 
 ## Upgrading from 1.x
+
+First, you must remove the 1.x package with Composer:
+
+```
+composer require danharrin/squire
+```
+
+Next, assess which models you are currently using in your application. Install them using the [individual command listed for each](#available-models). If your app requires localisation features offered by Squire, you may install more than one translation of each model.
+
+As an example, we will install the `Squire\Models\Country` and `Squire\Models\Continent` models in English:
+
+```
+composer require squirephp/countries-en squirephp/continents-en
+```
+
+### Breaking changes made in 2.x
+
+- The original `Squire\Models\Counties\GbCounty` model has now been moved to `Squire\Models\GbCounty`.
+
+- The [`$map` property](https://github.com/squirephp/legacy#column-customisation) has been deprecated to improve performance of the package with large datasets. Please set up [Eloquent accessors](https://laravel.com/docs/master/eloquent-mutators#defining-an-accessor) if you require a similar feature.
 
 ## Need Help?
 
