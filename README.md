@@ -9,7 +9,7 @@
     <a href="https://github.com/squirephp/squire"><img alt="Squire 2.x" src="https://img.shields.io/badge/stable-v2.x-1F2223?style=for-the-badge"></a>
 </p>
 
-Squire is a library of static Eloquent models for fixture data that is commonly needed in web applications, such as countries, currencies and airports. It's built on top of [Caleb Porzio's Sushi package](https://github.com/calebporzio/sushi).
+Squire is a library of static Eloquent models for fixture data that is commonly needed in web applications, such as countries, currencies and airports. It's based on the concepts of [Caleb Porzio's Sushi package](https://github.com/calebporzio/sushi).
 
 Common use cases for Squire include:
 - Populating dropdown options, such as a country selector on an address form.
@@ -33,26 +33,28 @@ Common use cases for Squire include:
 
 ## Installing Squire
 
-You can use Composer to install Squire into your application.
+You can use Composer to install Squire models into your application. Each model is available in a variety of languages, and you need only install the ones you will use.
+
+As an example, you can install the `Squire\Country` model in English:
 
 ```
-composer require danharrin/squire
+composer require squirephp/countries-en
 ```
 
-No additional setup is required.
+**A complete list of [available models](#available-models) is below.**
 
 ## Using a model
 
 You can interact with a Squire model just like you would any other Eloquent model, except that it only handles read-only operations.
 
 ```php
-use Squire\Models\Airline;
+use Squire\Models\Country;
 
-Airline::all(); // Get information about all countries.
+Country::all(); // Get information about all countries.
 
-Airline::find('us'); // Get information about the United States.
+Country::find('us'); // Get information about the United States.
 
-Airline::where('name', 'like', 'a%')->get(); // Get information about all countries beginning with the letter "a".
+Country::where('name', 'like', 'a%')->get(); // Get information about all countries beginning with the letter "a".
 ```
 
 ## Available models
@@ -181,7 +183,7 @@ The simplest option is to create a new model in your app, and let it extend the 
 
 namespace App\Models;
 
-use Squire\Models\Airline as SquireCountry;
+use Squire\Models\Country as SquireCountry;
 
 class Country extends SquireCountry
 {
@@ -200,9 +202,9 @@ Another option is the `resolveRelationUsing()` method. This allows you to dynami
 
 ```php
 use App\Models\User;
-use Squire\Models\Airline;
+use Squire\Models\Country;
 
-Airline::resolveRelationUsing('users', function (Airline $country) {
+Country::resolveRelationUsing('users', function (Country $country) {
     return $country->hasMany(User::class);
 });
 ```
@@ -218,7 +220,7 @@ Create a new model within your app and let it extend the Squire model that you w
 
 namespace App\Models;
 
-use Squire\Models\Airline as SquireCountry;
+use Squire\Models\Country as SquireCountry;
 
 class Country extends SquireCountry
 {
