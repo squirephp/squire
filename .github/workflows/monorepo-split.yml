@@ -2,10 +2,7 @@ name: monorepo-split
 
 on:
     push:
-        branches:
-            - develop
-        tags:
-            - '*'
+        tags: '*'
 
 jobs:
     provide-packages-list:
