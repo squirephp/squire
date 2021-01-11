@@ -17,9 +17,9 @@ Common use cases for Squire include:
 
 ## Contents
 
-- [Installing a model](#installing-a-model)
-- [Using a model](#using-a-model)
-- [Available models](#available-models)
+- [Installing a Model](#installing-a-model)
+- [Using a Model](#using-a-model)
+- [Available Models](#available-models)
   - [`Squire\Models\Airline`](#squiremodelsairline)
   - [`Squire\Models\Airport`](#squiremodelsairport)
   - [`Squire\Models\Continent`](#squiremodelscontinent)
@@ -27,10 +27,11 @@ Common use cases for Squire include:
   - [`Squire\Models\Currency`](#squiremodelscurrency)
   - [`Squire\Models\GbCounty`](#squiremodelsgbcounty)
   - [`Squire\Models\Region`](#squiremodelsregion)
-- [Model relationships](#model-relationships)
-- [Need help?](#need-help)
+- [Model Relationships](#model-relationships)
+- [Upgrading from 1.x](#upgading-from-1x)
+- [Need Help?](#need-help)
 
-## Installing a model
+## Installing a Model
 
 You can use Composer to install Squire models into your application. Each model is available in a variety of languages, and you need only install the ones you will use.
 
@@ -42,7 +43,7 @@ composer require squirephp/countries-en
 
 **A complete list of [available models](#available-models) is below.**
 
-## Using a model
+## Using a Model
 
 You can interact with a Squire model just like you would any other Eloquent model, except that it only handles read-only operations.
 
@@ -56,7 +57,7 @@ Country::find('us'); // Get information about the United States.
 Country::where('name', 'like', 'a%')->get(); // Get information about all countries beginning with the letter "a".
 ```
 
-## Available models
+## Available Models
 
 ### `Squire\Models\Airline`
 
@@ -197,11 +198,11 @@ composer require squirephp/regions-en
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
 | `gbCounties` | [`Squire\Models\GbCounty`](#squiremodelsgbcounty) |
 
-## Model relationships
+## Model Relationships
 
 Implementing an Eloquent relationship between a model in your app and a Squire model is very simple. There are a couple of approaches you could take.
 
-### Using inheritance
+### Using Inheritance
 
 The simplest option is to create a new model in your app, and let it extend the Squire model. Your new app model will now behave like the original Squire model, except you can register new methods and customise it to your liking:
 
@@ -233,6 +234,8 @@ Country::resolveRelationUsing('users', function (Country $country) {
     return $country->hasMany(User::class);
 });
 ```
+
+## Upgrading from 1.x
 
 ## Need Help?
 
