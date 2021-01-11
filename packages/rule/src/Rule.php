@@ -27,13 +27,4 @@ class Rule implements Validation\Rule
     {
         return $this->getQueryBuilder()->where($this->column, $value)->exists();
     }
-
-    public static function register($name)
-    {
-        $rule = (new static($parameters[0] ?? (new static)->column));
-
-        Validator::extend($name, function ($attribute, $value, $parameters, $validator) use ($rule) {
-            return $rule->passes($attribute, $value);
-        }, $rule->message());
-    }
 }
