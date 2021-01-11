@@ -28,7 +28,7 @@ Common use cases for Squire include:
   - [`Squire\Models\GbCounty`](#squiremodelsgbcounty)
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model Relationships](#model-relationships)
-- [Upgrading from 1.x](#upgading-from-1x)
+- [Upgrading from 1.x](#upgrading-from-1x)
 - [Need Help?](#need-help)
 
 ## Installing a Model
