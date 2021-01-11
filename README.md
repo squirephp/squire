@@ -240,7 +240,7 @@ Country::resolveRelationUsing('users', function (Country $country) {
 First, you must remove the 1.x package with Composer:
 
 ```
-composer require danharrin/squire
+composer remove danharrin/squire
 ```
 
 Next, assess which models you are currently using in your application. Install them using the [individual command listed for each](#available-models). If your app requires localisation features offered by Squire, you may install more than one translation of each model.
