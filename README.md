@@ -30,7 +30,7 @@ Common use cases for Squire include:
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model Relationships](#model-relationships)
 - [Validation](#validation)
-- [Releasing your own Models](#releasing-your-own-models)
+- [Creating your own Models](#creating-your-own-models)
 - [Upgrading from 1.x](#upgrading-from-1x)
 - [Need Help?](#need-help)
 
@@ -254,11 +254,121 @@ $request->validate([
 
 This code will validate the `country` input against the `name` column on the [`Squire\Models\Country` model](#squiremodelscountry). If the user enters a country that does not exist, a validation error will be thrown.
 
-## Releasing your own Models
+## Creating your own Models
 
-Squire may not always have a model available for the information you require. In this case, you may want to release your own model for others to use.
+Squire may not always have a model available for the information you require. In this case, you may want to create your own.
 
-Each model will require at least two composer packages to be published: one that holds the [model class](#available-models) and [validation rule](#validation), and another that provides a data source. You may register as many data sources are you wish for one model, and each source will be associated with a different locale.
+### Creating a Model
+
+Squire models are very simple classes that extend `Squire\Model`. Install it with:
+
+```
+composer require squirephp/model
+```
+
+Your model class should contain a single static property, `$schema`. This contains the column structure for your model, and should match the format of the source data.
+
+```php
+<?php
+
+namespace App\Models;
+
+use Squire\Model;
+
+class Language extends Model
+{
+    public static $schema = [
+        'id' => 'string',
+        'name' => 'string',
+    ];
+}
+```
+
+### Attaching a Model Source
+
+Your model will require at least one data source to be registered. Each registered data source is associated with a locale. To register a data source, you will need to interact with `Squire\Repository`. Install it with:
+
+```
+composer require squirephp/repository
+```
+
+Inside a service provider, register an English source for your model:
+
+```php
+<?php
+
+namespace App\Providers;
+
+use App\Models\Language;
+use Illuminate\Support\ServiceProvider;
+use Squire\Repository;
+
+class ModelServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Repository::registerSource(Language::class, 'en', __DIR__.'/../../resources/squire-data/languages-en.csv');
+    }
+}
+```
+
+In this example, the `/resources/squire-data/languages-en.csv` file should be present in your app, and contain the English data served to the model. The column structure should match the `$schema` defined in your model:
+
+```csv
+id,name
+de,German
+en,English
+fr,French
+es,Spanish
+```
+
+### Creating a Validation Rule
+
+[Rules](#validation) allow you to validate user input to ensure that it matches a record in a specific model. Rule classes extend `Squire\Rule`. Install it with:
+
+```
+composer require squirephp/rule
+```
+
+Your rule class should contain, at minimum, a `$message` to be served if the validation fails, and a `getQueryBuilder()` method for your model.
+
+```php
+<?php
+
+namespace App\Rules;
+
+use App\Models;
+use Squire\Rule;
+
+class Language extends Rule
+{
+    protected $message = 'validation.language';
+
+    protected function getQueryBuilder()
+    {
+        return Models\Language::query();
+    }
+}
+```
+
+If no column is passed to your rule when it's used, `id` will be used by default. To customise this, override the `$column` property on your rule:
+
+```php
+<?php
+
+namespace App\Rules;
+
+use Squire\Rule;
+
+class Language extends Rule
+{
+    protected $column = 'name';
+}
+```
+
+### Releasing a Model
+
+Squire models, their sources, and validation rules are all simply releasable in Composer packages. To see an example of this in action, check out the [`squirephp/countries`](https://github.com/squirephp/countries) and [`squirephp/countries-en`](https://github.com/squirephp/countries-en) packages.
 
 ## Upgrading from 1.x
 
