@@ -23,9 +23,9 @@ Common use cases for Squire include:
   - [`Squire\Models\Airline`](#squiremodelsairline)
   - [`Squire\Models\Airport`](#squiremodelsairport)
   - [`Squire\Models\Continent`](#squiremodelscontinent)
-  - [`Squire\Models\Counties\GbCounty`](#squiremodelscountiesgbcounty)
   - [`Squire\Models\Country`](#squiremodelscountry)
   - [`Squire\Models\Currency`](#squiremodelscurrency)
+  - [`Squire\Models\GbCounty`](#squiremodelsgbcounty)
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model relationships](#model-relationships)
 - [Need help?](#need-help)
@@ -60,9 +60,6 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ### `Squire\Models\Airline`
 
-#### Installation
-
-##### English
 ```
 composer require squirephp/airlines-en
 ```
@@ -84,6 +81,10 @@ composer require squirephp/airlines-en
 
 ### `Squire\Models\Airport`
 
+```
+composer require squirephp/airports-en
+```
+
 | Column Name | Description | Example |
 |--|--|--|
 | `code_gps` | GPS code of the airport. | `ayse` |
@@ -101,6 +102,10 @@ composer require squirephp/airlines-en
 
 ### `Squire\Models\Continent`
 
+```
+composer require squirephp/continents-en
+```
+
 | Column Name | Description | Example |
 |--|--|--|
 | `code` | Two letter continent code. | `na` |
@@ -111,19 +116,11 @@ composer require squirephp/airlines-en
 | `countries` | [`Squire\Models\Country`](#squiremodelscountry) |
 | `regions` | [`Squire\Models\Region`](#squiremodelsregion) |
 
-### `Squire\Models\Counties\GbCounty`
-
-| Column Name | Description | Example |
-|--|--|--|
-| `code` | [ISO 3166-2 county code](https://en.wikipedia.org/wiki/ISO_3166-2). | `gb-ess` |
-| `name` | County name. | `Essex` |
-| `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the county. | `gb-eng` |
-
-| Relationship name | Model |
-|--|--|
-| `region` | [`Squire\Models\Region`](#squiremodelsregion) |
-
 ### `Squire\Models\Country`
+
+```
+composer require squirephp/countries-en
+```
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -146,6 +143,10 @@ composer require squirephp/airlines-en
 
 ### `Squire\Models\Currency`
 
+```
+composer require squirephp/currencies-en
+```
+
 | Column Name | Description | Example |
 |--|--|--|
 | `code_alphabetic` | [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) alphabetic currency code. | `usd` |
@@ -161,7 +162,27 @@ composer require squirephp/airlines-en
 |--|--|
 | `countries` | [`Squire\Models\Country`](#squiremodelscountry) |
 
+### `Squire\Models\GbCounty`
+
+```
+composer require squirephp/gb-counties-en
+```
+
+| Column Name | Description | Example |
+|--|--|--|
+| `code` | [ISO 3166-2 county code](https://en.wikipedia.org/wiki/ISO_3166-2). | `gb-ess` |
+| `name` | County name. | `Essex` |
+| `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the county. | `gb-eng` |
+
+| Relationship name | Model |
+|--|--|
+| `region` | [`Squire\Models\Region`](#squiremodelsregion) |
+
 ### `Squire\Models\Region`
+
+```
+composer require squirephp/regions-en
+```
 
 | Column Name | Description | Example |
 |--|--|--|
@@ -174,7 +195,7 @@ composer require squirephp/airlines-en
 | `airports` | [`Squire\Models\Airport`](#squiremodelsairport) |
 | `continent` | [`Squire\Models\Continent`](#squiremodelscontinent) |
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
-| `gbCounties` | [`Squire\Models\County\GbCounty`](#squiremodelscountiesgbcounty) |
+| `gbCounties` | [`Squire\Models\GbCounty`](#squiremodelsgbcounty) |
 
 ## Model relationships
 
