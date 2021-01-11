@@ -20,10 +20,7 @@ class Rule implements Validation\Rule
 
     public function message()
     {
-        return __($this->message, [
-            'attribute' => $this->attribute,
-            'column' => $this->column,
-        ]);
+        return __($this->message);
     }
 
     public function passes($attribute, $value)

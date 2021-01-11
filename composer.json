@@ -55,6 +55,7 @@
                 "Squire\\AirlinesServiceProvider",
                 "Squire\\CountriesServiceProvider",
                 "Squire\\RegionsEnServiceProvider",
+                "Squire\\ModelServiceProvider",
                 "Squire\\GbCountiesEnServiceProvider",
                 "Squire\\AirlinesEnServiceProvider",
                 "Squire\\CountriesEnServiceProvider",

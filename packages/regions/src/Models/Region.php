@@ -6,6 +6,13 @@ use Squire\Model;
 
 class Region extends Model
 {
+    public static $schema = [
+        'id' => 'string',
+        'code' => 'string',
+        'country_id' => 'string',
+        'name' => 'string',
+    ];
+
     public function airports()
     {
         return $this->hasMany(Airport::class);

@@ -6,8 +6,16 @@ use Squire\Model;
 
 class Country extends Model
 {
-    protected $schema = [
+    public static $schema = [
+        'id' => 'string',
         'calling_code' => 'string',
+        'capital_city' => 'string',
+        'code_2' => 'string',
+        'code_3' => 'string',
+        'continent_id' => 'string',
+        'currency_id' => 'string',
+        'flag' => 'string',
+        'name' => 'string',
     ];
 
     public function airlines()

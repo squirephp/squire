@@ -19,21 +19,10 @@ class RepositoryManager
 
     public function fetchDataFromSource($source)
     {
-        $data = collect(file($source))
-            ->map(function ($line) {
-                return collect(str_getcsv($line));
-            });
-
-        $data = $data->map(function ($line) use ($data) {
-            return $data->first()->combine($line);
-        });
-
-        $data->shift();
-
-        return $data;
+        return file($source);
     }
 
-    public function getLocale($name = null)
+    public function getLocale($name)
     {
         $appLocale = App::getLocale();
         if ($this->sourceIsRegistered($name, $appLocale)) return $appLocale;
@@ -68,7 +57,7 @@ class RepositoryManager
     {
         if (! $this->sourceIsRegistered($name)) $this->sources[$name] = [];
 
-        $this->sources[$name][$locale] = $path;
+        $this->sources[$name][$locale] = realpath($path);
     }
 
     public function sourceIsRegistered($name, $locale = null)

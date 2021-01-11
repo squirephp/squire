@@ -2,99 +2,160 @@
 
 namespace Squire;
 
+use Illuminate\Database\Connectors\ConnectionFactory;
 use Illuminate\Database\Eloquent;
 use Illuminate\Support\Str;
-use Sushi\Sushi;
 
 class Model extends Eloquent\Model
 {
-    use Sushi;
-
     public $incrementing = false;
 
-    protected $map;
+    public static $schema = [];
 
-    protected $rawData;
+    protected static $sqliteConnection;
 
-    protected $schema;
-
-    public static function bootSushi()
+    protected static function boot()
     {
-        $instance = (new static);
+        parent::boot();
 
-        $cacheFileName = config('sushi.cache-prefix', 'sushi').'-'.Str::kebab(str_replace('\\', '', static::class)).'-'.Repository::getLocale(static::class).'.sqlite';
-        $cacheDirectory = realpath(config('sushi.cache-path', storage_path('framework/cache')));
-        $cachePath = $cacheDirectory.'/'.$cacheFileName;
-        $sourcePath = Repository::getSource(static::class);
+        if (static::hasValidCache()) {
+            static::setSqliteConnection(static::getCachePath());
 
-        $states = [
-            'cache-file-found-and-up-to-date' => function () use ($cachePath) {
-                static::setSqliteConnection($cachePath);
-            },
-            'cache-file-not-found-or-stale' => function () use ($cachePath, $sourcePath, $instance) {
-                file_put_contents($cachePath, '');
+            return;
+        }
 
-                static::setSqliteConnection($cachePath);
+        if (static::isCacheable()) {
+            static::cache([
+                Repository::getLocale(static::class),
+            ]);
 
-                $instance->migrate();
+            return;
+        }
 
-                touch($cachePath, filemtime($sourcePath));
+        static::setSqliteConnection(':memory:');
+
+        static::migrate();
+    }
+
+    public static function cache($locales = [])
+    {
+        if (! static::isCacheable()) return false;
+
+        if (! count($locales)) {
+            $locales = array_keys(Repository::getSources(static::class));
+        }
+
+        collect($locales)->filter(function ($locale) {
+            return Repository::sourceIsRegistered(static::class, $locale);
+        })->each(function ($locale) {
+            $cachePath = static::getCachePath($locale);
+
+            file_put_contents($cachePath, '');
+
+            static::setSqliteConnection($cachePath);
+
+            static::migrate($locale);
+
+            $modelUpdatedAt = static::getModelUpdatedAt();
+            $sourceUpdatedAt = static::getSourceUpdatedAt($locale);
+
+            touch($cachePath, $modelUpdatedAt >= $sourceUpdatedAt ? $modelUpdatedAt : $sourceUpdatedAt);
+        });
+        
+        return false;
+    }
+
+    protected static function getCachedAt($locale = null)
+    {
+        $cachePath = static::getCachePath($locale);
+
+        return file_exists($cachePath) ? filemtime($cachePath) : 0;
+    }
+
+    protected static function getCacheDirectory()
+    {
+        return realpath(config('squire.cache-path', storage_path('framework/cache')));
+    }
+
+    protected static function getCacheFileName($locale = null)
+    {
+        $kebabCaseLocale = Str::of($locale ?? Repository::getLocale(static::class))->replace('_', '-')->lower();
+        $kebabCaseModelClassName = Str::of( static::class)->replace('\\', '')->kebab();
+
+        return config('squire.cache-prefix', 'squire').'-'.$kebabCaseModelClassName.'-'.$kebabCaseLocale.'.sqlite';
+    }
+
+    protected static function getCachePath($locale = null)
+    {
+        return static::getCacheDirectory().'/'.static::getCacheFileName($locale);
+    }
+    
+    protected static function getModelUpdatedAt()
+    {
+        return filemtime((new \ReflectionClass(static::class))->getFileName());
+    }
+
+    protected static function getSourceUpdatedAt($locale = null)
+    {
+        return filemtime(Repository::getSource(static::class, $locale));
+    }
+
+    protected static function hasValidCache($locale = null)
+    {
+        $cachedAt = static::getCachedAt($locale);
+        $modelUpdatedAt = static::getModelUpdatedAt();
+        $sourceUpdatedAt = static::getSourceUpdatedAt($locale);
+
+        return $modelUpdatedAt <= $cachedAt && $sourceUpdatedAt <= $cachedAt;
+    }
+
+    protected static function isCacheable()
+    {
+        $cacheDirectory = static::getCacheDirectory();
+
+        return file_exists($cacheDirectory) && is_writable($cacheDirectory);
+    }
+
+    public static function migrate($locale = null)
+    {
+        $tableName = (new static)->getTable();
+
+        static::resolveConnection()->getSchemaBuilder()->create($tableName, function ($table) {
+            foreach (static::$schema as $name => $type) {
+                $table->{$type}($name)->nullable();
             }
-        ];
+        });
 
-        switch (true) {
-            case file_exists($cachePath) && filemtime($sourcePath) <= filemtime($cachePath):
-                $states['cache-file-found-and-up-to-date']();
-                break;
+        $data = collect(Repository::fetchData(static::class));
 
-            case file_exists($cacheDirectory) && is_writable($cacheDirectory):
-                $states['cache-file-not-found-or-stale']();
-                break;
+        $schema = collect(str_getcsv($data->first()));
 
-            default:
-                $states['cache-file-not-found-or-stale']();
-                break;
+        $data->transform(function ($line) use ($schema) {
+            return $schema->combine(str_getcsv($line));
+        });
+
+        $data->shift();
+
+        foreach (array_chunk($data->toArray(), 100) ?? [] as $dataToInsert) {
+            if (! empty($dataToInsert)) static::insert($dataToInsert);
         }
     }
 
-    public function getMap()
+    public static function resolveConnection($connection = null)
     {
-        $map = collect($this->map);
-
-        if ($map->count()) return $map;
-
-        return collect($this->rawData->first())->mapWithKeys(function ($value, $columnName) {
-            return [$columnName => $columnName];
-        });
+        return static::$sqliteConnection;
     }
 
-    public function getRows()
+    protected static function setSqliteConnection($database)
     {
-        $this->rawData = collect(Repository::fetchData(static::class));
-
-        $map = $this->getMap();
-
-        return $this->rawData->map(function ($row) use ($map) {
-            $record = [];
-
-            foreach ($map as $columnName => $sourceColumnName) {
-                $record[$columnName] = $row[$sourceColumnName];
-            }
-
-            return $record;
-        })->toArray();
+        static::$sqliteConnection = app(ConnectionFactory::class)->make([
+            'driver' => 'sqlite',
+            'database' => $database,
+        ]);
     }
 
-    public function getSchema()
+    public function usesTimestamps()
     {
-        $schema = collect($this->schema ?? []);
-
-        return $this->getMap()
-            ->filter(function ($sourceColumnName, $columnName) use ($schema) {
-                return $schema->get($sourceColumnName, false);
-            })
-            ->mapWithKeys(function ($sourceColumnName, $columnName) use ($schema) {
-                return [$columnName => $schema->get($sourceColumnName)];
-            })->toArray();
+        return false;
     }
 }

@@ -6,6 +6,12 @@ use Squire\Model;
 
 class Continent extends Model
 {
+    public static $schema = [
+        'id' => 'string',
+        'code' => 'string',
+        'name' => 'string',
+    ];
+
     public function countries()
     {
         return $this->hasMany(Country::class);
