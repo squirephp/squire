@@ -30,6 +30,7 @@ Common use cases for Squire include:
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model Relationships](#model-relationships)
 - [Validation](#validation)
+- [Releasing your own Models](#releasing-your-own-models)
 - [Upgrading from 1.x](#upgrading-from-1x)
 - [Need Help?](#need-help)
 
@@ -251,7 +252,13 @@ $request->validate([
 ]);
 ```
 
-This code will validate the `country` input against the `name` column on the [`Squire\Models\Country` model](#squiremodelscountry).
+This code will validate the `country` input against the `name` column on the [`Squire\Models\Country` model](#squiremodelscountry). If the user enters a country that does not exist, a validation error will be thrown.
+
+## Releasing your own Models
+
+Squire may not always have a model available for the information you require. In this case, you may want to release your own model for others to use.
+
+Each model will require at least two composer packages to be published: one that holds the [model class](#available-models) and [validation rule](#validation), and another that provides a data source. You may register as many data sources are you wish for one model, and each source will be associated with a different locale.
 
 ## Upgrading from 1.x
 
