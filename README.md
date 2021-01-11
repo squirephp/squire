@@ -1,8 +1,6 @@
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/41773797/104140211-3abce080-53a8-11eb-95f4-19426e3bd99f.png" alt="Squire banner" style="width: 100%; max-width: 800px;" />
+    <img src="https://user-images.githubusercontent.com/41773797/104140339-f54ce300-53a8-11eb-8049-8d0994a6cd36.png" alt="Squire banner" style="width: 100%; max-width: 800px;" />
 </p>
-
-<h1 align="center">Squire</h1>
 
 <p align="center">
     <a href="https://github.com/squirephp/squire/actions"><img alt="Tests passing" src="https://img.shields.io/badge/Tests-passing-green?style=for-the-badge&logo=github"></a>
