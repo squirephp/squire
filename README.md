@@ -28,8 +28,6 @@ Common use cases for Squire include:
   - [`Squire\Models\Currency`](#squiremodelscurrency)
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model relationships](#model-relationships)
-- [Column customisation](#column-customisation)
-- [Contributing](#contributing)
 - [Need help?](#need-help)
 
 ## Installing a model
@@ -195,8 +193,6 @@ class Country extends SquireCountry
 }
 ```
 
-See our section on [model customisation](#column-customisation) for more customisation possibilities that are made available if you utilise this method.
-
 ### Using `resolveRelationUsing()`
 
 Another option is the `resolveRelationUsing()` method. This allows you to dynamically register a relationship for a Squire model from anywhere in your app, for example, within a service provider:
@@ -208,35 +204,6 @@ use Squire\Models\Country;
 Country::resolveRelationUsing('users', function (Country $country) {
     return $country->hasMany(User::class);
 });
-```
-
-## Column customisation
-
-Squire allows you to customise the column names on any provided model.
-
-Create a new model within your app and let it extend the Squire model that you would like to customise:
-
-```php
-<?php
-
-namespace App\Models;
-
-use Squire\Models\Country as SquireCountry;
-
-class Country extends SquireCountry
-{
-    protected $map = [
-        'dial_code' => 'calling_code',
-    ];
-}
-```
-
-In this example, the `App\Models\Country`, extending the `Squire\Models\Country` model, has the `calling_code` column remapped to `dial_code`:
-
-```php
-use App\Models\Country;
-
-Country::find('us')->dial_code; // 1
 ```
 
 ## Need Help?
