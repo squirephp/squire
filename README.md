@@ -1,12 +1,11 @@
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/41773797/104140339-f54ce300-53a8-11eb-8049-8d0994a6cd36.png" alt="Squire banner" style="width: 100%; max-width: 800px;" />
+    <img src="https://user-images.githubusercontent.com/41773797/104140339-f54ce300-53a8-11eb-8049-8d0994a6cd36.png" alt="Package banner" style="width: 100%; max-width: 800px;" />
 </p>
 
 <p align="center">
     <a href="https://github.com/squirephp/squire/actions"><img alt="Tests passing" src="https://img.shields.io/badge/Tests-passing-green?style=for-the-badge&logo=github"></a>
-    <a href="https://laravel.com"><img alt="Laravel 8.x" src="https://img.shields.io/badge/Laravel-v8.x-FF2D20?style=for-the-badge&logo=laravel"></a>
-    <a href="https://laravel.com"><img alt="PHP 8" src="https://img.shields.io/badge/PHP-8-777BB4?style=for-the-badge&logo=php"></a>
-    <a href="https://github.com/squirephp/squire"><img alt="Squire 2.x" src="https://img.shields.io/badge/stable-v2.x-1F2223?style=for-the-badge"></a>
+    <a href="https://laravel.com"><img alt="Laravel v8.x" src="https://img.shields.io/badge/Laravel-v8.x-FF2D20?style=for-the-badge&logo=laravel"></a>
+    <a href="https://php.net"><img alt="PHP 8" src="https://img.shields.io/badge/PHP-8-777BB4?style=for-the-badge&logo=php"></a>
 </p>
 
 Squire is a library of static Eloquent models for fixture data that is commonly needed in web applications, such as countries, currencies and airports. It's based on the concepts of [Caleb Porzio's Sushi package](https://github.com/calebporzio/sushi).
@@ -439,8 +438,8 @@ composer require squirephp/countries-en squirephp/continents-en
 
 ## Need Help?
 
-🐞 If you spot a bug with Squire, please [submit a detailed issue](https://github.com/squirephp/squire/issues/new), and wait for assistance.
+🐞 If you spot a bug with this package, please [submit a detailed issue](https://github.com/squirephp/squire/issues/new), and wait for assistance.
 
 🤔 If you have a question or feature request, please [start a new discussion](https://github.com/squirephp/squire/discussions/new).
 
-🔐 If you discover a vulnerability within Squire, please review our [security policy](https://github.com/squirephp/squire/blob/main/SECURITY.md).
+🔐 If you discover a vulnerability within the package, please review our [security policy](https://github.com/squirephp/squire/blob/main/SECURITY.md).
