@@ -143,10 +143,10 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
-| English | `composer require squirephp/airlines-en` |
-| French | `composer require squirephp/airlines-fr` |
-| German | `composer require squirephp/airlines-de` |
-| Spanish | `composer require squirephp/airlines-es` |
+| English | `composer require squirephp/country-en` |
+| French | `composer require squirephp/country-fr` |
+| German | `composer require squirephp/country-de` |
+| Spanish | `composer require squirephp/country-es` |
 
 #### Schema
 
