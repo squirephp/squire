@@ -12,7 +12,7 @@ class Model extends Eloquent\Model
 
     public static $schema = [];
 
-    protected static $sqliteConnection;
+    protected static $sqliteConnections = [];
 
     protected static function boot()
     {
@@ -143,12 +143,12 @@ class Model extends Eloquent\Model
 
     public static function resolveConnection($connection = null)
     {
-        return static::$sqliteConnection;
+        return static::$sqliteConnections[static::class];
     }
 
     protected static function setSqliteConnection($database)
     {
-        static::$sqliteConnection = app(ConnectionFactory::class)->make([
+        static::$sqliteConnections[static::class] = app(ConnectionFactory::class)->make([
             'driver' => 'sqlite',
             'database' => $database,
         ]);
