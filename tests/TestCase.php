@@ -12,6 +12,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
             \Squire\AirportsServiceProvider::class,
             \Squire\AirportsEnServiceProvider::class,
             \Squire\ContinentsServiceProvider::class,
+            \Squire\ContinentsDeServiceProvider::class,
             \Squire\ContinentsEnServiceProvider::class,
             \Squire\CountriesServiceProvider::class,
             \Squire\CountriesDeServiceProvider::class,

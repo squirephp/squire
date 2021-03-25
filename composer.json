@@ -24,6 +24,7 @@
                 "packages/airlines/src",
                 "packages/airports-en/src",
                 "packages/airports/src",
+                "packages/continents-de/src",
                 "packages/continents-en/src",
                 "packages/continents/src",
                 "packages/countries-de/src",
@@ -52,7 +53,7 @@
         "laravel": {
             "providers": [
                 "Squire\\GbCountiesServiceProvider",
-                "Squire\\ContinentsEnServiceProvider",
+                "ContinentsDeServiceProvider",
                 "Squire\\AirportsServiceProvider",
                 "Squire\\CountriesDeServiceProvider",
                 "Squire\\AirlinesServiceProvider",
