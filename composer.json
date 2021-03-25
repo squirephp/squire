@@ -53,7 +53,8 @@
         "laravel": {
             "providers": [
                 "Squire\\GbCountiesServiceProvider",
-                "ContinentsDeServiceProvider",
+                "Squire\\ContinentsDeServiceProvider",
+                "Squire\\ContinentsEnServiceProvider",
                 "Squire\\AirportsServiceProvider",
                 "Squire\\CountriesDeServiceProvider",
                 "Squire\\AirlinesServiceProvider",
