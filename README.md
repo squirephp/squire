@@ -121,6 +121,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
+| German | `composer require squirephp/continents-de` |
 | English | `composer require squirephp/continents-en` |
 
 #### Schema
