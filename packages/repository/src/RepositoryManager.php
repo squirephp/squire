@@ -27,7 +27,7 @@ class RepositoryManager
         $appLocale = App::getLocale();
         if ($this->sourceIsRegistered($name, $appLocale)) return $appLocale;
 
-        $appFallbackLocale = App::getFallbackLocale();
+        $appFallbackLocale = config('app.fallback_locale');
         if ($this->sourceIsRegistered($name, $appFallbackLocale)) return $appFallbackLocale;
 
         return array_key_first($this->getSources($name));
