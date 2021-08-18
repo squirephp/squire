@@ -10,6 +10,8 @@ class Model extends Eloquent\Model
 {
     public $incrementing = false;
 
+    protected $keyType = 'string';
+
     public static $schema = [];
 
     protected static $sqliteConnections = [];
