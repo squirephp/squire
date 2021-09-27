@@ -22,4 +22,13 @@ class Currency extends Model
     {
         return $this->hasMany(Country::class);
     }
+
+    public function format($number, $shouldConvert = false)
+    {
+        return (new \Akaunting\Money\Money(
+            $number,
+            (new \Akaunting\Money\Currency(strtoupper($this->id))),
+            $shouldConvert
+        ))->format();
+    }
 }

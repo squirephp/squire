@@ -16,9 +16,10 @@
     ],
     "require": {
         "php": "^7.2|^8.0",
+        "akaunting/laravel-money": "^1.2",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "squirephp/model": "^2.0",
-        "squirephp/rule": "^2.0"
+        "squirephp/model": "self.version",
+        "squirephp/rule": "self.version"
     },
     "autoload": {
         "psr-4": {
