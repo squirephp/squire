@@ -3,6 +3,7 @@
 namespace Squire\Tests;
 
 use Illuminate\Support\Facades\App;
+use Squire\Models\Currency;
 use Squire\Repository;
 use Squire\Tests\Models;
 
@@ -38,6 +39,13 @@ class ModelTest extends TestCase
 
         App::setLocale('es');
         $this->assertEquals('es', Models\Foo::first()->lang);
+    }
+
+    /** @test */
+    public function can_format_usd()
+    {
+        $this->assertSame('$5.00', Currency::find('usd')->format(500));
+        $this->assertSame('$500.00', Currency::find('usd')->format(500, true));
     }
 
     protected function testModel($model)
