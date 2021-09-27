@@ -205,8 +205,8 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 You may use the `format()` method on any currency model instance to format a given number in that currency:
 
 ```php
-Currency::find('usd')->format(500) // '$5.00' unconverted
-Currency::find('usd')->format(500, true) // '$500.00' converted
+Currency::find('usd')->format(500) // $5.00
+Currency::find('usd')->format(500, true) // $500.00, converted
 ```
 
 This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting/laravel-money) internally.
