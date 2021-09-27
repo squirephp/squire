@@ -25,6 +25,7 @@ Common use cases for Squire include:
   - [`Squire\Models\Continent`](#squiremodelscontinent)
   - [`Squire\Models\Country`](#squiremodelscountry)
   - [`Squire\Models\Currency`](#squiremodelscurrency)
+    - [Formatting money](#formatting-money)
   - [`Squire\Models\GbCounty`](#squiremodelsgbcounty)
   - [`Squire\Models\Region`](#squiremodelsregion)
 - [Model Relationships](#model-relationships)
@@ -198,6 +199,17 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | Relationship name | Model |
 |--|--|
 | `countries` | [`Squire\Models\Country`](#squiremodelscountry) |
+
+#### Formatting money
+
+You may use the `format()` method on any currency model instance to format a given number in that currency:
+
+```php
+Currency::find('usd')->format(500) // '$5.00' unconverted
+Currency::find('usd')->format(500, true) // '$500.00' converted
+```
+
+This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting/laravel-money) internally.
 
 ### `Squire\Models\GbCounty`
 
