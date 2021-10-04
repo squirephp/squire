@@ -7,8 +7,8 @@ use Squire\Models\Region;
 
 class RegionsEnServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
-        Repository::registerSource(Region::class, 'en', __DIR__.'/../resources/data.csv');
+        Repository::registerSource(Region::class, 'en', __DIR__ . '/../resources/data.csv');
     }
 }

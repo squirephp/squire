@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
-    public $singletons = [
+    public array $singletons = [
         RepositoryManager::class => RepositoryManager::class,
     ];
 }

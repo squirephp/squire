@@ -1,40 +1,42 @@
 {
-    "name": "squirephp/currencies",
-    "description": "A library containing Squire's Currency model.",
-    "keywords": ["squire"],
-    "license": "MIT",
-    "homepage": "https://github.com/squirephp",
-    "support": {
-        "issues": "https://github.com/squirephp/squire/issues",
-        "source": "https://github.com/squirephp/squire"
-    },
-    "authors": [
-        {
-            "name": "Dan Harrin",
-            "email": "dan@danharrin.com"
-        }
-    ],
-    "require": {
-        "php": "^7.2|^8.0",
-        "akaunting/laravel-money": "^1.2",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "squirephp/model": "self.version",
-        "squirephp/rule": "self.version"
-    },
-    "autoload": {
-        "psr-4": {
-            "Squire\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Squire\\CurrenciesServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+  "name": "squirephp/currencies",
+  "description": "A library containing Squire's Currency model.",
+  "keywords": [
+    "squire"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/squirephp",
+  "support": {
+    "issues": "https://github.com/squirephp/squire/issues",
+    "source": "https://github.com/squirephp/squire"
+  },
+  "authors": [
+    {
+      "name": "Dan Harrin",
+      "email": "dan@danharrin.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "akaunting/laravel-money": "^1.2",
+    "illuminate/support": "^8.0",
+    "squirephp/model": "self.version",
+    "squirephp/rule": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "Squire\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Squire\\CurrenciesServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
 }

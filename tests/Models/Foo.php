@@ -6,7 +6,7 @@ use Squire\Model;
 
 class Foo extends Model
 {
-    public static $schema = [
+    public static array $schema = [
         'foo' => 'string',
         'lang' => 'string',
     ];

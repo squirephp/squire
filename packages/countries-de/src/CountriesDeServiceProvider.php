@@ -7,8 +7,8 @@ use Squire\Models\Country;
 
 class CountriesDeServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
-        Repository::registerSource(Country::class, 'de', __DIR__.'/../resources/data.csv');
+        Repository::registerSource(Country::class, 'de', __DIR__ . '/../resources/data.csv');
     }
 }

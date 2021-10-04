@@ -8,42 +8,51 @@ use Squire\Exceptions\TranslationNotFoundException;
 
 class RepositoryManager
 {
-    protected $sources = [];
+    protected array $sources = [];
 
-    public function fetchData($name, $locale = null)
+    public function fetchData(string $name, ?string $locale = null): array
     {
         $source = $this->getSource($name, $locale);
 
         return $this->fetchDataFromSource($source);
     }
 
-    public function fetchDataFromSource($source)
+    public function getSource(string $name, ?string $locale = null): string
     {
-        return file($source);
-    }
-
-    public function getLocale($name)
-    {
-        $appLocale = App::getLocale();
-        if ($this->sourceIsRegistered($name, $appLocale)) return $appLocale;
-
-        $appFallbackLocale = config('app.fallback_locale');
-        if ($this->sourceIsRegistered($name, $appFallbackLocale)) return $appFallbackLocale;
-
-        return array_key_first($this->getSources($name));
-    }
-
-    public function getSource($name, $locale = null)
-    {
-        if ($locale && ! $this->sourceIsRegistered($name, $locale))
+        if ($locale && ! $this->sourceIsRegistered($name, $locale)) {
             throw new TranslationNotFoundException($name, $locale);
+        }
 
-        if (! $locale) $locale = $this->getLocale($name);
+        if (! $locale) {
+            $locale = $this->getLocale($name);
+        }
 
         return $this->getSources($name)[$locale];
     }
 
-    public function getSources($name = null)
+    public function sourceIsRegistered(string $name, ?string $locale = null): bool
+    {
+        if (! $locale) {
+            return array_key_exists($name, $this->sources);
+        }
+
+        return array_key_exists($name, $this->sources) && array_key_exists($locale, $this->sources[$name]);
+    }
+
+    public function getLocale(string $name): string
+    {
+        if ($this->sourceIsRegistered($name, $appLocale = App::getLocale())) {
+            return $appLocale;
+        }
+
+        if ($this->sourceIsRegistered($name, $appFallbackLocale = config('app.fallback_locale'))) {
+            return $appFallbackLocale;
+        }
+
+        return array_key_first($this->getSources($name));
+    }
+
+    public function getSources(?string $name = null): array | string
     {
         if (! $name) return $this->sources;
 
@@ -53,17 +62,17 @@ class RepositoryManager
         return $this->sources[$name];
     }
 
-    public function registerSource($name, $locale, $path)
+    public function fetchDataFromSource($source): array
     {
-        if (! $this->sourceIsRegistered($name)) $this->sources[$name] = [];
-
-        $this->sources[$name][$locale] = realpath($path);
+        return file($source);
     }
 
-    public function sourceIsRegistered($name, $locale = null)
+    public function registerSource(string $name, string $locale, string $path): void
     {
-        if (! $locale) return array_key_exists($name, $this->sources);
+        if (! $this->sourceIsRegistered($name)) {
+            $this->sources[$name] = [];
+        }
 
-        return array_key_exists($name, $this->sources) && array_key_exists($locale, $this->sources[$name]);
+        $this->sources[$name][$locale] = realpath($path);
     }
 }

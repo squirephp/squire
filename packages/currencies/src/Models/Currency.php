@@ -2,11 +2,13 @@
 
 namespace Squire\Models;
 
+use Akaunting\Money;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Squire\Model;
 
 class Currency extends Model
 {
-    public static $schema = [
+    public static array $schema = [
         'id' => 'string',
         'code_alphabetic' => 'string',
         'code_numeric' => 'integer',
@@ -18,16 +20,16 @@ class Currency extends Model
         'symbol_native' => 'string',
     ];
 
-    public function countries()
+    public function countries(): HasMany
     {
         return $this->hasMany(Country::class);
     }
 
-    public function format($number, $shouldConvert = false)
+    public function format(int $number, bool $shouldConvert = false): string
     {
-        return (new \Akaunting\Money\Money(
+        return (new Money\Money(
             $number,
-            (new \Akaunting\Money\Currency(strtoupper($this->id))),
+            (new Money\Currency(strtoupper($this->id))),
             $shouldConvert
         ))->format();
     }

@@ -3,28 +3,30 @@
 namespace Squire;
 
 use Illuminate\Contracts\Validation;
-use Illuminate\Support\Facades\Validator;
+use Illuminate\Database\Eloquent\Builder;
 
-class Rule implements Validation\Rule
+abstract class Rule implements Validation\Rule
 {
-    protected $column = 'id';
+    protected string $column = 'id';
 
-    protected $message;
+    protected string $message;
 
-    public function __construct($column = null)
+    public function __construct(?string $column = null)
     {
-        if ($column) $this->column = $column;
+        if ($column) {
+            $this->column = $column;
+        }
     }
 
-    protected function getQueryBuilder() {}
-
-    public function message()
+    public function message(): string
     {
         return __($this->message);
     }
 
-    public function passes($attribute, $value)
+    public function passes($attribute, $value): bool
     {
         return $this->getQueryBuilder()->where($this->column, $value)->exists();
     }
+
+    abstract protected function getQueryBuilder(): Builder;
 }

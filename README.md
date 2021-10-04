@@ -271,11 +271,12 @@ The simplest option is to create a new model in your app, and let it extend the 
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Squire\Models\Country as SquireCountry;
 
 class Country extends SquireCountry
 {
-    public function users()
+    public function users(): HasMany
     {
         return $this->hasMany(User::class);
     }
@@ -288,9 +289,10 @@ Another option is the `resolveRelationUsing()` method. This allows you to dynami
 
 ```php
 use App\Models\User;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Squire\Models\Country;
 
-Country::resolveRelationUsing('users', function (Country $country) {
+Country::resolveRelationUsing('users', function (Country $country): HasMany {
     return $country->hasMany(User::class);
 });
 ```
@@ -305,7 +307,7 @@ Rules can be found in the `Squire\Rules` namespace. To use one, simply construct
 use Squire\Rules;
 
 $request->validate([
-    'country' => ['required', 'string', new Rules\Country('name')],
+    'country' => ['required', 'string', new Rules\CountryRule('name')],
 ]);
 ```
 
@@ -334,7 +336,7 @@ use Squire\Model;
 
 class Language extends Model
 {
-    public static $schema = [
+    public static array $schema = [
         'id' => 'string',
         'name' => 'string',
     ];
@@ -362,9 +364,9 @@ use Squire\Repository;
 
 class ModelServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
-        Repository::registerSource(Language::class, 'en', __DIR__.'/../../resources/squire-data/languages-en.csv');
+        Repository::registerSource(Language::class, 'en', __DIR__ . '/../../resources/squire-data/languages-en.csv');
     }
 }
 ```
@@ -395,13 +397,14 @@ Your rule class should contain, at minimum, a `$message` to be served if the val
 namespace App\Rules;
 
 use App\Models;
+use Illuminate\Database\Eloquent\Builder;
 use Squire\Rule;
 
-class Language extends Rule
+class LanguageRule extends Rule
 {
-    protected $message = 'validation.language';
+    protected string $message = 'validation.language';
 
-    protected function getQueryBuilder()
+    protected function getQueryBuilder(): Builder
     {
         return Models\Language::query();
     }
@@ -419,7 +422,7 @@ use Squire\Rule;
 
 class Language extends Rule
 {
-    protected $column = 'name';
+    protected string $column = 'name';
 }
 ```
 
@@ -443,11 +446,11 @@ As an example, we will install the `Squire\Models\Country` and `Squire\Models\Co
 composer require squirephp/countries-en squirephp/continents-en
 ```
 
-### Breaking Changes Introduced in 2.x
+### Breaking Changes Introduced in 3.x
 
-- The original `Squire\Models\Counties\GbCounty` model has now been moved to `Squire\Models\GbCounty`.
+- The minimum PHP version has been bumped to v8.0, and the minimum Laravel version to v8.x.
 
-- The [`$map` property](https://github.com/squirephp/legacy#column-customisation) has been deprecated to improve performance of the package with large datasets. Please set up [Eloquent accessors](https://laravel.com/docs/master/eloquent-mutators#defining-an-accessor) if you require a similar feature.
+- Types have been introduced to all classes. If you have created [custom models](#creating-a-model) and [custom validation rules](#creating-a-validation-rule), properties and methods now need to use the correct types.
 
 ## Need Help?
 

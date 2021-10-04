@@ -2,11 +2,13 @@
 
 namespace Squire\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Squire\Model;
 
 class Country extends Model
 {
-    public static $schema = [
+    public static array $schema = [
         'id' => 'string',
         'calling_code' => 'string',
         'capital_city' => 'string',
@@ -18,27 +20,27 @@ class Country extends Model
         'name' => 'string',
     ];
 
-    public function airlines()
+    public function airlines(): HasMany
     {
         return $this->hasMany(Airline::class);
     }
 
-    public function airports()
+    public function airports(): HasMany
     {
         return $this->hasMany(Airport::class);
     }
 
-    public function continent()
+    public function continent(): BelongsTo
     {
         return $this->belongsTo(Continent::class);
     }
 
-    public function currency()
+    public function currency(): BelongsTo
     {
         return $this->belongsTo(Currency::class);
     }
 
-    public function regions()
+    public function regions(): HasMany
     {
         return $this->hasMany(Region::class);
     }

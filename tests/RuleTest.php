@@ -4,29 +4,43 @@ namespace Squire\Tests;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Validator;
+use Squire\Models\Airline;
+use Squire\Models\Airport;
+use Squire\Models\Continent;
+use Squire\Models\Country;
+use Squire\Models\Currency;
+use Squire\Models\GbCounty;
+use Squire\Models\Region;
 use Squire\Repository;
+use Squire\Rules\AirlineRule;
+use Squire\Rules\AirportRule;
+use Squire\Rules\ContinentRule;
+use Squire\Rules\CountryRule;
+use Squire\Rules\CurrencyRule;
+use Squire\Rules\GbCountyRule;
+use Squire\Rules\RegionRule;
 use Squire\Tests\Models;
 use Squire\Tests\Rules;
 
 class RuleTest extends TestCase
 {
     /** @test */
-    public function can_be_validated()
+    public function can_be_validated(): void
     {
-        Repository::registerSource(Models\Foo::class, App::getLocale(), __DIR__.'/data/foo-en.csv');
+        Repository::registerSource(Models\Foo::class, App::getLocale(), __DIR__ . '/data/foo-en.csv');
 
-        $this->testRule(Rules\Foo::class, Models\Foo::class);
+        $this->testRule(Rules\FooRule::class, Models\Foo::class);
 
-        $this->testRule(\Squire\Rules\Airline::class, \Squire\Models\Airline::class);
-        $this->testRule(\Squire\Rules\Airport::class, \Squire\Models\Airport::class);
-        $this->testRule(\Squire\Rules\Continent::class, \Squire\Models\Continent::class);
-        $this->testRule(\Squire\Rules\Country::class, \Squire\Models\Country::class);
-        $this->testRule(\Squire\Rules\Currency::class, \Squire\Models\Currency::class);
-        $this->testRule(\Squire\Rules\GbCounty::class, \Squire\Models\GbCounty::class);
-        $this->testRule(\Squire\Rules\Region::class, \Squire\Models\Region::class);
+        $this->testRule(AirlineRule::class, Airline::class);
+        $this->testRule(AirportRule::class, Airport::class);
+        $this->testRule(ContinentRule::class, Continent::class);
+        $this->testRule(CountryRule::class, Country::class);
+        $this->testRule(CurrencyRule::class, Currency::class);
+        $this->testRule(GbCountyRule::class, GbCounty::class);
+        $this->testRule(RegionRule::class, Region::class);
     }
 
-    protected function testRule($rule, $model)
+    protected function testRule(string $rule, string $model): void
     {
         $primaryKey = array_keys($model::$schema)[0];
         $secondaryKey = array_keys($model::$schema)[1];

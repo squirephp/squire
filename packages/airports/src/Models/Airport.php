@@ -2,11 +2,13 @@
 
 namespace Squire\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Squire\Model;
 
 class Airport extends Model
 {
-    public static $schema = [
+    public static array $schema = [
         'id' => 'string',
         'code_gps' => 'string',
         'code_iata' => 'string',
@@ -17,12 +19,12 @@ class Airport extends Model
         'type' => 'string',
     ];
 
-    public function country()
+    public function country(): HasOneThrough
     {
         return $this->hasOneThrough(Country::class, Region::class);
     }
 
-    public function region()
+    public function region(): BelongsTo
     {
         return $this->belongsTo(Region::class);
     }

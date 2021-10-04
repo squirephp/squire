@@ -317,7 +317,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0",
+                "php": "^8.0",
                 "webmozart/assert": "^1.7.0"
             },
             "replace": {

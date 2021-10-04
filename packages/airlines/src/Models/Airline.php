@@ -2,11 +2,12 @@
 
 namespace Squire\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Squire\Model;
 
 class Airline extends Model
 {
-    public static $schema = [
+    public static array $schema = [
         'id' => 'string',
         'alias' => 'string',
         'call_sign' => 'string',
@@ -16,12 +17,12 @@ class Airline extends Model
         'name' => 'string',
     ];
 
-    public function country()
+    public function country(): BelongsTo
     {
         return $this->belongsTo(Country::class);
     }
 
-    public function continent()
+    public function continent(): BelongsTo
     {
         return $this->hasOneThrough(Continent::class, Country::class);
     }

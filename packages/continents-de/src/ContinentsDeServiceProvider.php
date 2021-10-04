@@ -7,8 +7,8 @@ use Squire\Models\Continent;
 
 class ContinentsDeServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
-        Repository::registerSource(Continent::class, 'de', __DIR__.'/../resources/data.csv');
+        Repository::registerSource(Continent::class, 'de', __DIR__ . '/../resources/data.csv');
     }
 }

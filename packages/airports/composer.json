@@ -1,39 +1,41 @@
 {
-    "name": "squirephp/airports",
-    "description": "A library containing Squire's Airport model.",
-    "keywords": ["squire"],
-    "license": "MIT",
-    "homepage": "https://github.com/squirephp",
-    "support": {
-        "issues": "https://github.com/squirephp/squire/issues",
-        "source": "https://github.com/squirephp/squire"
-    },
-    "authors": [
-        {
-            "name": "Dan Harrin",
-            "email": "dan@danharrin.com"
-        }
-    ],
-    "require": {
-        "php": "^7.2|^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "squirephp/model": "^2.0",
-        "squirephp/rule": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Squire\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Squire\\AirportsServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+  "name": "squirephp/airports",
+  "description": "A library containing Squire's Airport model.",
+  "keywords": [
+    "squire"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/squirephp",
+  "support": {
+    "issues": "https://github.com/squirephp/squire/issues",
+    "source": "https://github.com/squirephp/squire"
+  },
+  "authors": [
+    {
+      "name": "Dan Harrin",
+      "email": "dan@danharrin.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0",
+    "squirephp/model": "^2.0",
+    "squirephp/rule": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Squire\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Squire\\AirportsServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
 }

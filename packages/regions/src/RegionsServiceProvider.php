@@ -6,12 +6,12 @@ use Illuminate\Support\ServiceProvider;
 
 class RegionsServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
-        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'squire-regions');
+        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'squire-regions');
 
         $this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/squire-regions'),
+            __DIR__ . '/../resources/lang' => resource_path('lang/vendor/squire-regions'),
         ]);
     }
 }
