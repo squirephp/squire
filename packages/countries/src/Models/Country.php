@@ -44,4 +44,9 @@ class Country extends Model
     {
         return $this->hasMany(Region::class);
     }
+
+    public function timezones(): HasMany
+    {
+        return $this->hasMany(Timezone::class);
+    }
 }

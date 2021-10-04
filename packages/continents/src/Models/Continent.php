@@ -23,4 +23,9 @@ class Continent extends Model
     {
         return $this->hasManyThrough(Region::class, Country::class);
     }
+
+    public function timezones(): HasManyThrough
+    {
+        return $this->hasManyThrough(Timezone::class, Country::class);
+    }
 }

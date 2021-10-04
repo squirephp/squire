@@ -139,6 +139,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 |--|--|
 | `countries` | [`Squire\Models\Country`](#squiremodelscountry) |
 | `regions` | [`Squire\Models\Region`](#squiremodelsregion) |
+| `timezones` | [`Squire\Models\Timezone`](#squiremodelstimezone) |
 
 ### `Squire\Models\Country`
 
@@ -173,6 +174,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | `continent` | [`Squire\Models\Continent`](#squiremodelscontinent) |
 | `currency` | [`Squire\Models\Currency`](#squiremodelscurrency) |
 | `regions` | [`Squire\Models\Region`](#squiremodelsregion) |
+| `timezones` | [`Squire\Models\Timezone`](#squiremodelstimezone) |
 
 ### `Squire\Models\Currency`
 
