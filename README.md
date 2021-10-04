@@ -430,26 +430,42 @@ class Language extends Rule
 
 Squire models, their sources, and validation rules are all simply releasable in Composer packages. To see an example of this in action, check out the [`squirephp/countries`](https://github.com/squirephp/countries) and [`squirephp/countries-en`](https://github.com/squirephp/countries-en) packages.
 
-## Upgrading from 1.x
+## Upgrading from 2.x
 
-First, you must remove the 1.x package with Composer:
+If you're using any validation rules, they are now all end with `Rule`. This allows both the model and rule to be imported into the same class without the use of aliasing:
 
+2.x:
+
+```php
+use Squire\Models\Country;
+use Squire\Rules\Country as CountryRule;
+
+Country::find('us');
+
+$request->validate([
+    'country' => ['required', 'string', new CountryRule('name')],
+]);
 ```
-composer remove danharrin/squire
+
+3.x:
+
+```php
+use Squire\Models\Country;
+use Squire\Rules\CountryRule;
+
+Country::find('us');
+
+$request->validate([
+    'country' => ['required', 'string', new CountryRule('name')],
+]);
 ```
 
-Next, assess which models you are currently using in your application. Install them using the [individual command listed for each](#available-models). If your app requires localisation features offered by Squire, you may install more than one translation of each model.
-
-As an example, we will install the `Squire\Models\Country` and `Squire\Models\Continent` models in English:
-
-```
-composer require squirephp/countries-en squirephp/continents-en
-```
+All properties and methods in [custom models](#creating-a-model) and [custom validation rules](#creating-a-validation-rule) now need to have the correct types. These can be found in the relevant section of the documentation.
 
 ### Breaking Changes Introduced in 3.x
 
 - The minimum PHP version has been bumped to v8.0, and the minimum Laravel version to v8.x.
-
+- Validation rules have been renamed, so they all end with `Rule`. This allows both the model and rule to be imported into the same class without the use of aliasing.
 - Types have been introduced to all classes. If you have created [custom models](#creating-a-model) and [custom validation rules](#creating-a-validation-rule), properties and methods now need to use the correct types.
 
 ## Need Help?
