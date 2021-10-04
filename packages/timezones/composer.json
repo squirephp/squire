@@ -1,6 +1,6 @@
 {
-    "name": "squirephp/countries-en",
-    "description": "A library containing the English translation of Squire's Country model.",
+    "name": "squirephp/timezones",
+    "description": "A library containing Squire's Timezone model.",
     "keywords": [
         "squire"
     ],
@@ -19,8 +19,8 @@
     "require": {
         "php": "^8.0",
         "illuminate/support": "^8.0",
-        "squirephp/countries": "self.version",
-        "squirephp/repository": "self.version"
+        "squirephp/model": "self.version",
+        "squirephp/rule": "self.version"
     },
     "autoload": {
         "psr-4": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Squire\\CountriesEnServiceProvider"
+                "Squire\\TimezonesServiceProvider"
             ]
         }
     },

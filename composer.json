@@ -9,7 +9,7 @@
     "require": {
         "php": "^8.0",
         "illuminate/contracts": "^8.0",
-        "illuminate/database": "^6.0 || ^7.0 || ^8.40.0",
+        "illuminate/database": "^8.0",
         "illuminate/support": "^8.0",
         "akaunting/laravel-money": "^1.2"
     },
@@ -41,7 +41,9 @@
                 "packages/regions-en/src",
                 "packages/regions/src",
                 "packages/repository/src",
-                "packages/rule/src"
+                "packages/rule/src",
+                "packages/timezones-en/src",
+                "packages/timezones/src"
             ]
         }
     },
@@ -53,9 +55,6 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Squire\\GbCountiesServiceProvider",
-                "Squire\\ContinentsDeServiceProvider",
-                "Squire\\ContinentsEnServiceProvider",
                 "Squire\\AirportsServiceProvider",
                 "Squire\\CountriesDeServiceProvider",
                 "Squire\\AirlinesServiceProvider",
@@ -72,7 +71,9 @@
                 "Squire\\CurrenciesEnServiceProvider",
                 "Squire\\CurrenciesServiceProvider",
                 "Squire\\RegionsServiceProvider",
-                "Squire\\RepositoryServiceProvider"
+                "Squire\\RepositoryServiceProvider",
+                "Squire\\TimezonesServiceProvider",
+                "Squire\\TimezonesEnServiceProvider"
             ],
             "aliases": {
                 "RepositoryManager": "Squire\\Repository\\Facades\\Repository"
@@ -99,6 +100,8 @@
         "squirephp/regions": "self.version",
         "squirephp/regions-en": "self.version",
         "squirephp/repository": "self.version",
-        "squirephp/rule": "self.version"
+        "squirephp/rule": "self.version",
+        "squirephp/timezones": "self.version",
+        "squirephp/timezones-en": "self.version"
     }
 }

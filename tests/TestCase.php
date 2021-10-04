@@ -20,6 +20,8 @@ use Squire\GbCountiesEnServiceProvider;
 use Squire\GbCountiesServiceProvider;
 use Squire\RegionsEnServiceProvider;
 use Squire\RegionsServiceProvider;
+use Squire\TimezonesEnServiceProvider;
+use Squire\TimezonesServiceProvider;
 use Squire\RepositoryServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
@@ -45,6 +47,8 @@ class TestCase extends \Orchestra\Testbench\TestCase
             GbCountiesEnServiceProvider::class,
             RegionsServiceProvider::class,
             RegionsEnServiceProvider::class,
+            TimezonesServiceProvider::class,
+            TimezonesEnServiceProvider::class,
             RepositoryServiceProvider::class,
         ];
     }

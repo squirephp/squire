@@ -10,6 +10,7 @@ use Squire\Models\Country;
 use Squire\Models\Currency;
 use Squire\Models\GbCounty;
 use Squire\Models\Region;
+use Squire\Models\Timezone;
 use Squire\Repository;
 use Squire\Tests\Models;
 
@@ -30,6 +31,7 @@ class ModelTest extends TestCase
         $this->testModel(Currency::class);
         $this->testModel(GbCounty::class);
         $this->testModel(Region::class);
+        $this->testModel(Timezone::class);
     }
 
     protected function testModel(string $model): void

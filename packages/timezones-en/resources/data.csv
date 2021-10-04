@@ -1,0 +1,426 @@
+id,code,country_id,long_name,name
+Africa/Abidjan,Africa/Abidjan,ci,Africa/Abidjan,Abidjan
+Africa/Accra,Africa/Accra,gh,Africa/Accra,Accra
+Africa/Addis_Ababa,Africa/Addis_Ababa,et,Africa/Addis Ababa,Addis Ababa
+Africa/Algiers,Africa/Algiers,dz,Africa/Algiers,Algiers
+Africa/Asmara,Africa/Asmara,er,Africa/Asmara,Asmara
+Africa/Bamako,Africa/Bamako,ml,Africa/Bamako,Bamako
+Africa/Bangui,Africa/Bangui,cf,Africa/Bangui,Bangui
+Africa/Banjul,Africa/Banjul,gm,Africa/Banjul,Banjul
+Africa/Bissau,Africa/Bissau,gw,Africa/Bissau,Bissau
+Africa/Blantyre,Africa/Blantyre,mw,Africa/Blantyre,Blantyre
+Africa/Brazzaville,Africa/Brazzaville,cg,Africa/Brazzaville,Brazzaville
+Africa/Bujumbura,Africa/Bujumbura,bi,Africa/Bujumbura,Bujumbura
+Africa/Cairo,Africa/Cairo,eg,Africa/Cairo,Cairo
+Africa/Casablanca,Africa/Casablanca,ma,Africa/Casablanca,Casablanca
+Africa/Ceuta,Africa/Ceuta,es,Africa/Ceuta,Ceuta
+Africa/Conakry,Africa/Conakry,gn,Africa/Conakry,Conakry
+Africa/Dakar,Africa/Dakar,sn,Africa/Dakar,Dakar
+Africa/Dar_es_Salaam,Africa/Dar_es_Salaam,tz,Africa/Dar es Salaam,Dar es Salaam
+Africa/Djibouti,Africa/Djibouti,dj,Africa/Djibouti,Djibouti
+Africa/Douala,Africa/Douala,cm,Africa/Douala,Douala
+Africa/El_Aaiun,Africa/El_Aaiun,eh,Africa/El Aaiun,El Aaiun
+Africa/Freetown,Africa/Freetown,sl,Africa/Freetown,Freetown
+Africa/Gaborone,Africa/Gaborone,bw,Africa/Gaborone,Gaborone
+Africa/Harare,Africa/Harare,zw,Africa/Harare,Harare
+Africa/Johannesburg,Africa/Johannesburg,za,Africa/Johannesburg,Johannesburg
+Africa/Juba,Africa/Juba,ss,Africa/Juba,Juba
+Africa/Kampala,Africa/Kampala,ug,Africa/Kampala,Kampala
+Africa/Khartoum,Africa/Khartoum,sd,Africa/Khartoum,Khartoum
+Africa/Kigali,Africa/Kigali,rw,Africa/Kigali,Kigali
+Africa/Kinshasa,Africa/Kinshasa,cd,Africa/Kinshasa,Kinshasa
+Africa/Lagos,Africa/Lagos,ng,Africa/Lagos,Lagos
+Africa/Libreville,Africa/Libreville,ga,Africa/Libreville,Libreville
+Africa/Lome,Africa/Lome,tg,Africa/Lome,Lome
+Africa/Luanda,Africa/Luanda,ao,Africa/Luanda,Luanda
+Africa/Lubumbashi,Africa/Lubumbashi,cd,Africa/Lubumbashi,Lubumbashi
+Africa/Lusaka,Africa/Lusaka,zm,Africa/Lusaka,Lusaka
+Africa/Malabo,Africa/Malabo,gq,Africa/Malabo,Malabo
+Africa/Maputo,Africa/Maputo,mz,Africa/Maputo,Maputo
+Africa/Maseru,Africa/Maseru,ls,Africa/Maseru,Maseru
+Africa/Mbabane,Africa/Mbabane,sz,Africa/Mbabane,Mbabane
+Africa/Mogadishu,Africa/Mogadishu,so,Africa/Mogadishu,Mogadishu
+Africa/Monrovia,Africa/Monrovia,lr,Africa/Monrovia,Monrovia
+Africa/Nairobi,Africa/Nairobi,ke,Africa/Nairobi,Nairobi
+Africa/Ndjamena,Africa/Ndjamena,td,Africa/Ndjamena,Ndjamena
+Africa/Niamey,Africa/Niamey,ne,Africa/Niamey,Niamey
+Africa/Nouakchott,Africa/Nouakchott,mr,Africa/Nouakchott,Nouakchott
+Africa/Ouagadougou,Africa/Ouagadougou,bf,Africa/Ouagadougou,Ouagadougou
+Africa/Porto-Novo,Africa/Porto-Novo,bj,Africa/Porto-Novo,Porto-Novo
+Africa/Sao_Tome,Africa/Sao_Tome,st,Africa/Sao Tome,Sao Tome
+Africa/Tripoli,Africa/Tripoli,ly,Africa/Tripoli,Tripoli
+Africa/Tunis,Africa/Tunis,tn,Africa/Tunis,Tunis
+Africa/Windhoek,Africa/Windhoek,na,Africa/Windhoek,Windhoek
+America/Adak,America/Adak,us,America/Adak,Adak
+America/Anchorage,America/Anchorage,us,America/Anchorage,Anchorage
+America/Anguilla,America/Anguilla,ai,America/Anguilla,Anguilla
+America/Antigua,America/Antigua,ag,America/Antigua,Antigua
+America/Araguaina,America/Araguaina,br,America/Araguaina,Araguaina
+America/Argentina/Buenos_Aires,America/Argentina/Buenos_Aires,ar,America/Argentina/Buenos Aires,Argentina/Buenos Aires
+America/Argentina/Catamarca,America/Argentina/Catamarca,ar,America/Argentina/Catamarca,Argentina/Catamarca
+America/Argentina/Cordoba,America/Argentina/Cordoba,ar,America/Argentina/Cordoba,Argentina/Cordoba
+America/Argentina/Jujuy,America/Argentina/Jujuy,ar,America/Argentina/Jujuy,Argentina/Jujuy
+America/Argentina/La_Rioja,America/Argentina/La_Rioja,ar,America/Argentina/La Rioja,Argentina/La Rioja
+America/Argentina/Mendoza,America/Argentina/Mendoza,ar,America/Argentina/Mendoza,Argentina/Mendoza
+America/Argentina/Rio_Gallegos,America/Argentina/Rio_Gallegos,ar,America/Argentina/Rio Gallegos,Argentina/Rio Gallegos
+America/Argentina/Salta,America/Argentina/Salta,ar,America/Argentina/Salta,Argentina/Salta
+America/Argentina/San_Juan,America/Argentina/San_Juan,ar,America/Argentina/San Juan,Argentina/San Juan
+America/Argentina/San_Luis,America/Argentina/San_Luis,ar,America/Argentina/San Luis,Argentina/San Luis
+America/Argentina/Tucuman,America/Argentina/Tucuman,ar,America/Argentina/Tucuman,Argentina/Tucuman
+America/Argentina/Ushuaia,America/Argentina/Ushuaia,ar,America/Argentina/Ushuaia,Argentina/Ushuaia
+America/Aruba,America/Aruba,aw,America/Aruba,Aruba
+America/Asuncion,America/Asuncion,py,America/Asuncion,Asuncion
+America/Atikokan,America/Atikokan,ca,America/Atikokan,Atikokan
+America/Bahia,America/Bahia,br,America/Bahia,Bahia
+America/Bahia_Banderas,America/Bahia_Banderas,mx,America/Bahia Banderas,Bahia Banderas
+America/Barbados,America/Barbados,bb,America/Barbados,Barbados
+America/Belem,America/Belem,br,America/Belem,Belem
+America/Belize,America/Belize,bz,America/Belize,Belize
+America/Blanc-Sablon,America/Blanc-Sablon,ca,America/Blanc-Sablon,Blanc-Sablon
+America/Boa_Vista,America/Boa_Vista,br,America/Boa Vista,Boa Vista
+America/Bogota,America/Bogota,co,America/Bogota,Bogota
+America/Boise,America/Boise,us,America/Boise,Boise
+America/Cambridge_Bay,America/Cambridge_Bay,ca,America/Cambridge Bay,Cambridge Bay
+America/Campo_Grande,America/Campo_Grande,br,America/Campo Grande,Campo Grande
+America/Cancun,America/Cancun,mx,America/Cancun,Cancun
+America/Caracas,America/Caracas,ve,America/Caracas,Caracas
+America/Cayenne,America/Cayenne,gf,America/Cayenne,Cayenne
+America/Cayman,America/Cayman,ky,America/Cayman,Cayman
+America/Chicago,America/Chicago,us,America/Chicago,Chicago
+America/Chihuahua,America/Chihuahua,mx,America/Chihuahua,Chihuahua
+America/Costa_Rica,America/Costa_Rica,cr,America/Costa Rica,Costa Rica
+America/Creston,America/Creston,ca,America/Creston,Creston
+America/Cuiaba,America/Cuiaba,br,America/Cuiaba,Cuiaba
+America/Curacao,America/Curacao,cw,America/Curacao,Curacao
+America/Danmarkshavn,America/Danmarkshavn,gl,America/Danmarkshavn,Danmarkshavn
+America/Dawson,America/Dawson,ca,America/Dawson,Dawson
+America/Dawson_Creek,America/Dawson_Creek,ca,America/Dawson Creek,Dawson Creek
+America/Denver,America/Denver,us,America/Denver,Denver
+America/Detroit,America/Detroit,us,America/Detroit,Detroit
+America/Dominica,America/Dominica,dm,America/Dominica,Dominica
+America/Edmonton,America/Edmonton,ca,America/Edmonton,Edmonton
+America/Eirunepe,America/Eirunepe,br,America/Eirunepe,Eirunepe
+America/El_Salvador,America/El_Salvador,sv,America/El Salvador,El Salvador
+America/Fort_Nelson,America/Fort_Nelson,ca,America/Fort Nelson,Fort Nelson
+America/Fortaleza,America/Fortaleza,br,America/Fortaleza,Fortaleza
+America/Glace_Bay,America/Glace_Bay,ca,America/Glace Bay,Glace Bay
+America/Goose_Bay,America/Goose_Bay,ca,America/Goose Bay,Goose Bay
+America/Grand_Turk,America/Grand_Turk,tc,America/Grand Turk,Grand Turk
+America/Grenada,America/Grenada,gd,America/Grenada,Grenada
+America/Guadeloupe,America/Guadeloupe,gp,America/Guadeloupe,Guadeloupe
+America/Guatemala,America/Guatemala,gt,America/Guatemala,Guatemala
+America/Guayaquil,America/Guayaquil,ec,America/Guayaquil,Guayaquil
+America/Guyana,America/Guyana,gy,America/Guyana,Guyana
+America/Halifax,America/Halifax,ca,America/Halifax,Halifax
+America/Havana,America/Havana,cu,America/Havana,Havana
+America/Hermosillo,America/Hermosillo,mx,America/Hermosillo,Hermosillo
+America/Indiana/Indianapolis,America/Indiana/Indianapolis,us,America/Indiana/Indianapolis,Indiana/Indianapolis
+America/Indiana/Knox,America/Indiana/Knox,us,America/Indiana/Knox,Indiana/Knox
+America/Indiana/Marengo,America/Indiana/Marengo,us,America/Indiana/Marengo,Indiana/Marengo
+America/Indiana/Petersburg,America/Indiana/Petersburg,us,America/Indiana/Petersburg,Indiana/Petersburg
+America/Indiana/Tell_City,America/Indiana/Tell_City,us,America/Indiana/Tell City,Indiana/Tell City
+America/Indiana/Vevay,America/Indiana/Vevay,us,America/Indiana/Vevay,Indiana/Vevay
+America/Indiana/Vincennes,America/Indiana/Vincennes,us,America/Indiana/Vincennes,Indiana/Vincennes
+America/Indiana/Winamac,America/Indiana/Winamac,us,America/Indiana/Winamac,Indiana/Winamac
+America/Inuvik,America/Inuvik,ca,America/Inuvik,Inuvik
+America/Iqaluit,America/Iqaluit,ca,America/Iqaluit,Iqaluit
+America/Jamaica,America/Jamaica,jm,America/Jamaica,Jamaica
+America/Juneau,America/Juneau,us,America/Juneau,Juneau
+America/Kentucky/Louisville,America/Kentucky/Louisville,us,America/Kentucky/Louisville,Kentucky/Louisville
+America/Kentucky/Monticello,America/Kentucky/Monticello,us,America/Kentucky/Monticello,Kentucky/Monticello
+America/Kralendijk,America/Kralendijk,bq,America/Kralendijk,Kralendijk
+America/La_Paz,America/La_Paz,bo,America/La Paz,La Paz
+America/Lima,America/Lima,pe,America/Lima,Lima
+America/Los_Angeles,America/Los_Angeles,us,America/Los Angeles,Los Angeles
+America/Lower_Princes,America/Lower_Princes,sx,America/Lower Princes,Lower Princes
+America/Maceio,America/Maceio,br,America/Maceio,Maceio
+America/Managua,America/Managua,ni,America/Managua,Managua
+America/Manaus,America/Manaus,br,America/Manaus,Manaus
+America/Marigot,America/Marigot,mf,America/Marigot,Marigot
+America/Martinique,America/Martinique,mq,America/Martinique,Martinique
+America/Matamoros,America/Matamoros,mx,America/Matamoros,Matamoros
+America/Mazatlan,America/Mazatlan,mx,America/Mazatlan,Mazatlan
+America/Menominee,America/Menominee,us,America/Menominee,Menominee
+America/Merida,America/Merida,mx,America/Merida,Merida
+America/Metlakatla,America/Metlakatla,us,America/Metlakatla,Metlakatla
+America/Mexico_City,America/Mexico_City,mx,America/Mexico City,Mexico City
+America/Miquelon,America/Miquelon,pm,America/Miquelon,Miquelon
+America/Moncton,America/Moncton,ca,America/Moncton,Moncton
+America/Monterrey,America/Monterrey,mx,America/Monterrey,Monterrey
+America/Montevideo,America/Montevideo,uy,America/Montevideo,Montevideo
+America/Montserrat,America/Montserrat,ms,America/Montserrat,Montserrat
+America/Nassau,America/Nassau,bs,America/Nassau,Nassau
+America/New_York,America/New_York,us,America/New York,New York
+America/Nipigon,America/Nipigon,ca,America/Nipigon,Nipigon
+America/Nome,America/Nome,us,America/Nome,Nome
+America/Noronha,America/Noronha,br,America/Noronha,Noronha
+America/North_Dakota/Beulah,America/North_Dakota/Beulah,us,America/North Dakota/Beulah,North Dakota/Beulah
+America/North_Dakota/Center,America/North_Dakota/Center,us,America/North Dakota/Center,North Dakota/Center
+America/North_Dakota/New_Salem,America/North_Dakota/New_Salem,us,America/North Dakota/New Salem,North Dakota/New Salem
+America/Nuuk,America/Nuuk,gl,America/Nuuk,Nuuk
+America/Ojinaga,America/Ojinaga,mx,America/Ojinaga,Ojinaga
+America/Panama,America/Panama,pa,America/Panama,Panama
+America/Pangnirtung,America/Pangnirtung,ca,America/Pangnirtung,Pangnirtung
+America/Paramaribo,America/Paramaribo,sr,America/Paramaribo,Paramaribo
+America/Phoenix,America/Phoenix,us,America/Phoenix,Phoenix
+America/Port-au-Prince,America/Port-au-Prince,ht,America/Port-au-Prince,Port-au-Prince
+America/Port_of_Spain,America/Port_of_Spain,tt,America/Port of Spain,Port of Spain
+America/Porto_Velho,America/Porto_Velho,br,America/Porto Velho,Porto Velho
+America/Puerto_Rico,America/Puerto_Rico,pr,America/Puerto Rico,Puerto Rico
+America/Punta_Arenas,America/Punta_Arenas,cl,America/Punta Arenas,Punta Arenas
+America/Rainy_River,America/Rainy_River,ca,America/Rainy River,Rainy River
+America/Rankin_Inlet,America/Rankin_Inlet,ca,America/Rankin Inlet,Rankin Inlet
+America/Recife,America/Recife,br,America/Recife,Recife
+America/Regina,America/Regina,ca,America/Regina,Regina
+America/Resolute,America/Resolute,ca,America/Resolute,Resolute
+America/Rio_Branco,America/Rio_Branco,br,America/Rio Branco,Rio Branco
+America/Santarem,America/Santarem,br,America/Santarem,Santarem
+America/Santiago,America/Santiago,cl,America/Santiago,Santiago
+America/Santo_Domingo,America/Santo_Domingo,do,America/Santo Domingo,Santo Domingo
+America/Sao_Paulo,America/Sao_Paulo,br,America/Sao Paulo,Sao Paulo
+America/Scoresbysund,America/Scoresbysund,gl,America/Scoresbysund,Scoresbysund
+America/Sitka,America/Sitka,us,America/Sitka,Sitka
+America/St_Barthelemy,America/St_Barthelemy,bl,America/St Barthelemy,St Barthelemy
+America/St_Johns,America/St_Johns,ca,America/St Johns,St Johns
+America/St_Kitts,America/St_Kitts,kn,America/St Kitts,St Kitts
+America/St_Lucia,America/St_Lucia,lc,America/St Lucia,St Lucia
+America/St_Thomas,America/St_Thomas,vi,America/St Thomas,St Thomas
+America/St_Vincent,America/St_Vincent,vc,America/St Vincent,St Vincent
+America/Swift_Current,America/Swift_Current,ca,America/Swift Current,Swift Current
+America/Tegucigalpa,America/Tegucigalpa,hn,America/Tegucigalpa,Tegucigalpa
+America/Thule,America/Thule,gl,America/Thule,Thule
+America/Thunder_Bay,America/Thunder_Bay,ca,America/Thunder Bay,Thunder Bay
+America/Tijuana,America/Tijuana,mx,America/Tijuana,Tijuana
+America/Toronto,America/Toronto,ca,America/Toronto,Toronto
+America/Tortola,America/Tortola,vg,America/Tortola,Tortola
+America/Vancouver,America/Vancouver,ca,America/Vancouver,Vancouver
+America/Whitehorse,America/Whitehorse,ca,America/Whitehorse,Whitehorse
+America/Winnipeg,America/Winnipeg,ca,America/Winnipeg,Winnipeg
+America/Yakutat,America/Yakutat,us,America/Yakutat,Yakutat
+America/Yellowknife,America/Yellowknife,ca,America/Yellowknife,Yellowknife
+Antarctica/Casey,Antarctica/Casey,aq,Antarctica/Casey,Casey
+Antarctica/Davis,Antarctica/Davis,aq,Antarctica/Davis,Davis
+Antarctica/DumontDUrville,Antarctica/DumontDUrville,aq,Antarctica/DumontDUrville,DumontDUrville
+Antarctica/Macquarie,Antarctica/Macquarie,au,Antarctica/Macquarie,Macquarie
+Antarctica/Mawson,Antarctica/Mawson,aq,Antarctica/Mawson,Mawson
+Antarctica/McMurdo,Antarctica/McMurdo,aq,Antarctica/McMurdo,McMurdo
+Antarctica/Palmer,Antarctica/Palmer,aq,Antarctica/Palmer,Palmer
+Antarctica/Rothera,Antarctica/Rothera,aq,Antarctica/Rothera,Rothera
+Antarctica/Syowa,Antarctica/Syowa,aq,Antarctica/Syowa,Syowa
+Antarctica/Troll,Antarctica/Troll,aq,Antarctica/Troll,Troll
+Antarctica/Vostok,Antarctica/Vostok,aq,Antarctica/Vostok,Vostok
+Arctic/Longyearbyen,Arctic/Longyearbyen,sj,Arctic/Longyearbyen,Longyearbyen
+Asia/Aden,Asia/Aden,ye,Asia/Aden,Aden
+Asia/Almaty,Asia/Almaty,kz,Asia/Almaty,Almaty
+Asia/Amman,Asia/Amman,jo,Asia/Amman,Amman
+Asia/Anadyr,Asia/Anadyr,ru,Asia/Anadyr,Anadyr
+Asia/Aqtau,Asia/Aqtau,kz,Asia/Aqtau,Aqtau
+Asia/Aqtobe,Asia/Aqtobe,kz,Asia/Aqtobe,Aqtobe
+Asia/Ashgabat,Asia/Ashgabat,tm,Asia/Ashgabat,Ashgabat
+Asia/Atyrau,Asia/Atyrau,kz,Asia/Atyrau,Atyrau
+Asia/Baghdad,Asia/Baghdad,iq,Asia/Baghdad,Baghdad
+Asia/Bahrain,Asia/Bahrain,bh,Asia/Bahrain,Bahrain
+Asia/Baku,Asia/Baku,az,Asia/Baku,Baku
+Asia/Bangkok,Asia/Bangkok,th,Asia/Bangkok,Bangkok
+Asia/Barnaul,Asia/Barnaul,ru,Asia/Barnaul,Barnaul
+Asia/Beirut,Asia/Beirut,lb,Asia/Beirut,Beirut
+Asia/Bishkek,Asia/Bishkek,kg,Asia/Bishkek,Bishkek
+Asia/Brunei,Asia/Brunei,bn,Asia/Brunei,Brunei
+Asia/Chita,Asia/Chita,ru,Asia/Chita,Chita
+Asia/Choibalsan,Asia/Choibalsan,mn,Asia/Choibalsan,Choibalsan
+Asia/Colombo,Asia/Colombo,lk,Asia/Colombo,Colombo
+Asia/Damascus,Asia/Damascus,sy,Asia/Damascus,Damascus
+Asia/Dhaka,Asia/Dhaka,bd,Asia/Dhaka,Dhaka
+Asia/Dili,Asia/Dili,tl,Asia/Dili,Dili
+Asia/Dubai,Asia/Dubai,ae,Asia/Dubai,Dubai
+Asia/Dushanbe,Asia/Dushanbe,tj,Asia/Dushanbe,Dushanbe
+Asia/Famagusta,Asia/Famagusta,cy,Asia/Famagusta,Famagusta
+Asia/Gaza,Asia/Gaza,ps,Asia/Gaza,Gaza
+Asia/Hebron,Asia/Hebron,ps,Asia/Hebron,Hebron
+Asia/Ho_Chi_Minh,Asia/Ho_Chi_Minh,vn,Asia/Ho Chi Minh,Ho Chi Minh
+Asia/Hong_Kong,Asia/Hong_Kong,hk,Asia/Hong Kong,Hong Kong
+Asia/Hovd,Asia/Hovd,mn,Asia/Hovd,Hovd
+Asia/Irkutsk,Asia/Irkutsk,ru,Asia/Irkutsk,Irkutsk
+Asia/Jakarta,Asia/Jakarta,id,Asia/Jakarta,Jakarta
+Asia/Jayapura,Asia/Jayapura,id,Asia/Jayapura,Jayapura
+Asia/Jerusalem,Asia/Jerusalem,il,Asia/Jerusalem,Jerusalem
+Asia/Kabul,Asia/Kabul,af,Asia/Kabul,Kabul
+Asia/Kamchatka,Asia/Kamchatka,ru,Asia/Kamchatka,Kamchatka
+Asia/Karachi,Asia/Karachi,pk,Asia/Karachi,Karachi
+Asia/Kathmandu,Asia/Kathmandu,np,Asia/Kathmandu,Kathmandu
+Asia/Khandyga,Asia/Khandyga,ru,Asia/Khandyga,Khandyga
+Asia/Kolkata,Asia/Kolkata,in,Asia/Kolkata,Kolkata
+Asia/Krasnoyarsk,Asia/Krasnoyarsk,ru,Asia/Krasnoyarsk,Krasnoyarsk
+Asia/Kuala_Lumpur,Asia/Kuala_Lumpur,my,Asia/Kuala Lumpur,Kuala Lumpur
+Asia/Kuching,Asia/Kuching,my,Asia/Kuching,Kuching
+Asia/Kuwait,Asia/Kuwait,kw,Asia/Kuwait,Kuwait
+Asia/Macau,Asia/Macau,mo,Asia/Macau,Macau
+Asia/Magadan,Asia/Magadan,ru,Asia/Magadan,Magadan
+Asia/Makassar,Asia/Makassar,id,Asia/Makassar,Makassar
+Asia/Manila,Asia/Manila,ph,Asia/Manila,Manila
+Asia/Muscat,Asia/Muscat,om,Asia/Muscat,Muscat
+Asia/Nicosia,Asia/Nicosia,cy,Asia/Nicosia,Nicosia
+Asia/Novokuznetsk,Asia/Novokuznetsk,ru,Asia/Novokuznetsk,Novokuznetsk
+Asia/Novosibirsk,Asia/Novosibirsk,ru,Asia/Novosibirsk,Novosibirsk
+Asia/Omsk,Asia/Omsk,ru,Asia/Omsk,Omsk
+Asia/Oral,Asia/Oral,kz,Asia/Oral,Oral
+Asia/Phnom_Penh,Asia/Phnom_Penh,kh,Asia/Phnom Penh,Phnom Penh
+Asia/Pontianak,Asia/Pontianak,id,Asia/Pontianak,Pontianak
+Asia/Pyongyang,Asia/Pyongyang,kp,Asia/Pyongyang,Pyongyang
+Asia/Qatar,Asia/Qatar,qa,Asia/Qatar,Qatar
+Asia/Qostanay,Asia/Qostanay,kz,Asia/Qostanay,Qostanay
+Asia/Qyzylorda,Asia/Qyzylorda,kz,Asia/Qyzylorda,Qyzylorda
+Asia/Riyadh,Asia/Riyadh,sa,Asia/Riyadh,Riyadh
+Asia/Sakhalin,Asia/Sakhalin,ru,Asia/Sakhalin,Sakhalin
+Asia/Samarkand,Asia/Samarkand,uz,Asia/Samarkand,Samarkand
+Asia/Seoul,Asia/Seoul,kr,Asia/Seoul,Seoul
+Asia/Shanghai,Asia/Shanghai,cn,Asia/Shanghai,Shanghai
+Asia/Singapore,Asia/Singapore,sg,Asia/Singapore,Singapore
+Asia/Srednekolymsk,Asia/Srednekolymsk,ru,Asia/Srednekolymsk,Srednekolymsk
+Asia/Taipei,Asia/Taipei,tw,Asia/Taipei,Taipei
+Asia/Tashkent,Asia/Tashkent,uz,Asia/Tashkent,Tashkent
+Asia/Tbilisi,Asia/Tbilisi,ge,Asia/Tbilisi,Tbilisi
+Asia/Tehran,Asia/Tehran,ir,Asia/Tehran,Tehran
+Asia/Thimphu,Asia/Thimphu,bt,Asia/Thimphu,Thimphu
+Asia/Tokyo,Asia/Tokyo,jp,Asia/Tokyo,Tokyo
+Asia/Tomsk,Asia/Tomsk,ru,Asia/Tomsk,Tomsk
+Asia/Ulaanbaatar,Asia/Ulaanbaatar,mn,Asia/Ulaanbaatar,Ulaanbaatar
+Asia/Urumqi,Asia/Urumqi,cn,Asia/Urumqi,Urumqi
+Asia/Ust-Nera,Asia/Ust-Nera,ru,Asia/Ust-Nera,Ust-Nera
+Asia/Vientiane,Asia/Vientiane,la,Asia/Vientiane,Vientiane
+Asia/Vladivostok,Asia/Vladivostok,ru,Asia/Vladivostok,Vladivostok
+Asia/Yakutsk,Asia/Yakutsk,ru,Asia/Yakutsk,Yakutsk
+Asia/Yangon,Asia/Yangon,mm,Asia/Yangon,Yangon
+Asia/Yekaterinburg,Asia/Yekaterinburg,ru,Asia/Yekaterinburg,Yekaterinburg
+Asia/Yerevan,Asia/Yerevan,am,Asia/Yerevan,Yerevan
+Atlantic/Azores,Atlantic/Azores,pt,Atlantic/Azores,Azores
+Atlantic/Bermuda,Atlantic/Bermuda,bm,Atlantic/Bermuda,Bermuda
+Atlantic/Canary,Atlantic/Canary,es,Atlantic/Canary,Canary
+Atlantic/Cape_Verde,Atlantic/Cape_Verde,cv,Atlantic/Cape Verde,Cape Verde
+Atlantic/Faroe,Atlantic/Faroe,fo,Atlantic/Faroe,Faroe
+Atlantic/Madeira,Atlantic/Madeira,pt,Atlantic/Madeira,Madeira
+Atlantic/Reykjavik,Atlantic/Reykjavik,is,Atlantic/Reykjavik,Reykjavik
+Atlantic/South_Georgia,Atlantic/South_Georgia,gs,Atlantic/South Georgia,South Georgia
+Atlantic/St_Helena,Atlantic/St_Helena,sh,Atlantic/St Helena,St Helena
+Atlantic/Stanley,Atlantic/Stanley,fk,Atlantic/Stanley,Stanley
+Australia/Adelaide,Australia/Adelaide,au,Australia/Adelaide,Adelaide
+Australia/Brisbane,Australia/Brisbane,au,Australia/Brisbane,Brisbane
+Australia/Broken_Hill,Australia/Broken_Hill,au,Australia/Broken Hill,Broken Hill
+Australia/Darwin,Australia/Darwin,au,Australia/Darwin,Darwin
+Australia/Eucla,Australia/Eucla,au,Australia/Eucla,Eucla
+Australia/Hobart,Australia/Hobart,au,Australia/Hobart,Hobart
+Australia/Lindeman,Australia/Lindeman,au,Australia/Lindeman,Lindeman
+Australia/Lord_Howe,Australia/Lord_Howe,au,Australia/Lord Howe,Lord Howe
+Australia/Melbourne,Australia/Melbourne,au,Australia/Melbourne,Melbourne
+Australia/Perth,Australia/Perth,au,Australia/Perth,Perth
+Australia/Sydney,Australia/Sydney,au,Australia/Sydney,Sydney
+Europe/Amsterdam,Europe/Amsterdam,nl,Europe/Amsterdam,Amsterdam
+Europe/Andorra,Europe/Andorra,ad,Europe/Andorra,Andorra
+Europe/Astrakhan,Europe/Astrakhan,ru,Europe/Astrakhan,Astrakhan
+Europe/Athens,Europe/Athens,gr,Europe/Athens,Athens
+Europe/Belgrade,Europe/Belgrade,rs,Europe/Belgrade,Belgrade
+Europe/Berlin,Europe/Berlin,de,Europe/Berlin,Berlin
+Europe/Bratislava,Europe/Bratislava,sk,Europe/Bratislava,Bratislava
+Europe/Brussels,Europe/Brussels,be,Europe/Brussels,Brussels
+Europe/Bucharest,Europe/Bucharest,ro,Europe/Bucharest,Bucharest
+Europe/Budapest,Europe/Budapest,hu,Europe/Budapest,Budapest
+Europe/Busingen,Europe/Busingen,de,Europe/Busingen,Busingen
+Europe/Chisinau,Europe/Chisinau,md,Europe/Chisinau,Chisinau
+Europe/Copenhagen,Europe/Copenhagen,dk,Europe/Copenhagen,Copenhagen
+Europe/Dublin,Europe/Dublin,ie,Europe/Dublin,Dublin
+Europe/Gibraltar,Europe/Gibraltar,gi,Europe/Gibraltar,Gibraltar
+Europe/Guernsey,Europe/Guernsey,gg,Europe/Guernsey,Guernsey
+Europe/Helsinki,Europe/Helsinki,fi,Europe/Helsinki,Helsinki
+Europe/Isle_of_Man,Europe/Isle_of_Man,im,Europe/Isle of Man,Isle of Man
+Europe/Istanbul,Europe/Istanbul,tr,Europe/Istanbul,Istanbul
+Europe/Jersey,Europe/Jersey,je,Europe/Jersey,Jersey
+Europe/Kaliningrad,Europe/Kaliningrad,ru,Europe/Kaliningrad,Kaliningrad
+Europe/Kiev,Europe/Kiev,ua,Europe/Kiev,Kiev
+Europe/Kirov,Europe/Kirov,ru,Europe/Kirov,Kirov
+Europe/Lisbon,Europe/Lisbon,pt,Europe/Lisbon,Lisbon
+Europe/Ljubljana,Europe/Ljubljana,si,Europe/Ljubljana,Ljubljana
+Europe/London,Europe/London,gb,Europe/London,London
+Europe/Luxembourg,Europe/Luxembourg,lu,Europe/Luxembourg,Luxembourg
+Europe/Madrid,Europe/Madrid,es,Europe/Madrid,Madrid
+Europe/Malta,Europe/Malta,mt,Europe/Malta,Malta
+Europe/Mariehamn,Europe/Mariehamn,ax,Europe/Mariehamn,Mariehamn
+Europe/Minsk,Europe/Minsk,by,Europe/Minsk,Minsk
+Europe/Monaco,Europe/Monaco,mc,Europe/Monaco,Monaco
+Europe/Moscow,Europe/Moscow,ru,Europe/Moscow,Moscow
+Europe/Oslo,Europe/Oslo,no,Europe/Oslo,Oslo
+Europe/Paris,Europe/Paris,fr,Europe/Paris,Paris
+Europe/Podgorica,Europe/Podgorica,me,Europe/Podgorica,Podgorica
+Europe/Prague,Europe/Prague,cz,Europe/Prague,Prague
+Europe/Riga,Europe/Riga,lv,Europe/Riga,Riga
+Europe/Rome,Europe/Rome,it,Europe/Rome,Rome
+Europe/Samara,Europe/Samara,ru,Europe/Samara,Samara
+Europe/San_Marino,Europe/San_Marino,sm,Europe/San Marino,San Marino
+Europe/Sarajevo,Europe/Sarajevo,ba,Europe/Sarajevo,Sarajevo
+Europe/Saratov,Europe/Saratov,ru,Europe/Saratov,Saratov
+Europe/Simferopol,Europe/Simferopol,ua,Europe/Simferopol,Simferopol
+Europe/Skopje,Europe/Skopje,mk,Europe/Skopje,Skopje
+Europe/Sofia,Europe/Sofia,bg,Europe/Sofia,Sofia
+Europe/Stockholm,Europe/Stockholm,se,Europe/Stockholm,Stockholm
+Europe/Tallinn,Europe/Tallinn,ee,Europe/Tallinn,Tallinn
+Europe/Tirane,Europe/Tirane,al,Europe/Tirane,Tirane
+Europe/Ulyanovsk,Europe/Ulyanovsk,ru,Europe/Ulyanovsk,Ulyanovsk
+Europe/Uzhgorod,Europe/Uzhgorod,ua,Europe/Uzhgorod,Uzhgorod
+Europe/Vaduz,Europe/Vaduz,li,Europe/Vaduz,Vaduz
+Europe/Vatican,Europe/Vatican,va,Europe/Vatican,Vatican
+Europe/Vienna,Europe/Vienna,at,Europe/Vienna,Vienna
+Europe/Vilnius,Europe/Vilnius,lt,Europe/Vilnius,Vilnius
+Europe/Volgograd,Europe/Volgograd,ru,Europe/Volgograd,Volgograd
+Europe/Warsaw,Europe/Warsaw,pl,Europe/Warsaw,Warsaw
+Europe/Zagreb,Europe/Zagreb,hr,Europe/Zagreb,Zagreb
+Europe/Zaporozhye,Europe/Zaporozhye,ua,Europe/Zaporozhye,Zaporozhye
+Europe/Zurich,Europe/Zurich,ch,Europe/Zurich,Zurich
+Indian/Antananarivo,Indian/Antananarivo,mg,Indian/Antananarivo,Antananarivo
+Indian/Chagos,Indian/Chagos,io,Indian/Chagos,Chagos
+Indian/Christmas,Indian/Christmas,cx,Indian/Christmas,Christmas
+Indian/Cocos,Indian/Cocos,cc,Indian/Cocos,Cocos
+Indian/Comoro,Indian/Comoro,km,Indian/Comoro,Comoro
+Indian/Kerguelen,Indian/Kerguelen,tf,Indian/Kerguelen,Kerguelen
+Indian/Mahe,Indian/Mahe,sc,Indian/Mahe,Mahe
+Indian/Maldives,Indian/Maldives,mv,Indian/Maldives,Maldives
+Indian/Mauritius,Indian/Mauritius,mu,Indian/Mauritius,Mauritius
+Indian/Mayotte,Indian/Mayotte,yt,Indian/Mayotte,Mayotte
+Indian/Reunion,Indian/Reunion,re,Indian/Reunion,Reunion
+Pacific/Apia,Pacific/Apia,ws,Pacific/Apia,Apia
+Pacific/Auckland,Pacific/Auckland,nz,Pacific/Auckland,Auckland
+Pacific/Bougainville,Pacific/Bougainville,pg,Pacific/Bougainville,Bougainville
+Pacific/Chatham,Pacific/Chatham,nz,Pacific/Chatham,Chatham
+Pacific/Chuuk,Pacific/Chuuk,fm,Pacific/Chuuk,Chuuk
+Pacific/Easter,Pacific/Easter,cl,Pacific/Easter,Easter
+Pacific/Efate,Pacific/Efate,vu,Pacific/Efate,Efate
+Pacific/Enderbury,Pacific/Enderbury,ki,Pacific/Enderbury,Enderbury
+Pacific/Fakaofo,Pacific/Fakaofo,tk,Pacific/Fakaofo,Fakaofo
+Pacific/Fiji,Pacific/Fiji,fj,Pacific/Fiji,Fiji
+Pacific/Funafuti,Pacific/Funafuti,tv,Pacific/Funafuti,Funafuti
+Pacific/Galapagos,Pacific/Galapagos,ec,Pacific/Galapagos,Galapagos
+Pacific/Gambier,Pacific/Gambier,pf,Pacific/Gambier,Gambier
+Pacific/Guadalcanal,Pacific/Guadalcanal,sb,Pacific/Guadalcanal,Guadalcanal
+Pacific/Guam,Pacific/Guam,gu,Pacific/Guam,Guam
+Pacific/Honolulu,Pacific/Honolulu,us,Pacific/Honolulu,Honolulu
+Pacific/Kiritimati,Pacific/Kiritimati,ki,Pacific/Kiritimati,Kiritimati
+Pacific/Kosrae,Pacific/Kosrae,fm,Pacific/Kosrae,Kosrae
+Pacific/Kwajalein,Pacific/Kwajalein,mh,Pacific/Kwajalein,Kwajalein
+Pacific/Majuro,Pacific/Majuro,mh,Pacific/Majuro,Majuro
+Pacific/Marquesas,Pacific/Marquesas,pf,Pacific/Marquesas,Marquesas
+Pacific/Midway,Pacific/Midway,um,Pacific/Midway,Midway
+Pacific/Nauru,Pacific/Nauru,nr,Pacific/Nauru,Nauru
+Pacific/Niue,Pacific/Niue,nu,Pacific/Niue,Niue
+Pacific/Norfolk,Pacific/Norfolk,nf,Pacific/Norfolk,Norfolk
+Pacific/Noumea,Pacific/Noumea,nc,Pacific/Noumea,Noumea
+Pacific/Pago_Pago,Pacific/Pago_Pago,as,Pacific/Pago Pago,Pago Pago
+Pacific/Palau,Pacific/Palau,pw,Pacific/Palau,Palau
+Pacific/Pitcairn,Pacific/Pitcairn,pn,Pacific/Pitcairn,Pitcairn
+Pacific/Pohnpei,Pacific/Pohnpei,fm,Pacific/Pohnpei,Pohnpei
+Pacific/Port_Moresby,Pacific/Port_Moresby,pg,Pacific/Port Moresby,Port Moresby
+Pacific/Rarotonga,Pacific/Rarotonga,ck,Pacific/Rarotonga,Rarotonga
+Pacific/Saipan,Pacific/Saipan,mp,Pacific/Saipan,Saipan
+Pacific/Tahiti,Pacific/Tahiti,pf,Pacific/Tahiti,Tahiti
+Pacific/Tarawa,Pacific/Tarawa,ki,Pacific/Tarawa,Tarawa
+Pacific/Tongatapu,Pacific/Tongatapu,to,Pacific/Tongatapu,Tongatapu
+Pacific/Wake,Pacific/Wake,um,Pacific/Wake,Wake
+Pacific/Wallis,Pacific/Wallis,wf,Pacific/Wallis,Wallis
+UTC,UTC,,Coordinated Universal Time,UTC

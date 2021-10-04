@@ -11,6 +11,7 @@ use Squire\Models\Country;
 use Squire\Models\Currency;
 use Squire\Models\GbCounty;
 use Squire\Models\Region;
+use Squire\Models\Timezone;
 use Squire\Repository;
 use Squire\Rules\AirlineRule;
 use Squire\Rules\AirportRule;
@@ -19,6 +20,7 @@ use Squire\Rules\CountryRule;
 use Squire\Rules\CurrencyRule;
 use Squire\Rules\GbCountyRule;
 use Squire\Rules\RegionRule;
+use Squire\Rules\TimezoneRule;
 use Squire\Tests\Models;
 use Squire\Tests\Rules;
 
@@ -38,6 +40,7 @@ class RuleTest extends TestCase
         $this->testRule(CurrencyRule::class, Currency::class);
         $this->testRule(GbCountyRule::class, GbCounty::class);
         $this->testRule(RegionRule::class, Region::class);
+        $this->testRule(TimezoneRule::class, Timezone::class);
     }
 
     protected function testRule(string $rule, string $model): void

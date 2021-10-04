@@ -28,6 +28,7 @@ Common use cases for Squire include:
     - [Formatting money](#formatting-money)
   - [`Squire\Models\GbCounty`](#squiremodelsgbcounty)
   - [`Squire\Models\Region`](#squiremodelsregion)
+  - [`Squire\Models\Timezone`](#squiremodelstimezone)
 - [Model Relationships](#model-relationships)
 - [Validation](#validation)
 - [Creating your own Models](#creating-your-own-models)
@@ -257,6 +258,36 @@ This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting
 | `continent` | [`Squire\Models\Continent`](#squiremodelscontinent) |
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
 | `gbCounties` | [`Squire\Models\GbCounty`](#squiremodelsgbcounty) |
+
+### `Squire\Models\Timezone`
+
+#### Installation
+
+| Locale | Installation Command |
+|--|--|
+| English | `composer require squirephp/timezones-en` |
+
+#### Schema
+
+| Column Name | Description | Example |
+|--|--|--|
+| `code` | [PHP timezone identifier](https://www.php.net/manual/en/timezones.php). | `America/New_York` |
+| `country_id` | [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). | `us` |
+| `long_name` | Full timezone name. | `America/New York` |
+| `name` | Short timezone name. | `New York` |
+
+#### Relationships
+
+| Relationship name | Model |
+|--|--|
+| `continent` | [`Squire\Models\Continent`](#squiremodelscontinent) |
+| `country` | [`Squire\Models\Country`](#squiremodelscountry) |
+
+#### Methods
+
+| Method name | Description |
+|--|--|
+| `getOffset($dateTime)` | Returns the timezone offset from GMT. |
 
 ## Model Relationships
 
