@@ -2,6 +2,6 @@
 
 return [
 
-    'region' => 'The selected :attribute is an invalid timezone.',
+    'timezone' => 'The selected :attribute is an invalid timezone.',
 
 ];

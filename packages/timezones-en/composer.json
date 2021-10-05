@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Squire\\RegionsEnServiceProvider"
+                "Squire\\TimezonesEnServiceProvider"
             ]
         }
     },
