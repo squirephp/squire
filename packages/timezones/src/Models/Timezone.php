@@ -18,6 +18,11 @@ class Timezone extends Model
         'name' => 'string',
     ];
 
+    public static function getDefault(): ?static
+    {
+        return static::find(config('app.timezone'));
+    }
+
     public function continent(): HasOneThrough
     {
         return $this->hasOneThrough(Continent::class, Country::class);
