@@ -499,6 +499,7 @@ All properties and methods in [custom models](#creating-a-model) and [custom val
 - The minimum PHP version has been bumped to v8.0, and the minimum Laravel version to v8.x.
 - Validation rules have been renamed, so they all end with `Rule`. This allows both the model and rule to be imported into the same class without the use of aliasing.
 - Types have been introduced to all classes. If you have created [custom models](#creating-a-model) and [custom validation rules](#creating-a-validation-rule), properties and methods now need to use the correct types.
+- The primary key of airports is now their ICAO code. The region relationship has been removed and replaced with country. The local code has been removed.
 
 ## Need Help?
 
