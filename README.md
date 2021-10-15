@@ -124,6 +124,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 |--|--|
 | German | `composer require squirephp/continents-de` |
 | English | `composer require squirephp/continents-en` |
+| Polish | `composer require squirephp/continents-pl` |
 
 #### Schema
 
@@ -149,6 +150,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | English | `composer require squirephp/countries-en` |
 | French | `composer require squirephp/countries-fr` |
 | German | `composer require squirephp/countries-de` |
+| Polish | `composer require squirephp/countries-pl` |
 | Spanish | `composer require squirephp/countries-es` |
 
 #### Schema
