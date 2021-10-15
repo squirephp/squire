@@ -6,6 +6,7 @@ use Illuminate\Database\Connectors\ConnectionFactory;
 use Illuminate\Database\Eloquent;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\SQLiteConnection;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use ReflectionClass;
 
@@ -136,7 +137,11 @@ abstract class Model extends Eloquent\Model
 
         $schema = collect(str_getcsv($data->first()));
 
-        $data->transform(fn (string $line) => $schema->combine(str_getcsv($line)));
+        $data->transform(function (string $line) use ($schema): Collection {
+            return $schema->combine(
+                array_map(fn ($value) => $value !== '' ? $value : null, str_getcsv($line))
+            );
+        });
 
         $data->shift();
 
