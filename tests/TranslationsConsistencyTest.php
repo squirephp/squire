@@ -4,7 +4,7 @@ namespace Squire\Tests;
 
 use Illuminate\Support\Collection;
 
-class DataConsistencyTest extends TestCase
+class TranslationsConsistencyTest extends TestCase
 {
     protected const PACKAGES_DIRECTORY = './packages/';
 
