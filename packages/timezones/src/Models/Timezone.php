@@ -5,6 +5,7 @@ namespace Squire\Models;
 use DateTimeInterface;
 use DateTimeZone;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Squire\Model;
 
@@ -21,6 +22,11 @@ class Timezone extends Model
     public static function getDefault(): ?static
     {
         return static::find(config('app.timezone'));
+    }
+
+    public function airports(): HasMany
+    {
+        return $this->hasMany(Airport::class);
     }
 
     public function continent(): HasOneThrough

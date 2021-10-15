@@ -102,20 +102,19 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Column Name | Description | Example |
 |--|--|--|
-| `code_gps` | GPS code of the airport. | `ayse` |
-| `code_iata` | [IATA code](https://en.wikipedia.org/wiki/IATA_airport_code) of the airport. | `nis` |
-| `code_icao` | Local code of the airport. |`sbi` |
-| `municipality` | Municipality of the airport. | `Simberi Island` |
-| `name` | Name of the airport. | `Simberi Airport` |
-| `region_id` | [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) of the airport. | `pg-nik` |
-| `type` | Type of airport. | `small_airport` |
+| `code_iata` | [IATA code](https://en.wikipedia.org/wiki/IATA_airport_code) of the airport. | `lhr` |
+| `code_icao` | [ICAO code](https://en.wikipedia.org/wiki/ICAO_airport_code) of the airport. |`egll` |
+| `country_id` | [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) of the airport. | `gb` |
+| `municipality` | Municipality of the airport. | `London` |
+| `name` | Name of the airport. | `London Heathrow Airport` |
+| `timezone_id` | [PHP timezone identifier](https://www.php.net/manual/en/timezones.php) of the airport. | `Europe/London` |
 
 #### Relationships
 
 | Relationship name | Model |
 |--|--|
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
-| `region` | [`Squire\Models\Region`](#squiremodelsregion) |
+| `timezone` | [`Squire\Models\Timezone`](#squiremodelstimezone) |
 
 ### `Squire\Models\Continent`
 
@@ -256,7 +255,6 @@ This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting
 
 | Relationship name | Model |
 |--|--|
-| `airports` | [`Squire\Models\Airport`](#squiremodelsairport) |
 | `continent` | [`Squire\Models\Continent`](#squiremodelscontinent) |
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
 | `gbCounties` | [`Squire\Models\GbCounty`](#squiremodelsgbcounty) |
@@ -282,6 +280,7 @@ This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting
 
 | Relationship name | Model |
 |--|--|
+| `airports` | [`Squire\Models\Airport`](#squiremodelsairport) |
 | `continent` | [`Squire\Models\Continent`](#squiremodelscontinent) |
 | `country` | [`Squire\Models\Country`](#squiremodelscountry) |
 

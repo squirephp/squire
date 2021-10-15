@@ -3,29 +3,27 @@
 namespace Squire\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Squire\Model;
 
 class Airport extends Model
 {
     public static array $schema = [
         'id' => 'string',
-        'code_gps' => 'string',
         'code_iata' => 'string',
-        'code_local' => 'string',
+        'code_icao' => 'string',
+        'country_id' => 'string',
         'municipality' => 'string',
         'name' => 'string',
-        'region_id' => 'string',
-        'type' => 'string',
+        'timezone_id' => 'string',
     ];
 
-    public function country(): HasOneThrough
+    public function country(): BelongsTo
     {
-        return $this->hasOneThrough(Country::class, Region::class);
+        return $this->belongsTo(Country::class);
     }
 
-    public function region(): BelongsTo
+    public function timezone(): BelongsTo
     {
-        return $this->belongsTo(Region::class);
+        return $this->belongsTo(Timezone::class);
     }
 }

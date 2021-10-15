@@ -16,11 +16,6 @@ class Region extends Model
         'name' => 'string',
     ];
 
-    public function airports(): HasMany
-    {
-        return $this->hasMany(Airport::class);
-    }
-
     public function continent(): HasOneThrough
     {
         return $this->hasOneThrough(Continent::class, Country::class);
