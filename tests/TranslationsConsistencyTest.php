@@ -20,8 +20,8 @@ class TranslationsConsistencyTest extends TestCase
                 
                 return implode('-', $parts);
             })
-            ->filter(fn (Collection $translations, string $package): bool => $translations->count() > 1)
-            ->each(function (Collection $translations): void {
+            ->filter(fn (Collection $translations): bool => $translations->count() > 1)
+            ->each(function (Collection $translations, string $package): void {
                 $previous = null;
                 
                 $translations->each(function (string $translation) use ($package, &$previous) {
