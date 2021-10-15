@@ -350,7 +350,7 @@ id,code_iata,code_icao,country_id,municipality,name,timezone_id
 0cl3,,0cl3,us,Chula Vista,John Nichol's Field Airport,America/Los_Angeles
 0cl6,,0cl6,us,Lancaster,Bohunk's Airpark,America/Los_Angeles
 0cl8,,0cl8,us,Ridgecrest,Tera Ultralightport,America/Los_Angeles
-0co1,,0co1,us,Louisville,Dave's Airport,America/Denver,0co1
+0co1,,0co1,us,Louisville,Dave's Airport,America/Denver
 0co2,,0co2,us,Crested Butte,Buckhorn Ranch Airport,America/Denver
 0co3,,0co3,us,Bennett,Greggs Nr 1 Airport,America/Denver
 0co5,,0co5,us,Last Chance,Chenoweth Airport,America/Denver
