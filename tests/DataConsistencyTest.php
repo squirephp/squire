@@ -11,7 +11,7 @@ class DataConsistencyTest extends TestCase
     /** @test */
     public function are_data_files_consistent(): void
     {
-        $packages = collect(glob(static::PACKAGES_DIRECTORY . '*', GLOB_ONLYDIR))
+        collect(glob(static::PACKAGES_DIRECTORY . '*', GLOB_ONLYDIR))
             ->filter(fn (string $name): bool => $this->isTranslatedPackageDirectory($name))
             ->map(fn (string $name): string => str_replace(static::PACKAGES_DIRECTORY, '', $name))
             ->groupBy(function (string $name): string {
