@@ -1,0 +1,45 @@
+{
+    "name": "squirephp/countries-pl",
+    "description": "A library containing the Polish translation of Squire's Country model.",
+    "keywords": [
+        "squire"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Dan Harrin",
+            "email": "dan@danharrin.com"
+        },
+        {
+            "name": "Krzysztof Rewak",
+            "email": "krzysztof.rewak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "squirephp/countries": "self.version",
+        "squirephp/repository": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squire\\CountriesPlServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
