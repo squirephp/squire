@@ -1,0 +1,251 @@
+id,calling_code,capital_city,code_2,code_3,continent_id,currency_id,flag,name
+ad,376,Andorra,ad,and,eu,eur,🇦🇩,Andora
+ae,971,Abu Zabi,ae,are,as,aed,🇦🇪,Zjednoczone Emiraty Arabskie
+af,93,Kabul,af,afg,as,afn,🇦🇫,Afganistan
+ag,1268,Saint John’s,ag,atg,na,xcd,🇦🇬,Antigua i Barbuda
+ai,1264,The Valley,ai,aia,na,xcd,🇦🇮,Anguilla
+al,355,Tirana,al,alb,eu,all,🇦🇱,Albania
+am,374,Erywań,am,arm,as,amd,🇦🇲,Armenia
+ao,244,Luanda,ao,ago,af,aoa,🇦🇴,Angola
+aq,672,,aq,ata,an,,🇦🇶,Antarktyka
+ar,54,Buenos Aires,ar,arg,sa,ars,🇦🇷,Argentyna
+as,1684,Fagatogo,as,asm,oc,usd,🇦🇸,Samoa Amerykańskie
+at,43,Wiedeń,at,aut,eu,eur,🇦🇹,Austria
+au,61,Canberra,au,aus,oc,aud,🇦🇺,Australia
+aw,297,Oranjestad,aw,abw,na,awg,🇦🇼,Aruba
+ax,358,Maarianhamina,ax,ala,eu,eur,🇦🇽,Wyspy Alandzkie
+az,994,Baku,az,aze,as,azn,🇦🇿,Azerbejdżan
+ba,387,Sarajewo,ba,bih,eu,bam,🇧🇦,Bośnia i Hercegowina
+bb,1246,Bridgetown,bb,brb,na,bbd,🇧🇧,Barbados
+bd,880,Dhaka,bd,bgd,as,bdt,🇧🇩,Bangladesz
+be,32,Bruksela,be,bel,eu,eur,🇧🇪,Belgia
+bf,226,Wagadugu,bf,bfa,af,xof,🇧🇫,Burkina Faso
+bg,359,Sofia,bg,bgr,eu,bgn,🇧🇬,Bułgaria
+bh,973,Manama,bh,bhr,as,bhd,🇧🇭,Bahrajn
+bi,257,Bużumbura,bi,bdi,af,bif,🇧🇮,Burundi
+bj,229,Porto-Novo,bj,ben,af,xof,🇧🇯,Benin
+bl,590,Gustavia,bl,blm,na,eur,🇧🇱,Saint-Barthélemy
+bm,1441,Hamilton,bm,bmu,na,bmd,🇧🇲,Bermudy
+bn,673,Bandar Seri Begawan,bn,brn,as,bnd,🇧🇳,Brunei
+bo,591,Sucre,bo,bol,sa,bob,🇧🇴,Boliwia
+bq,599,Willemstad,bq,bes,na,usd,🇧🇶,"Bonaire, Sint Eustatius i Saba"
+br,55,Brasilia,br,bra,sa,brl,🇧🇷,Brazylia
+bs,1242,Nassau,bs,bhs,na,bsd,🇧🇸,Bahamy
+bt,975,Thimphu,bt,btn,as,btn,🇧🇹,Bhutan
+bv,55,,bv,bvt,an,nok,🇧🇻,Wyspa Bouveta
+bw,267,Gaborone,bw,bwa,af,bwp,🇧🇼,Botswana
+by,375,Mińsk,by,blr,eu,byr,🇧🇾,Białoruś
+bz,501,Belmopan,bz,blz,na,bzd,🇧🇿,Belize
+ca,1,Ottawa,ca,can,na,cad,🇨🇦,Kanada
+cc,61,West Island,cc,cck,as,aud,🇨🇨,Wyspy Kokosowe
+cd,243,Kinszasa,cd,cod,af,cdf,🇨🇩,Demokratyczna Republika Konga
+cf,236,Bangi,cf,caf,af,xaf,🇨🇫,Republika Środkowoafrykańska
+cg,242,Brazzaville,cg,cog,af,xaf,🇨🇬,Kongo
+ch,41,Berno,ch,che,eu,chf,🇨🇭,Szwajcaria
+ci,225,Jamusukro,ci,civ,af,xof,🇨🇮,Wybrzeże Kości Słoniowej
+ck,682,Avarua,ck,cok,oc,nzd,🇨🇰,Wyspy Cooka
+cl,56,Santiago,cl,chl,sa,clp,🇨🇱,Chile
+cm,237,Jaunde,cm,cmr,af,xaf,🇨🇲,Kamerun
+cn,86,Pekin,cn,chn,as,cny,🇨🇳,Chiny
+co,57,Bogota,co,col,sa,cop,🇨🇴,Kolumbia
+cr,506,San Jose,cr,cri,na,crc,🇨🇷,Kostaryka
+cu,53,Hawana,cu,cub,na,cup,🇨🇺,Kuba
+cv,238,Praia,cv,cpv,af,cve,🇨🇻,Republika Zielonego Przylądka
+cw,599,Willemstad, cw,cuw,na,ang,🇨🇼,Curaçao
+cx,61,Flying Fish Cove,cx,cxr,as,aud,🇨🇽,Wyspa Bożego Narodzenia
+cy,357,Nikozja,cy,cyp,eu,eur,🇨🇾,Cypr
+cz,420,Praga,cz,cze,eu,czk,🇨🇿,Czechy
+de,49,Berlin,de,deu,eu,eur,🇩🇪,Niemcy
+dj,253,Dżibuti,dj,dji,af,djf,🇩🇯,Dżibuti
+dk,45,Kopenhaga,dk,dnk,eu,dkk,🇩🇰,Dania
+dm,1767,Roseau,dm,dma,na,xcd,🇩🇲,Dominika
+do,1809,Santo Domingo,do,dom,na,dop,🇩🇴,Dominikana
+dz,213,Algier,dz,dza,af,dzd,🇩🇿,Algieria
+ec,593,Quito,ec,ecu,sa,usd,🇪🇨,Ekwador
+ee,372,Tallinn,ee,est,eu,eur,🇪🇪,Estonia
+eg,20,Kair,eg,egy,af,egp,🇪🇬,Egipt
+eh,212,Al-Ujun,eh,esh,af,mad,🇪🇭,Sahara Zachodnia
+er,291,Asmara,er,eri,af,ern,🇪🇷,Erytrea
+es,34,Madryt,es,esp,eu,eur,🇪🇸,Hiszpania
+et,251,Addis Abeba,et,eth,af,etb,🇪🇹,Etiopia
+fi,358,Helsinki,fi,fin,eu,eur,🇫🇮,Finlandia
+fj,679,Suva,fj,fji,oc,fjd,🇫🇯,Fidżi
+fk,500,Stanley,fk,flk,sa,fkp,🇫🇰,Falklandy
+fm,691,Palikir,fm,fsm,oc,usd,🇫🇲,Mikronezja
+fo,298,Thorshavn,fo,fro,eu,dkk,🇫🇴,Wyspy Owcze
+fr,33,Paryż,fr,fra,eu,eur,🇫🇷,Francja
+ga,241,Libreville,ga,gab,af,xaf,🇬🇦,Gabon
+gb,44,Londyn,gb,gbr,eu,gbp,🇬🇧,Wielka Brytania
+gd,1473,St. George's,gd,grd,na,xcd,🇬🇩,Grenada
+ge,995,Tbilisi,ge,geo,as,gel,🇬🇪,Gruzja
+gf,594,Kajenna,gf,guf,sa,eur,🇬🇫,Gujana Francuska
+gg,44,Saint Peter Port,gg,ggy,eu,gbp,🇬🇬,Guernsey
+gh,233,Akra,gh,gha,af,ghs,🇬🇭,Ghana
+gi,350,Gibraltar,gi,gib,eu,gip,🇬🇮,Gibraltar
+gl,299,Nuuk,gl,grl,na,dkk,🇬🇱,Grenlandia
+gm,220,Bandżul,gm,gmb,af,gmd,🇬🇲,Gambia
+gn,224,Konakry,gn,gin,af,gnf,🇬🇳,Gwinea
+gp,590,Basse-Terre,gp,glp,na,eur,🇬🇵,Gwadelupa
+gq,240,Malabo,gq,gnq,af,xaf,🇬🇶,Gwinea Równikowa
+gr,30,Ateny,gr,grc,eu,eur,🇬🇷,Grecja
+gs,500,Grytviken,gs,sgs,an,gbp,🇬🇸,Georgia Południowa i Sandwich Południowy
+gt,502,Gwatemala,gt,gtm,na,gtq,🇬🇹,Gwatemala
+gu,1671,Hagatna,gu,gum,oc,usd,🇬🇺,Guam
+gw,245,Bissau,gw,gnb,af,xof,🇬🇼,Gwinea Bissau
+gy,592,Georgetown,gy,guy,sa,gyd,🇬🇾,Gujana
+hk,852,Hongkong,hk,hkg,as,hkd,🇭🇰,Hongkong
+hm,672,,hm,hmd,oc,,🇦🇺,Wyspy Heard i McDonalda
+hn,504,Tegucigalpa,hn,hnd,na,hnl,🇭🇳,Honduras
+hr,385,Zagrzeb,hr,hrv,eu,hrk,🇭🇷,Chorwacja
+ht,509,Port-au-Prince,ht,hti,na,htg,🇭🇹,Haiti
+hu,36,Budapeszt,hu,hun,eu,huf,🇭🇺,Węgry
+id,62,Dżakarta,id,idn,as,idr,🇮🇩,Indonezja
+ie,353,Dublin,ie,irl,eu,eur,🇮🇪,Irlandia
+il,972,Jerozolima,il,isr,as,ils,🇮🇱,Izrael
+im,44,Douglas,im,imn,eu,gbp,🇮🇲,Wyspa Man
+in,91,Nowe Delhi,in,ind,as,inr,🇮🇳,Indie
+io,246,Diego Garcia,io,iot,as,usd,🇮🇴,Brytyjskie Terytorium Oceanu Indyjskiego
+iq,964,Bagdad,iq,irq,as,iqd,🇮🇶,Irak
+ir,98,Teheran,ir,irn,as,irr,🇮🇷,Iran
+is,354,Reykjavík,is,isl,eu,isk,🇮🇸,Islandia
+it,39,Rzym,it,ita,eu,eur,🇮🇹,Włochy
+je,44,Saint Helier,je,jey,eu,gbp,🇯🇪,Jersey
+jm,1876,Kingston,jm,jam,na,jmd,🇯🇲,Jamajka
+jo,962,Amman,jo,jor,as,jod,🇯🇴,Jordania
+jp,81,Tokio,jp,jpn,as,jpy,🇯🇵,Japonia
+ke,254,Nairobi,ke,ken,af,kes,🇰🇪,Kenia
+kg,996,Biszkek,kg,kgz,as,kgs,🇰🇬,Kirgistan
+kh,855,Phnom Penh,kh,khm,as,khr,🇰🇭,Kambodża
+ki,686,Tarawa,ki,kir,oc,aud,🇰🇮,Kiribati
+km,269,Moroni,km,com,af,kmf,🇰🇲,Komory
+kn,1869,Basseterre,kn,kna,na,xcd,🇰🇳,Saint Kitts i Nevis
+kp,850,Pjongjang,kp,prk,as,kpw,🇰🇵,Korea Północna
+kr,82,Seul,kr,kor,as,krw,🇰🇷,Korea Południowa
+kw,965,Kuwejt,kw,kwt,as,kwd,🇰🇼,Kuwejt
+ky,1345,George Town,ky,cym,na,kyd,🇰🇾,Kajmany
+kz,7,Nur-Sułtan,kz,kaz,as,kzt,🇰🇿,Kazachstan
+la,856,Wientian,la,lao,as,lak,🇱🇦,Laos
+lb,961,Bejrut,lb,lbn,as,lbp,🇱🇧,Liban
+lc,1758,Castries,lc,lca,na,xcd,🇱🇨,Saint Lucia
+li,423,Vaduz,li,lie,eu,chf,🇱🇮,Liechtenstein
+lk,94,Sri Dźajawardanapura Kotte,lk,lka,as,lkr,🇱🇰,Sri Lanka
+lr,231,Monrovia,lr,lbr,af,lrd,🇱🇷,Liberia
+ls,266,Maseru,ls,lso,af,lsl,🇱🇸,Lesotho
+lt,370,Wilno,lt,ltu,eu,ltl,🇱🇹,Litwa
+lu,352,Luksemburg,lu,lux,eu,eur,🇱🇺,Luksemburg
+lv,371,Ryga,lv,lva,eu,eur,🇱🇻,Łotwa
+ly,218,Trypolis,ly,lby,af,lyd,🇱🇾,Libia
+ma,212,Rabat,ma,mar,af,mad,🇲🇦,Maroko
+mc,377,Monako,mc,mco,eu,eur,🇲🇨,Monako
+md,373,Kiszyniów,md,mda,eu,mdl,🇲🇩,Mołdawia
+me,382,Podgorica,me,mne,eu,eur,🇲🇪,Czarnogóra
+mf,590,Marigot,mf,maf,na,eur,🇲🇫,Saint-Martin
+mg,261,Antananarywa,mg,mdg,af,mga,🇲🇬,Madagaskar
+mh,692,Majuro,mh,mhl,oc,usd,🇲🇭,Wyspy Marshalla
+mk,389,Skopje,mk,mkd,eu,mkd,🇲🇰,Macedonia Północna
+ml,223,Bamako,ml,mli,af,xof,🇲🇱,Mali
+mm,95,Naypyidaw,mm,mmr,as,mmk,🇲🇲,Mjanma
+mn,976,Ułan Bator,mn,mng,as,mnt,🇲🇳,Mongolia
+mo,853,Makau,mo,mac,as,mop,🇲🇴,Makau
+mp,1670,Capitol Hill,mp,mnp,oc,usd,🇲🇵,Mariany Północne
+mq,596,Fort-de-France,mq,mtq,na,eur,🇲🇶,Martynika
+mr,222,Nawakszut,mr,mrt,af,mro,🇲🇷,Mauretania
+ms,1664,Plymouth,ms,msr,na,xcd,🇲🇸,Montserrat
+mt,356,Valletta,mt,mlt,eu,eur,🇲🇹,Malta
+mu,230,Port Louis,mu,mus,af,mur,🇲🇺,Mauritius
+mv,960,Male,mv,mdv,as,mvr,🇲🇻,Malediwy
+mw,265,Lilongwe,mw,mwi,af,mwk,🇲🇼,Malawi
+mx,52,Meksyk,mx,mex,na,mxn,🇲🇽,Meksyk
+my,60,Kuala Lumpur,my,mys,as,myr,🇲🇾,Malezja
+mz,258,Maputo,mz,moz,af,mzn,🇲🇿,Mozambik
+na,264,Windhuk,na,nam,af,nad,🇳🇦,Namibia
+nc,687,Numea,nc,ncl,oc,xpf,🇳🇨,Nowa Kaledonia
+ne,227,Niamey,ne,ner,af,xof,🇳🇪,Niger
+nf,672,Kingston,nf,nfk,oc,aud,🇳🇫,Norfolk
+ng,234,Abudża,ng,nga,af,ngn,🇳🇬,Nigeria
+ni,505,Managua,ni,nic,na,nio,🇳🇮,Nikaragua
+nl,31,Amsterdam,nl,nld,eu,eur,🇳🇱,Holandia
+no,47,Oslo,no,nor,eu,nok,🇳🇴,Norwegia
+np,977,Katmandu,np,npl,as,npr,🇳🇵,Nepal
+nr,674,Yaren,nr,nru,oc,aud,🇳🇷,Nauru
+nu,683,Alofi,nu,niu,oc,nzd,🇳🇺,Niue
+nz,64,Wellington,nz,nzl,oc,nzd,🇳🇿,Nowa Zelandia
+om,968,Maskat,om,omn,as,omr,🇴🇲,Oman
+pa,507,Panama,pa,pan,na,pab,🇵🇦,Panama
+pe,51,Lima,pe,per,sa,pen,🇵🇪,Peru
+pf,689,Papeete,pf,pyf,oc,xpf,🇵🇫,Polinezja Francuska
+pg,675,Port Moresby,pg,png,oc,pgk,🇵🇬,Papua-Nowa Gwinea
+ph,63,Manila,ph,phl,as,php,🇵🇭,Filipiny
+pk,92,Islamabad,pk,pak,as,pkr,🇵🇰,Pakistan
+pl,48,Warszawa,pl,pol,eu,pln,🇵🇱,Polska
+pm,508,Saint-Pierre,pm,spm,na,eur,🇵🇲,Saint-Pierre i Miquelon
+pn,870,Adamstown,pn,pcn,oc,nzd,🇵🇳,Pitcairn
+pr,1787,San Juan,pr,pri,na,usd,🇵🇷,Portoryko
+ps,970,Ramallah,ps,pse,as,ils,🇵🇸,Palestyna
+pt,351,Lizbona,pt,prt,eu,eur,🇵🇹,Portugalia
+pw,680,Melekeok,pw,plw,oc,usd,🇵🇼,Palau
+py,595,Asunción,py,pry,sa,pyg,🇵🇾,Paragwaj
+qa,974,Doha,qa,qat,as,qar,🇶🇦,Katar
+re,262,Saint-Denis,re,reu,af,eur,🇷🇪,Reunion
+ro,40,Bukareszt,ro,rou,eu,ron,🇷🇴,Rumunia
+rs,381,Belgrad,rs,srb,eu,rsd,🇷🇸,Serbia
+ru,7,Moskwa,ru,rus,eu,rub,🇷🇺,Rosja
+rw,250,Kigali,rw,rwa,af,rwf,🇷🇼,Rwanda
+sa,966,Rijad,sa,sau,as,sar,🇸🇦,Arabia Saudyjska
+sb,677,Honiara,sb,slb,oc,sbd,🇸🇧,Wyspy Salomona
+sc,248,Victoria,sc,syc,af,scr,🇸🇨,Seszele
+sd,249,Chartum,sd,sdn,af,sdg,🇸🇩,Sudan
+se,46,Sztokholm,se,swe,eu,sek,🇸🇪,Szwecja
+sg,65,Singapur,sg,sgp,as,sgd,🇸🇬,Singapur
+sh,290,Jamestown,sh,shn,af,shp,🇸🇭,"Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha"
+si,386,Lublana,si,svn,eu,eur,🇸🇮,Słowenia
+sj,47,Longyearbyen,sj,sjm,eu,nok,🇸🇯,Svalbard i Jan Mayen
+sk,421,Bratysłava,sk,svk,eu,eur,🇸🇰,Słowacja
+sl,232,Freetown,sl,sle,af,sll,🇸🇱,Sierra Leone
+sm,378,San Marino,sm,smr,eu,eur,🇸🇲,San Marino
+sn,221,Dakar,sn,sen,af,xof,🇸🇳,Senegal
+so,252,Mogadiszu,so,som,af,sos,🇸🇴,Somalia
+sr,597,Paramaribo,sr,sur,sa,srd,🇸🇷,Surinam
+ss,211,Dżuba,ss,ssd,af,ssp,🇸🇸,Sudan Południowy
+st,239,São Tomé,st,stp,af,std,🇸🇹,Wyspy Świętego Tomasza i Książęca
+sv,503,San Salvador,sv,slv,na,usd,🇸🇻,Salwador
+sx,599,Philipsburg,sx,sxm,na,ang,🇸🇽,Sint Maarten
+sy,963,Damaszek,sy,syr,as,syp,🇸🇾,Syria
+sz,268,Mbabane,sz,swz,af,szl,🇸🇿,Eswatini
+tc,1649,Cockburn Town,tc,tca,na,usd,🇹🇨,Turks i Caicos
+td,235,Ndżamena,td,tcd,af,xaf,🇹🇩,Czad
+tf,262,Port-aux-Francais,tf,atf,an,eur,🇹🇫,Francuskie Terytoria Południowe i Antarktyczne
+tg,228,Lome,tg,tgo,af,xof,🇹🇬,Togo
+th,66,Bangkok,th,tha,as,thb,🇹🇭,Tajlandia
+tj,992,Duszanbe,tj,tjk,as,tjs,🇹🇯,Tadżykistan
+tk,690,,tk,tkl,oc,nzd,🇹🇰,Tokelau
+tl,670,Dili,tl,tls,oc,usd,🇹🇱,Timor Wschodni
+tm,993,Aszchabad,tm,tkm,as,tmt,🇹🇲,Turkmenistan
+tn,216,Tunis,tn,tun,af,tnd,🇹🇳,Tunezja
+to,676,Nukuʻalofa,to,ton,oc,top,🇹🇴,Tonga
+tr,90,Ankara,tr,tur,as,try,🇹🇷,Turcja
+tt,1868,Port-of-Spain,tt,tto,na,ttd,🇹🇹,Trynidad i Tobago
+tv,688,Funafuti,tv,tuv,oc,aud,🇹🇻,Tuvalu
+tw,886,Tajpej,tw,twn,as,twd,🇹🇼,Tajwan
+tz,255,Dodoma,tz,tza,af,tzs,🇹🇿,Tanzania
+ua,380,Kijów,ua,ukr,eu,uah,🇺🇦,Ukraina
+ug,256,Kampala,ug,uga,af,ugx,🇺🇬,Uganda
+um,246,,um,umi,oc,usd,🇺🇲,Dalekie Wyspy Mniejsze Stanów Zjednoczonych
+us,1,Waszyngton,us,usa,na,usd,🇺🇸,Stany Zjednoczone
+uy,598,Montevideo,uy,ury,sa,uyu,🇺🇾,Urugwaj
+uz,998,Taszkient,uz,uzb,as,uzs,🇺🇿,Uzbekistan
+va,379,Watykan,va,vat,eu,eur,🇻🇦,Watykan
+vc,1784,Kingstown,vc,vct,na,xcd,🇻🇨,Saint Vincent i Grenadyny
+ve,58,Caracas,ve,ven,sa,vef,🇻🇪,Wenezuela
+vg,1284,Road Town,vg,vgb,na,usd,🇻🇬,Brytyjskie Wyspy Dziewicze
+vi,1340,Charlotte Amalie,vi,vir,na,usd,🇻🇮,Wyspy Dziewicze Stanów Zjednoczonych
+vn,84,Hanoi,vn,vnm,as,vnd,🇻🇳,Wietnam
+vu,678,Port Vila,vu,vut,oc,vuv,🇻🇺,Vanuatu
+wf,681,Mata Utu,wf,wlf,oc,xpf,🇼🇫,Wallis i Futuna
+ws,685,Apia,ws,wsm,oc,wst,🇼🇸,Samoa
+xk,383,Pristina,xk,xkx,eu,eur,🇽🇰,Kosowo
+ye,967,Sana,ye,yem,as,yer,🇾🇪,Jemen
+yt,262,Mamoudzou,yt,myt,af,eur,🇾🇹,Majotta
+za,27,Pretoria,za,zaf,af,zar,🇿🇦,Południowa Afryka
+zm,260,Lusaka,zm,zmb,af,zmk,🇿🇲,Zambia
+zw,263,Harare,zw,zwe,af,zwl,🇿🇼,Zimbabwe
