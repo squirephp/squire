@@ -54,10 +54,13 @@ class RepositoryManager
 
     public function getSources(?string $name = null): array | string
     {
-        if (! $name) return $this->sources;
+        if (! $name) {
+            return $this->sources;
+        }
 
-        if (! $this->sourceIsRegistered($name) || ! count($this->sources[$name]))
+        if (! $this->sourceIsRegistered($name) || ! count($this->sources[$name])) {
             throw new SourceNotFoundException($name);
+        }
 
         return $this->sources[$name];
     }

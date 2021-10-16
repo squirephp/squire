@@ -125,7 +125,7 @@ abstract class Model extends Eloquent\Model
 
     public static function migrate(?string $locale = null): void
     {
-        $tableName = (new static)->getTable();
+        $tableName = (new static())->getTable();
 
         static::resolveConnection()->getSchemaBuilder()->create($tableName, function (Blueprint $table): void {
             foreach (static::$schema as $name => $type) {

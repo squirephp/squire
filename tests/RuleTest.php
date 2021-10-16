@@ -21,8 +21,6 @@ use Squire\Rules\CurrencyRule;
 use Squire\Rules\GbCountyRule;
 use Squire\Rules\RegionRule;
 use Squire\Rules\TimezoneRule;
-use Squire\Tests\Models;
-use Squire\Tests\Rules;
 
 class RuleTest extends TestCase
 {

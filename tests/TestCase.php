@@ -20,9 +20,9 @@ use Squire\GbCountiesEnServiceProvider;
 use Squire\GbCountiesServiceProvider;
 use Squire\RegionsEnServiceProvider;
 use Squire\RegionsServiceProvider;
+use Squire\RepositoryServiceProvider;
 use Squire\TimezonesEnServiceProvider;
 use Squire\TimezonesServiceProvider;
-use Squire\RepositoryServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

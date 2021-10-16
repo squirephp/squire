@@ -13,7 +13,8 @@ class ModelServiceProvider extends ServiceProvider
         ]);
 
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/squire.php', 'squire'
+            __DIR__ . '/../config/squire.php',
+            'squire'
         );
     }
 }

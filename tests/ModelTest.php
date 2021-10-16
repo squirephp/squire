@@ -12,7 +12,6 @@ use Squire\Models\GbCounty;
 use Squire\Models\Region;
 use Squire\Models\Timezone;
 use Squire\Repository;
-use Squire\Tests\Models;
 
 class ModelTest extends TestCase
 {
