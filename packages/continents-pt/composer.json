@@ -1,0 +1,41 @@
+{
+    "name": "squirephp/continents-pt",
+    "description": "A library containing the Portuguese translation of Squire's Continent model.",
+    "keywords": [
+        "squire"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Pedro Saraiva",
+            "email": "pdro.saraiva@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "squirephp/continents": "self.version",
+        "squirephp/repository": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squire\\ContinentsPtServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
