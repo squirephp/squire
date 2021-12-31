@@ -25,7 +25,7 @@ class Currency extends Model
         return $this->hasMany(Country::class);
     }
 
-    public function format(int $number, bool $shouldConvert = false): string
+    public function format(float $number, bool $shouldConvert = false): string
     {
         return (new Money\Money(
             $number,
