@@ -122,6 +122,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
+| Arabic | `composer require squirephp/continents-ar` |
 | German | `composer require squirephp/continents-de` |
 | English | `composer require squirephp/continents-en` |
 | Polish | `composer require squirephp/continents-pl` |
@@ -147,6 +148,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
+| Arabic | `composer require squirephp/countries-ar` |
 | English | `composer require squirephp/countries-en` |
 | French | `composer require squirephp/countries-fr` |
 | German | `composer require squirephp/countries-de` |
@@ -183,6 +185,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
+| Arabic | `composer require squirephp/currencies-ar` |
 | English | `composer require squirephp/currencies-en` |
 
 #### Schema

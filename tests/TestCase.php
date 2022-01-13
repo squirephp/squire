@@ -33,7 +33,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app): array
     {
-        return array(
+        return [
             AirlinesServiceProvider::class,
             AirlinesEnServiceProvider::class,
             AirportsServiceProvider::class,
@@ -60,6 +60,6 @@ class TestCase extends \Orchestra\Testbench\TestCase
             TimezonesServiceProvider::class,
             TimezonesEnServiceProvider::class,
             RepositoryServiceProvider::class,
-        );
+        ];
     }
 }
