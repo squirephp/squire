@@ -20,10 +20,12 @@ return static function (ContainerConfigurator $containerConfigurator): void {
             ],
         ],
         'require-dev' => [
-            'orchestra/testbench' => '^6.2',
+            'orchestra/testbench' => '^6.2|^7.0',
             'phpunit/phpunit' => '^9.4',
             'symplify/monorepo-builder' => '^9.0',
         ],
+        'minimum-stability' => 'dev',
+        'prefer-stable' => true
     ]);
 
     $parameters->set(Option::DATA_TO_REMOVE, [
