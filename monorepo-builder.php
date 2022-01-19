@@ -22,7 +22,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         'require-dev' => [
             'orchestra/testbench' => '^6.2|^7.0',
             'phpunit/phpunit' => '^9.4',
-            'symplify/monorepo-builder' => '^9.4.10',
+            'symplify/monorepo-builder' => '^9.4.21',
         ],
         'minimum-stability' => 'dev',
         'prefer-stable' => true
