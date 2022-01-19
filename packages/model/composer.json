@@ -19,8 +19,8 @@
     "require": {
         "php": "^8.0",
         "ext-pdo_sqlite": "*",
-        "illuminate/database": "^6.0 || ^7.0 || ^8.40.0",
-        "illuminate/support": "^8.0"
+        "illuminate/database": "^8.40|^9.0",
+        "illuminate/support": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
