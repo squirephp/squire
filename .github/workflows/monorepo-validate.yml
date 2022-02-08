@@ -1,0 +1,26 @@
+name: monorepo-validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  run-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: vendor
+          key: composer-${{ hashFiles('composer.lock') }}
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0
+          extensions: mbstring, pdo, pdo_sqlite
+          coverage: none
+      - name: Install dependencies
+        run: composer install -n --prefer-dist
+      - name: Valdidate Dependencies are consistent
+        run: vendor/bin/monorepo-builder validate
