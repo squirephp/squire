@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "akaunting/laravel-money": "^1.2",
+        "akaunting/laravel-money": "^1.2|^2.1",
         "ext-pdo_sqlite": "*",
         "illuminate/contracts": "^8.0|^9.0",
         "illuminate/database": "^8.40|^9.0",
