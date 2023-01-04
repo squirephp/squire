@@ -17,7 +17,7 @@ class Timezone extends Model
         'country_id' => 'string',
         'long_name' => 'string',
         'name' => 'string',
-        'time_offset' => 'string,
+        'time_offset' => 'string',
     ];
 
     public static function getDefault(): ?static
