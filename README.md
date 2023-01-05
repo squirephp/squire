@@ -277,7 +277,7 @@ This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting
 | `country_id` | [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). | `us` |
 | `long_name` | Full timezone name. | `America/New York` |
 | `name` | Short timezone name. | `New York` |
-| `timezone_offset` | Timezone offset [relative to UTC](https://en.wikipedia.org/wiki/List_of_UTC_offsets). | `-08:00` |
+| `time_offset` | Timezone offset [relative to UTC](https://en.wikipedia.org/wiki/List_of_UTC_offsets). | `-08:00` |
 
 #### Relationships
 
