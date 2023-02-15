@@ -20,7 +20,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
             ],
         ],
         'require-dev' => [
-            'orchestra/testbench' => '^6.23|^7.0',
+            'orchestra/testbench' => '^6.23|^7.0|^8.0',
             'phpunit/phpunit' => '^9.4',
             'symplify/monorepo-builder' => '^9.4.21',
         ],
