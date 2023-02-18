@@ -17,10 +17,10 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.0
+          php-version: 8.1
           extensions: mbstring, pdo, pdo_sqlite
           coverage: none
       - name: Install dependencies
         run: composer install -n --prefer-dist
-      - name: Valdidate Dependencies are consistent
+      - name: Validate Dependencies are consistent
         run: vendor/bin/monorepo-builder validate
