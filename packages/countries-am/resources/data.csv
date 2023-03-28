@@ -1,0 +1,251 @@
+id,calling_code,capital_city,code_2,code_3,continent_id,currency_id,flag,name
+ad,376,Andorra la Vella,ad,and,eu,eur,🇦🇩,Անդորրա
+ae,971,Abu Dhabi,ae,are,as,aed,🇦🇪,Արաբական Միացյալ Էմիրություններ
+af,93,Kabul,af,afg,as,afn,🇦🇫,Աֆղանստան
+ag,1268,St. John's,ag,atg,na,xcd,🇦🇬,Անտիգուա և Բարբուդա
+ai,1264,The Valley,ai,aia,na,xcd,🇦🇮,Անգուիլա
+al,355,Tirana,al,alb,eu,all,🇦🇱,Ալբանիա
+am,374,Yerevan,am,arm,as,amd,🇦🇲,Հայաստան
+ao,244,Luanda,ao,ago,af,aoa,🇦🇴,Անգոլա
+aq,672,,aq,ata,an,,🇦🇶,Անտարկտիկա
+ar,54,Buenos Aires,ar,arg,sa,ars,🇦🇷,Արգենտինա
+as,1684,Pago Pago,as,asm,oc,usd,🇦🇸,Ամերիկյան Սամոա
+at,43,Vienna,at,aut,eu,eur,🇦🇹,Ավստրիա
+au,61,Canberra,au,aus,oc,aud,🇦🇺,Ավստրալիա
+aw,297,Oranjestad,aw,abw,na,awg,🇦🇼,Արուբա
+ax,358,Mariehamn,ax,ala,eu,eur,🇦🇽,Ալանդյան կղզիներ
+az,994,Baku,az,aze,as,azn,🇦🇿,Ադրբեջան
+ba,387,Sarajevo,ba,bih,eu,bam,🇧🇦,Բոսնիա եւ Հերցեգովինա
+bb,1246,Bridgetown,bb,brb,na,bbd,🇧🇧,Բարբադոս
+bd,880,Dhaka,bd,bgd,as,bdt,🇧🇩,Բանգլադեշ
+be,32,Brussels,be,bel,eu,eur,🇧🇪,Բելգիա
+bf,226,Ouagadougou,bf,bfa,af,xof,🇧🇫,Բուրկինա Ֆասո
+bg,359,Sofia,bg,bgr,eu,bgn,🇧🇬,Բուլղարիա
+bh,973,Manama,bh,bhr,as,bhd,🇧🇭,Բահրեյն
+bi,257,Bujumbura,bi,bdi,af,bif,🇧🇮,Բուրունդի
+bj,229,Porto-Novo,bj,ben,af,xof,🇧🇯,Բենին
+bl,590,Gustavia,bl,blm,na,eur,🇧🇱,Սուրբ Բարթելեմի
+bm,1441,Hamilton,bm,bmu,na,bmd,🇧🇲,Բերմուդյան կղզիներ
+bn,673,Bandar Seri Begawan,bn,brn,as,bnd,🇧🇳,Բրունեյ
+bo,591,Sucre,bo,bol,sa,bob,🇧🇴,Բոլիվիա
+bq,599,,bq,bes,na,usd,🇧🇶,«Բոնեյր, Սուրբ Եվստատիոս և Սաբա»
+br,55,Brasilia,br,bra,sa,brl,🇧🇷,Բրազիլիա
+bs,1242,Nassau,bs,bhs,na,bsd,🇧🇸,Բահամյան կղզիներ
+bt,975,Thimphu,bt,btn,as,btn,🇧🇹,Բութան
+bv,55,,bv,bvt,an,nok,🇧🇻,Բուվե կղզի
+bw,267,Gaborone,bw,bwa,af,bwp,🇧🇼,Բոտսվանա
+by,375,Minsk,by,blr,eu,byr,🇧🇾,Բելառուս
+bz,501,Belmopan,bz,blz,na,bzd,🇧🇿,Բելիզ
+ca,1,Ottawa,ca,can,na,cad,🇨🇦,Կանադա
+cc,61,West Island,cc,cck,as,aud,🇨🇨,Կոկոս կղզիներ
+cd,243,Kinshasa,cd,cod,af,cdf,🇨🇩,Կոնգոյի Դեմոկրատական Հանրապետություն
+cf,236,Bangui,cf,caf,af,xaf,🇨🇫,Կենտրոնական Աֆրիկյան Հանրապետություն
+cg,242,Brazzaville,cg,cog,af,xaf,🇨🇬,Կոնգոյի Հանրապետություն
+ch,41,Berne,ch,che,eu,chf,🇨🇭,Շվեյցարիա
+ci,225,Yamoussoukro,ci,civ,af,xof,🇨🇮,Կոտ դ'Իվուար
+ck,682,Avarua,ck,cok,oc,nzd,🇨🇰,Կուկի կղզիներ
+cl,56,Santiago,cl,chl,sa,clp,🇨🇱,Չիլի
+cm,237,Yaounde,cm,cmr,af,xaf,🇨🇲,Կամերուն
+cn,86,Beijing,cn,chn,as,cny,🇨🇳,Չինաստան
+co,57,Bogota,co,col,sa,cop,🇨🇴,Կոլումբիա
+cr,506,San Jose,cr,cri,na,crc,🇨🇷,Կոստա Ռիկա
+cu,53,Havana,cu,cub,na,cup,🇨🇺,Կուբա
+cv,238,Praia,cv,cpv,af,cve,🇨🇻,Կաբո Վերդե
+cw,599, Willemstad,cw,cuw,na,ang,🇨🇼,Կյուրասաո
+cx,61,Flying Fish Cove,cx,cxr,as,aud,🇨🇽,Սուրբ Ծննդյան կղզի
+cy,357,Nicosia,cy,cyp,eu,eur,🇨🇾,Կիպրոս
+cz,420,Prague,cz,cze,eu,czk,🇨🇿,Չեխիայի Հանրապետություն
+de,49,Berlin,de,deu,eu,eur,🇩🇪,Գերմանիա
+dj,253,Djibouti,dj,dji,af,djf,🇩🇯,Ջիբութի
+dk,45,Copenhagen,dk,dnk,eu,dkk,🇩🇰,Դանիա
+dm,1767,Roseau,dm,dma,na,xcd,🇩🇲,Դոմինիկա
+do,1809,Santo Domingo,do,dom,na,dop,🇩🇴,Դոմինիկյան Հանրապետություն
+dz,213,Algiers,dz,dza,af,dzd,🇩🇿,Ալժիր
+ec,593,Quito,ec,ecu,sa,usd,🇪🇨,Էկվադոր
+ee,372,Tallinn,ee,est,eu,eur,🇪🇪,Էստոնիա
+eg,20,Cairo,eg,egy,af,egp,🇪🇬,Եգիպտոս
+eh,212,El-Aaiun,eh,esh,af,mad,🇪🇭,Արևմտյան Սահարա
+er,291,Asmara,er,eri,af,ern,🇪🇷,Էրիթրեա
+es,34,Madrid,es,esp,eu,eur,🇪🇸,Իսպանիա
+et,251,Addis Ababa,et,eth,af,etb,🇪🇹,Եթովպիա
+fi,358,Helsinki,fi,fin,eu,eur,🇫🇮,Ֆինլանդիա
+fj,679,Suva,fj,fji,oc,fjd,🇫🇯,Ֆիջի
+fk,500,Stanley,fk,flk,sa,fkp,🇫🇰,Ֆոլքլենդյան կղզիներ
+fm,691,Palikir,fm,fsm,oc,usd,🇫🇲,Միկրոնեզիա
+fo,298,Torshavn,fo,fro,eu,dkk,🇫🇴,Ֆարերյան կղզիներ
+fr,33,Paris,fr,fra,eu,eur,🇫🇷,Ֆրանսիա
+ga,241,Libreville,ga,gab,af,xaf,🇬🇦,Գաբոն
+gb,44,London,gb,gbr,eu,gbp,🇬🇧,Միացյալ թագավորություն
+gd,1473,St. George's,gd,grd,na,xcd,🇬🇩,Գրենադա
+ge,995,Tbilisi,ge,geo,as,gel,🇬🇪,Վրաստան
+gf,594,Cayenne,gf,guf,sa,eur,🇬🇫,Ֆրանսիական Գվիանա
+gg,44,St Peter Port,gg,ggy,eu,gbp,🇬🇬,Գերնսի
+gh,233,Accra,gh,gha,af,ghs,🇬🇭,Գանա
+gi,350,Gibraltar,gi,gib,eu,gip,🇬🇮,Ջիբրալթար
+gl,299,Nuuk,gl,grl,na,dkk,🇬🇱,Գրենլանդիա
+gm,220,Banjul,gm,gmb,af,gmd,🇬🇲,Գամբիա
+gn,224,Conakry,gn,gin,af,gnf,🇬🇳,Գվինեա
+gp,590,Basse-Terre,gp,glp,na,eur,🇬🇵,Գվադելուպե
+gq,240,Malabo,gq,gnq,af,xaf,🇬🇶,Հասարակածային Գվինեա
+gr,30,Athens,gr,grc,eu,eur,🇬🇷,Հունաստան
+gs,500,Grytviken,gs,sgs,an,gbp,🇬🇸,Հարավային Ջորջիա և Հարավային Սենդվիչ կղզիներ
+gt,502,Guatemala City,gt,gtm,na,gtq,🇬🇹,Գվատեմալա
+gu,1671,Hagatna,gu,gum,oc,usd,🇬🇺,Գուամ
+gw,245,Bissau,gw,gnb,af,xof,🇬🇼,Գվինեա-Բիսաու
+gy,592,Georgetown,gy,guy,sa,gyd,🇬🇾,Գայանա
+hk,852,Hong Kong,hk,hkg,as,hkd,🇭🇰,Հոնգ կոնգ
+hm,672,,hm,hmd,oc,,🇦🇺,Հերդ կղզի և Մակդոնալդ կղզիներ
+hn,504,Tegucigalpa,hn,hnd,na,hnl,🇭🇳,Հոնդուրաս
+hr,385,Zagreb,hr,hrv,eu,hrk,🇭🇷,Խորվաթիա
+ht,509,Port-au-Prince,ht,hti,na,htg,🇭🇹,Հաիթի
+hu,36,Budapest,hu,hun,eu,huf,🇭🇺,Հունգարիա
+id,62,Jakarta,id,idn,as,idr,🇮🇩,Ինդոնեզիա
+ie,353,Dublin,ie,irl,eu,eur,🇮🇪,Իռլանդիա
+il,972,Jerusalem,il,isr,as,ils,🇮🇱,Իսրայել
+im,44,"Douglas, Isle of Man",im,imn,eu,gbp,🇮🇲,Մեն կղզի
+in,91,New Delhi,in,ind,as,inr,🇮🇳,Հնդկաստան
+io,246,Diego Garcia,io,iot,as,usd,🇮🇴,Բրիտանական Հնդկական օվկիանոսի տարածք
+iq,964,Baghdad,iq,irq,as,iqd,🇮🇶,Իրաք
+ir,98,Tehran,ir,irn,as,irr,🇮🇷,Իրան
+is,354,Reykjavik,is,isl,eu,isk,🇮🇸,Իսլանդիա
+it,39,Rome,it,ita,eu,eur,🇮🇹,Իտալիա
+je,44,Saint Helier,je,jey,eu,gbp,🇯🇪,Ջերսի
+jm,1876,Kingston,jm,jam,na,jmd,🇯🇲,Ճամայկա
+jo,962,Amman,jo,jor,as,jod,🇯🇴,Հորդանան
+jp,81,Tokyo,jp,jpn,as,jpy,🇯🇵,Ճապոնիա
+ke,254,Nairobi,ke,ken,af,kes,🇰🇪,Քենիա
+kg,996,Bishkek,kg,kgz,as,kgs,🇰🇬,Ղրղզստան
+kh,855,Phnom Penh,kh,khm,as,khr,🇰🇭,Կամբոջա
+ki,686,Tarawa,ki,kir,oc,aud,🇰🇮,Կիրիբատի
+km,269,Moroni,km,com,af,kmf,🇰🇲,Կոմորներ
+kn,1869,Basseterre,kn,kna,na,xcd,🇰🇳,Սենթ Քիթս և Նևիս
+kp,850,Pyongyang,kp,prk,as,kpw,🇰🇵,Հյուսիսային Կորեա
+kr,82,Seoul,kr,kor,as,krw,🇰🇷,Հարավային Կորեա
+kw,965,Kuwait City,kw,kwt,as,kwd,🇰🇼,Քուվեյթ
+ky,1345,George Town,ky,cym,na,kyd,🇰🇾,Կայմանյան կղզիներ
+kz,7,Nur-Sultan,kz,kaz,as,kzt,🇰🇿,Ղազախստան
+la,856,Vientiane,la,lao,as,lak,🇱🇦,Լաոս
+lb,961,Beirut,lb,lbn,as,lbp,🇱🇧,Լիբանան
+lc,1758,Castries,lc,lca,na,xcd,🇱🇨,Սուրբ Լուչիա
+li,423,Vaduz,li,lie,eu,chf,🇱🇮,Լիխտենշտեյն
+lk,94,Colombo,lk,lka,as,lkr,🇱🇰,Շրի Լանկա
+lr,231,Monrovia,lr,lbr,af,lrd,🇱🇷,Լիբերիա
+ls,266,Maseru,ls,lso,af,lsl,🇱🇸,Լեսոտո
+lt,370,Vilnius,lt,ltu,eu,ltl,🇱🇹,Լիտվա
+lu,352,Luxembourg,lu,lux,eu,eur,🇱🇺,Լյուքսեմբուրգ
+lv,371,Riga,lv,lva,eu,eur,🇱🇻,Լատվիա
+ly,218,Tripolis,ly,lby,af,lyd,🇱🇾,Լիբիա
+ma,212,Rabat,ma,mar,af,mad,🇲🇦,Մարոկկո
+mc,377,Monaco,mc,mco,eu,eur,🇲🇨,Մոնակո
+md,373,Chisinau,md,mda,eu,mdl,🇲🇩,Մոլդովա
+me,382,Podgorica,me,mne,eu,eur,🇲🇪,Մոնտենեգրո
+mf,590,Marigot,mf,maf,na,eur,🇲🇫,Սուրբ Մարտին
+mg,261,Antananarivo,mg,mdg,af,mga,🇲🇬,Մադագասկար
+mh,692,Majuro,mh,mhl,oc,usd,🇲🇭,Մարշալյան կղզիներ
+mk,389,Skopje,mk,mkd,eu,mkd,🇲🇰,Հյուսիսային Մակեդոնիա
+ml,223,Bamako,ml,mli,af,xof,🇲🇱,Մալի
+mm,95,Nay Pyi Taw,mm,mmr,as,mmk,🇲🇲,Մյանմար
+mn,976,Ulan Bator,mn,mng,as,mnt,🇲🇳,Մոնղոլիա
+mo,853,Macao,mo,mac,as,mop,🇲🇴,Մակաո
+mp,1670,Saipan,mp,mnp,oc,usd,🇲🇵,Հյուսիսային Մարիանյան կղզիներ
+mq,596,Fort-de-France,mq,mtq,na,eur,🇲🇶,Մարտինիկ
+mr,222,Nouakchott,mr,mrt,af,mro,🇲🇷,Մավրիտանիա
+ms,1664,Plymouth,ms,msr,na,xcd,🇲🇸,Մոնսերատ
+mt,356,Valletta,mt,mlt,eu,eur,🇲🇹,Մալթա
+mu,230,Port Louis,mu,mus,af,mur,🇲🇺,Մավրիկիոս
+mv,960,Male,mv,mdv,as,mvr,🇲🇻,Մալդիվներ
+mw,265,Lilongwe,mw,mwi,af,mwk,🇲🇼,Մալավի
+mx,52,Mexico City,mx,mex,na,mxn,🇲🇽,Մեքսիկա
+my,60,Kuala Lumpur,my,mys,as,myr,🇲🇾,Մալայզիա
+mz,258,Maputo,mz,moz,af,mzn,🇲🇿,Մոզամբիկ
+na,264,Windhoek,na,nam,af,nad,🇳🇦,Նամիբիա
+nc,687,Noumea,nc,ncl,oc,xpf,🇳🇨,Նոր Կալեդոնիա
+ne,227,Niamey,ne,ner,af,xof,🇳🇪,Նիգերիա
+nf,672,Kingston,nf,nfk,oc,aud,🇳🇫,Նորֆոլկ կղզի
+ng,234,Abuja,ng,nga,af,ngn,🇳🇬,Նիգերիա
+ni,505,Managua,ni,nic,na,nio,🇳🇮,Նիկարագուա
+nl,31,Amsterdam,nl,nld,eu,eur,🇳🇱,Նիդեռլանդներ
+no,47,Oslo,no,nor,eu,nok,🇳🇴,Նորվեգիա
+np,977,Kathmandu,np,npl,as,npr,🇳🇵,Նեպալ
+nr,674,Yaren,nr,nru,oc,aud,🇳🇷,Նաուրու
+nu,683,Alofi,nu,niu,oc,nzd,🇳🇺,Նիուե
+nz,64,Wellington,nz,nzl,oc,nzd,🇳🇿,Նոր Զելանդիա
+om,968,Muscat,om,omn,as,omr,🇴🇲,Օման
+pa,507,Panama City,pa,pan,na,pab,🇵🇦,Պանամա
+pe,51,Lima,pe,per,sa,pen,🇵🇪,Պերու
+pf,689,Papeete,pf,pyf,oc,xpf,🇵🇫,Ֆրանսիական Պոլինեզիա
+pg,675,Port Moresby,pg,png,oc,pgk,🇵🇬,Պապուա Նոր Գվինեա
+ph,63,Manila,ph,phl,as,php,🇵🇭,Ֆիլիպիններ
+pk,92,Islamabad,pk,pak,as,pkr,🇵🇰,Պակիստան
+pl,48,Warsaw,pl,pol,eu,pln,🇵🇱,Լեհաստան
+pm,508,Saint-Pierre,pm,spm,na,eur,🇵🇲,Սեն Պիեռ և Միկելոն
+pn,870,Adamstown,pn,pcn,oc,nzd,🇵🇳,Փիթքերն
+pr,1787,San Juan,pr,pri,na,usd,🇵🇷,Պուերտո Ռիկո
+ps,970,East Jerusalem,ps,pse,as,ils,🇵🇸,Պաղեստինի տարածք
+pt,351,Lisbon,pt,prt,eu,eur,🇵🇹,Պորտուգալիա
+pw,680,Melekeok,pw,plw,oc,usd,🇵🇼,Պալաու
+py,595,Asuncion,py,pry,sa,pyg,🇵🇾,Պարագվայ
+qa,974,Doha,qa,qat,as,qar,🇶🇦,Քաթար
+re,262,Saint-Denis,re,reu,af,eur,🇷🇪,Վերամիավորում
+ro,40,Bucharest,ro,rou,eu,ron,🇷🇴,Ռումինիա
+rs,381,Belgrade,rs,srb,eu,rsd,🇷🇸,Սերբիա
+ru,7,Moscow,ru,rus,eu,rub,🇷🇺,Ռուսաստան
+rw,250,Kigali,rw,rwa,af,rwf,🇷🇼,Ռուանդա
+sa,966,Riyadh,sa,sau,as,sar,🇸🇦,Սաուդյան Արաբիա
+sb,677,Honiara,sb,slb,oc,sbd,🇸🇧,Սողոմոնի կղզիներ
+sc,248,Victoria,sc,syc,af,scr,🇸🇨,Սեյշելներ
+sd,249,Khartoum,sd,sdn,af,sdg,🇸🇩,Սուդան
+se,46,Stockholm,se,swe,eu,sek,🇸🇪,Շվեդիա
+sg,65,Singapur,sg,sgp,as,sgd,🇸🇬,Սինգապուր
+sh,290,Jamestown,sh,shn,af,shp,🇸🇭,Սուրբ Հելենա
+si,386,Ljubljana,si,svn,eu,eur,🇸🇮,Սլովենիա
+sj,47,Longyearbyen,sj,sjm,eu,nok,🇸🇯,Սվալբարդ և Յան Մայեն
+sk,421,Bratislava,sk,svk,eu,eur,🇸🇰,Սլովակիա
+sl,232,Freetown,sl,sle,af,sll,🇸🇱,Սիերա Լեոնե
+sm,378,San Marino,sm,smr,eu,eur,🇸🇲,Սան Մարինո
+sn,221,Dakar,sn,sen,af,xof,🇸🇳,Սենեգալ
+so,252,Mogadishu,so,som,af,sos,🇸🇴,Սոմալի
+sr,597,Paramaribo,sr,sur,sa,srd,🇸🇷,Սուրինամ
+ss,211,Juba,ss,ssd,af,ssp,🇸🇸,Հարավային Սուդան
+st,239,Sao Tome,st,stp,af,std,🇸🇹,Սան Տոմե և Պրինսիպ
+sv,503,San Salvador,sv,slv,na,usd,🇸🇻,Սալվադոր
+sx,599,Philipsburg,sx,sxm,na,ang,🇸🇽,Սինտ Մարտեն
+sy,963,Damascus,sy,syr,as,syp,🇸🇾,Սիրիա
+sz,268,Mbabane,sz,swz,af,szl,🇸🇿,Սվազիլենդ
+tc,1649,Cockburn Town,tc,tca,na,usd,🇹🇨,Թերքս և Կայկոս կղզիներ
+td,235,N'Djamena,td,tcd,af,xaf,🇹🇩,Չադ
+tf,262,Port-aux-Francais,tf,atf,an,eur,🇹🇫,Ֆրանսիական հարավային տարածքներ
+tg,228,Lome,tg,tgo,af,xof,🇹🇬,Տոգո
+th,66,Bangkok,th,tha,as,thb,🇹🇭,Թաիլանդ
+tj,992,Dushanbe,tj,tjk,as,tjs,🇹🇯,Տաջիկստան
+tk,690,,tk,tkl,oc,nzd,🇹🇰,Տոկելաու
+tl,670,Dili,tl,tls,oc,usd,🇹🇱,Արևելյան Թիմոր
+tm,993,Ashgabat,tm,tkm,as,tmt,🇹🇲,Թուրքմենստան
+tn,216,Tunis,tn,tun,af,tnd,🇹🇳,Թունիս
+to,676,Nuku'alofa,to,ton,oc,top,🇹🇴,Տոնգա
+tr,90,Ankara,tr,tur,as,try,🇹🇷,Թուրքիա
+tt,1868,Port of Spain,tt,tto,na,ttd,🇹🇹,Տրինիդադ և Տոբագո
+tv,688,Funafuti,tv,tuv,oc,aud,🇹🇻,Տուվալու
+tw,886,Taipei,tw,twn,as,twd,🇹🇼,Թայվան
+tz,255,Dodoma,tz,tza,af,tzs,🇹🇿,Տանզանիա
+ua,380,Kiev,ua,ukr,eu,uah,🇺🇦,Ուկրաինա
+ug,256,Kampala,ug,uga,af,ugx,🇺🇬,Ուգանդա
+um,246,,um,umi,oc,usd,🇺🇲,Միացյալ Նահանգների հեռավոր փոքր կղզիներ
+us,1,Washington,us,usa,na,usd,🇺🇸,Միացյալ Նահանգներ
+uy,598,Montevideo,uy,ury,sa,uyu,🇺🇾,Ուրուգվայ
+uz,998,Tashkent,uz,uzb,as,uzs,🇺🇿,Ուզբեկստան
+va,379,Vatican City,va,vat,eu,eur,🇻🇦,Վատիկան
+vc,1784,Kingstown,vc,vct,na,xcd,🇻🇨,Սենթ Վինսենթ և Գրենադիններ
+ve,58,Caracas,ve,ven,sa,vef,🇻🇪,Վենեսուելա
+vg,1284,Road Town,vg,vgb,na,usd,🇻🇬,Բրիտանական Վիրջինյան կղզիներ
+vi,1340,Charlotte Amalie,vi,vir,na,usd,🇻🇮,ԱՄՆ Վիրջինյան կղզիներ
+vn,84,Hanoi,vn,vnm,as,vnd,🇻🇳,Վիետնամ
+vu,678,Port Vila,vu,vut,oc,vuv,🇻🇺,Վանուատու
+wf,681,Mata Utu,wf,wlf,oc,xpf,🇼🇫,Ուոլիս և Ֆուտունա
+ws,685,Apia,ws,wsm,oc,wst,🇼🇸,Սամոա
+xk,383,Pristina,xk,xkx,eu,eur,🇽🇰,Կոսովո
+ye,967,Sanaa,ye,yem,as,yer,🇾🇪,Եմեն
+yt,262,Mamoudzou,yt,myt,af,eur,🇾🇹,Մայոթ
+za,27,Pretoria,za,zaf,af,zar,🇿🇦,Հարավային Աֆրիկա
+zm,260,Lusaka,zm,zmb,af,zmk,🇿🇲,Զամբիա
+zw,263,Harare,zw,zwe,af,zwl,🇿🇼,Զիմբաբվե

@@ -122,6 +122,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
+| Armenian | `composer require squirephp/continents-am` |
 | German | `composer require squirephp/continents-de` |
 | English | `composer require squirephp/continents-en` |
 | Polish | `composer require squirephp/continents-pl` |
@@ -147,6 +148,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 | Locale | Installation Command |
 |--|--|
+| Armenian | `composer require squirephp/countries-am` |
 | English | `composer require squirephp/countries-en` |
 | French | `composer require squirephp/countries-fr` |
 | German | `composer require squirephp/countries-de` |
