@@ -11,6 +11,7 @@ use Squire\ContinentsEnServiceProvider;
 use Squire\ContinentsServiceProvider;
 use Squire\CountriesDeServiceProvider;
 use Squire\CountriesAmServiceProvider;
+use Squire\CountriesEnServiceProvider;
 use Squire\CountriesEsServiceProvider;
 use Squire\CountriesFrServiceProvider;
 use Squire\CountriesServiceProvider;
@@ -39,6 +40,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
             CountriesServiceProvider::class,
             CountriesDeServiceProvider::class,
             CountriesAmServiceProvider::class,
+            CountriesEnServiceProvider::class,
             CountriesEsServiceProvider::class,
             CountriesFrServiceProvider::class,
             CurrenciesServiceProvider::class,
