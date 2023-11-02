@@ -145,13 +145,14 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 #### Installation
 
-| Locale | Installation Command |
-|--|--|
+| Locale  | Installation Command                      |
+|---------|-------------------------------------------|
 | English | `composer require squirephp/countries-en` |
-| French | `composer require squirephp/countries-fr` |
-| German | `composer require squirephp/countries-de` |
-| Polish | `composer require squirephp/countries-pl` |
+| French  | `composer require squirephp/countries-fr` |
+| German  | `composer require squirephp/countries-de` |
+| Polish  | `composer require squirephp/countries-pl` |
 | Spanish | `composer require squirephp/countries-es` |
+| Italian | `composer require squirephp/countries-it` |
 
 #### Schema
 
