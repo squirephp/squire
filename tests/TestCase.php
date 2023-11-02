@@ -8,6 +8,7 @@ use Squire\AirportsEnServiceProvider;
 use Squire\AirportsServiceProvider;
 use Squire\ContinentsDeServiceProvider;
 use Squire\ContinentsEnServiceProvider;
+use Squire\ContinentsItServiceProvider;
 use Squire\ContinentsServiceProvider;
 use Squire\CountriesDeServiceProvider;
 use Squire\CountriesEnServiceProvider;
@@ -36,6 +37,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
             ContinentsServiceProvider::class,
             ContinentsDeServiceProvider::class,
             ContinentsEnServiceProvider::class,
+            ContinentsItServiceProvider::class,
             CountriesServiceProvider::class,
             CountriesDeServiceProvider::class,
             CountriesEnServiceProvider::class,
