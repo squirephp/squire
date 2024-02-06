@@ -153,6 +153,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | Polish  | `composer require squirephp/countries-pl` |
 | Spanish | `composer require squirephp/countries-es` |
 | Italian | `composer require squirephp/countries-it` |
+| Dutch | `composer require quickstreambe/squirephp-countries-nl` |
 
 #### Schema
 
