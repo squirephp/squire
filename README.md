@@ -32,6 +32,7 @@ Common use cases for Squire include:
 - [Model Relationships](#model-relationships)
 - [Validation](#validation)
 - [Creating your own Models](#creating-your-own-models)
+- [Adding a localization](#adding-a-localization)
 - [Upgrading from 1.x](#upgrading-from-1x)
 - [Need Help?](#need-help)
 
@@ -466,6 +467,12 @@ class Language extends Rule
 ### Releasing a Model
 
 Squire models, their sources, and validation rules are all simply releasable in Composer packages. To see an example of this in action, check out the [`squirephp/countries`](https://github.com/squirephp/countries) and [`squirephp/countries-en`](https://github.com/squirephp/countries-en) packages.
+
+## Adding a localization
+
+If you wish to contribute to this package by adding a localization, feel free to make your own package(s) and take inspiration by the various sub-packages you can find in the organization repositories.
+
+Once you've made your repository, publish it via [Packagist](https://packagist.org) and add your package to the specific table of the given category submitting a PR!
 
 ## Upgrading from 2.x
 
