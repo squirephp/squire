@@ -20,8 +20,8 @@ return static function (ContainerConfigurator $containerConfigurator): void {
             ],
         ],
         'require-dev' => [
-            'orchestra/testbench' => '^6.23|^7.0|^8.0',
-            'phpunit/phpunit' => '^9.4',
+            'orchestra/testbench' => '^6.23|^7.0|^8.0|^9.0',
+            'phpunit/phpunit' => '^9.4|^10.0',
             'symplify/monorepo-builder' => '^9.4.21',
         ],
         'minimum-stability' => 'dev',
