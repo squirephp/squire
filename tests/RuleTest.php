@@ -4,6 +4,7 @@ namespace Squire\Tests;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Validator;
+use Squire\Models\Aircraft;
 use Squire\Models\Airline;
 use Squire\Models\Airport;
 use Squire\Models\Continent;
@@ -13,6 +14,7 @@ use Squire\Models\GbCounty;
 use Squire\Models\Region;
 use Squire\Models\Timezone;
 use Squire\Repository;
+use Squire\Rules\AircraftRule;
 use Squire\Rules\AirlineRule;
 use Squire\Rules\AirportRule;
 use Squire\Rules\ContinentRule;
@@ -31,6 +33,7 @@ class RuleTest extends TestCase
 
         $this->testRule(Rules\FooRule::class, Models\Foo::class);
 
+        $this->testRule(AircraftRule::class, Aircraft::class);
         $this->testRule(AirlineRule::class, Airline::class);
         $this->testRule(AirportRule::class, Airport::class);
         $this->testRule(ContinentRule::class, Continent::class);

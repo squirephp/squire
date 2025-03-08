@@ -6,12 +6,12 @@ use Illuminate\Database\Eloquent\Builder;
 use Squire\Models;
 use Squire\Rule;
 
-class AirlineRule extends Rule
+class AircraftRule extends Rule
 {
-    protected string $message = 'squire-airlines::validation.airline';
+    protected string $message = 'squire-aircrafts::validation.aircraft';
 
     protected function getQueryBuilder(): Builder
     {
-        return Models\Airline::query();
+        return Models\Aircraft::query();
     }
 }

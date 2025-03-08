@@ -3,6 +3,7 @@
 namespace Squire\Tests;
 
 use Illuminate\Support\Facades\App;
+use Squire\Models\Aircraft;
 use Squire\Models\Airline;
 use Squire\Models\Airport;
 use Squire\Models\Continent;
@@ -23,6 +24,7 @@ class ModelTest extends TestCase
         $this->assertEquals(2, Models\Foo::count());
         $this->assertEquals('bar', Models\Foo::first()->foo);
 
+        $this->testModel(Aircraft::class);
         $this->testModel(Airline::class);
         $this->testModel(Airport::class);
         $this->testModel(Continent::class);

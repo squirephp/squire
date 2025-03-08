@@ -4,6 +4,8 @@ namespace Squire\Tests;
 
 use Squire\AircraftsEnServiceProvider;
 use Squire\AircraftsServiceProvider;
+use Squire\AirlinesEnServiceProvider;
+use Squire\AirlinesServiceProvider;
 use Squire\AirportsEnServiceProvider;
 use Squire\AirportsServiceProvider;
 use Squire\ContinentsDeServiceProvider;
@@ -31,6 +33,8 @@ class TestCase extends \Orchestra\Testbench\TestCase
         return [
             AircraftsServiceProvider::class,
             AircraftsEnServiceProvider::class,
+            AirlinesServiceProvider::class,
+            AirlinesEnServiceProvider::class,
             AirportsServiceProvider::class,
             AirportsEnServiceProvider::class,
             ContinentsServiceProvider::class,

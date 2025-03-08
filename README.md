@@ -65,6 +65,22 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 ## Available Models
 
+### `Squire\Models\Aircraft`
+
+#### Installation
+
+| Locale | Installation Command                      |
+|--|-------------------------------------------|
+| English | `composer require squirephp/aircrafts-en` |
+
+#### Schema
+
+| Column Name | Description | Example |
+|--|--|--|
+| `code_iata` | [IATA code](https://en.wikipedia.org/wiki/List_of_aircraft_type_designators) of the aircraft. | `77w` |
+| `code_icao` | [ICAO code](https://en.wikipedia.org/wiki/List_of_aircraft_type_designators) of the aircraft. |`b77w` |
+| `name` | Name of the aircraft. | `Boeing 777-300ER` |
+
 ### `Squire\Models\Airline`
 
 #### Installation
