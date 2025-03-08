@@ -3,6 +3,7 @@
 namespace Squire\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Squire\Model;
 
 class Airline extends Model
@@ -22,7 +23,7 @@ class Airline extends Model
         return $this->belongsTo(Country::class);
     }
 
-    public function continent(): BelongsTo
+    public function continent(): HasOneThrough
     {
         return $this->hasOneThrough(Continent::class, Country::class);
     }
