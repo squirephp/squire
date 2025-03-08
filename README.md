@@ -20,6 +20,7 @@ Common use cases for Squire include:
 - [Installing a Model](#installing-a-model)
 - [Using a Model](#using-a-model)
 - [Available Models](#available-models)
+  - [`Squire\Models\Aircraft`](#squiremodelsaircraft)
   - [`Squire\Models\Airline`](#squiremodelsairline)
   - [`Squire\Models\Airport`](#squiremodelsairport)
   - [`Squire\Models\Continent`](#squiremodelscontinent)

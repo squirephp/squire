@@ -26,6 +26,8 @@
     "autoload": {
         "psr-4": {
             "Squire\\": [
+                "packages/aircrafts-en/src",
+                "packages/aircrafts/src",
                 "packages/airlines-en/src",
                 "packages/airlines/src",
                 "packages/airports-en/src",
@@ -62,30 +64,32 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Squire\\GbCountiesServiceProvider",
-                "Squire\\ContinentsEnServiceProvider",
-                "Squire\\AirportsServiceProvider",
-                "Squire\\CountriesDeServiceProvider",
-                "Squire\\AirlinesServiceProvider",
-                "Squire\\CountriesServiceProvider",
-                "Squire\\RegionsEnServiceProvider",
-                "Squire\\ModelServiceProvider",
-                "Squire\\GbCountiesEnServiceProvider",
+                "Squire\\AircraftsEnServiceProvider",
+                "Squire\\AircraftsServiceProvider",
                 "Squire\\AirlinesEnServiceProvider",
-                "Squire\\CountriesEnServiceProvider",
-                "Squire\\ContinentsDeServiceProvider",
-                "Squire\\CountriesFrServiceProvider",
-                "Squire\\CountriesEsServiceProvider",
-                "Squire\\TimezonesEnServiceProvider",
-                "Squire\\CountriesPlServiceProvider",
-                "Squire\\TimezonesServiceProvider",
-                "Squire\\ContinentsServiceProvider",
+                "Squire\\AirlinesServiceProvider",
                 "Squire\\AirportsEnServiceProvider",
-                "Squire\\CurrenciesEnServiceProvider",
+                "Squire\\AirportsServiceProvider",
+                "Squire\\ContinentsDeServiceProvider",
+                "Squire\\ContinentsEnServiceProvider",
                 "Squire\\ContinentsPlServiceProvider",
+                "Squire\\ContinentsServiceProvider",
+                "Squire\\CountriesDeServiceProvider",
+                "Squire\\CountriesEnServiceProvider",
+                "Squire\\CountriesEsServiceProvider",
+                "Squire\\CountriesFrServiceProvider",
+                "Squire\\CountriesPlServiceProvider",
+                "Squire\\CountriesServiceProvider",
+                "Squire\\CurrenciesEnServiceProvider",
                 "Squire\\CurrenciesServiceProvider",
+                "Squire\\GbCountiesEnServiceProvider",
+                "Squire\\GbCountiesServiceProvider",
+                "Squire\\ModelServiceProvider",
+                "Squire\\RegionsEnServiceProvider",
                 "Squire\\RegionsServiceProvider",
-                "Squire\\RepositoryServiceProvider"
+                "Squire\\RepositoryServiceProvider",
+                "Squire\\TimezonesEnServiceProvider",
+                "Squire\\TimezonesServiceProvider"
             ],
             "aliases": {
                 "RepositoryManager": "Squire\\Repository\\Facades\\Repository"

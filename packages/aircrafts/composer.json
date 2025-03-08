@@ -1,0 +1,41 @@
+{
+    "name": "squirephp/aircrafts",
+    "description": "A library containing Squire's Aircraft model.",
+    "keywords": [
+        "squire"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Mischa Sigtermans",
+            "email": "mischa@sigtermans.me"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "squirephp/model": "self.version",
+        "squirephp/rule": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squire\\AircraftServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

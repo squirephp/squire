@@ -1,0 +1,41 @@
+{
+    "name": "squirephp/aircrafts-en",
+    "description": "A library containing the English translation of Squire's Aircraft model.",
+    "keywords": [
+        "squire"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Mischa Sigtermans",
+            "email": "mischa@sigtermans.me"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "squirephp/aircrafts": "self.version",
+        "squirephp/repository": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squire\\AircraftsEnServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

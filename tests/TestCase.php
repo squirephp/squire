@@ -2,8 +2,8 @@
 
 namespace Squire\Tests;
 
-use Squire\AirlinesEnServiceProvider;
-use Squire\AirlinesServiceProvider;
+use Squire\AircraftsEnServiceProvider;
+use Squire\AircraftsServiceProvider;
 use Squire\AirportsEnServiceProvider;
 use Squire\AirportsServiceProvider;
 use Squire\ContinentsDeServiceProvider;
@@ -29,8 +29,8 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app): array
     {
         return [
-            AirlinesServiceProvider::class,
-            AirlinesEnServiceProvider::class,
+            AircraftsServiceProvider::class,
+            AircraftsEnServiceProvider::class,
             AirportsServiceProvider::class,
             AirportsEnServiceProvider::class,
             ContinentsServiceProvider::class,
