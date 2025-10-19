@@ -1,5 +1,5 @@
 {
-    "name": "squirephp/continents-en",
+    "name": "squirephp/continents-uk",
     "description": "A library containing the English translation of Squire's Continent model.",
     "keywords": [
         "squire"
@@ -14,6 +14,10 @@
         {
             "name": "Dan Harrin",
             "email": "dan@danharrin.com"
+        },
+        {
+            "name": "Ihor Rud",
+            "email": "igorryd7@gmail.com"
         }
     ],
     "require": {

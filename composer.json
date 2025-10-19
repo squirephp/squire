@@ -33,6 +33,7 @@
                 "packages/continents-de/src",
                 "packages/continents-en/src",
                 "packages/continents-pl/src",
+                "packages/continents-uk/src",
                 "packages/continents/src",
                 "packages/countries-de/src",
                 "packages/countries-en/src",
@@ -85,7 +86,8 @@
                 "Squire\\ContinentsPlServiceProvider",
                 "Squire\\CurrenciesServiceProvider",
                 "Squire\\RegionsServiceProvider",
-                "Squire\\RepositoryServiceProvider"
+                "Squire\\RepositoryServiceProvider",
+                "Squire\\ContinentsUkServiceProvider"
             ],
             "aliases": {
                 "RepositoryManager": "Squire\\Repository\\Facades\\Repository"
@@ -101,6 +103,7 @@
         "squirephp/continents-de": "self.version",
         "squirephp/continents-en": "self.version",
         "squirephp/continents-pl": "self.version",
+        "squirephp/continents-uk": "self.version",
         "squirephp/countries": "self.version",
         "squirephp/countries-de": "self.version",
         "squirephp/countries-en": "self.version",
