@@ -1,0 +1,45 @@
+{
+    "name": "squirephp/timezones-uk",
+    "description": "A library containing the Ukrainian translation of Squire's Timezone model.",
+    "keywords": [
+        "squire"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Dan Harrin",
+            "email": "dan@danharrin.com"
+        },
+        {
+            "name": "Ihor Rud",
+            "email": "igorryd7@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "squirephp/repository": "self.version",
+        "squirephp/timezones": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TimezonesUkServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

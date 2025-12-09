@@ -17,6 +17,7 @@ use Squire\CountriesFrServiceProvider;
 use Squire\CountriesServiceProvider;
 use Squire\CountriesUkServiceProvider;
 use Squire\CurrenciesEnServiceProvider;
+use Squire\CurrenciesUkServiceProvider;
 use Squire\CurrenciesServiceProvider;
 use Squire\GbCountiesEnServiceProvider;
 use Squire\GbCountiesServiceProvider;
@@ -25,6 +26,7 @@ use Squire\RegionsServiceProvider;
 use Squire\RepositoryServiceProvider;
 use Squire\TimezonesEnServiceProvider;
 use Squire\TimezonesServiceProvider;
+use Squire\TimezonesUkServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -47,12 +49,14 @@ class TestCase extends \Orchestra\Testbench\TestCase
             CountriesFrServiceProvider::class,
             CurrenciesServiceProvider::class,
             CurrenciesEnServiceProvider::class,
+            CurrenciesUkServiceProvider::class,
             GbCountiesServiceProvider::class,
             GbCountiesEnServiceProvider::class,
             RegionsServiceProvider::class,
             RegionsEnServiceProvider::class,
             TimezonesServiceProvider::class,
             TimezonesEnServiceProvider::class,
+            TimezonesUkServiceProvider::class,
             RepositoryServiceProvider::class,
         ];
     }

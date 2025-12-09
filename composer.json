@@ -43,6 +43,7 @@
                 "packages/countries-pl/src",
                 "packages/countries/src",
                 "packages/currencies-en/src",
+                "packages/currencies-uk/src",
                 "packages/currencies/src",
                 "packages/gb-counties-en/src",
                 "packages/gb-counties/src",
@@ -52,6 +53,7 @@
                 "packages/repository/src",
                 "packages/rule/src",
                 "packages/timezones-en/src",
+                "packages/timezones-uk/src",
                 "packages/timezones/src"
             ]
         }
@@ -75,7 +77,7 @@
                 "Squire\\GbCountiesEnServiceProvider",
                 "Squire\\AirlinesEnServiceProvider",
                 "Squire\\CountriesEnServiceProvider",
-                "CountriesUkServiceProvider",
+                "Squire\\CountriesUkServiceProvider",
                 "Squire\\ContinentsDeServiceProvider",
                 "Squire\\CountriesFrServiceProvider",
                 "Squire\\CountriesEsServiceProvider",
@@ -85,11 +87,13 @@
                 "Squire\\ContinentsServiceProvider",
                 "Squire\\AirportsEnServiceProvider",
                 "Squire\\CurrenciesEnServiceProvider",
+                "Squire\\CurrenciesUkServiceProvider",
                 "Squire\\ContinentsPlServiceProvider",
                 "Squire\\CurrenciesServiceProvider",
                 "Squire\\RegionsServiceProvider",
                 "Squire\\RepositoryServiceProvider",
-                "ContinentsUaServiceProvider"
+                "Squire\\ContinentsUaServiceProvider",
+                "Squire\\TimezonesUkServiceProvider"
             ],
             "aliases": {
                 "RepositoryManager": "Squire\\Repository\\Facades\\Repository"
@@ -115,6 +119,7 @@
         "squirephp/countries-ua": "self.version",
         "squirephp/currencies": "self.version",
         "squirephp/currencies-en": "self.version",
+        "squirephp/currencies-uk": "self.version",
         "squirephp/gb-counties": "self.version",
         "squirephp/gb-counties-en": "self.version",
         "squirephp/model": "self.version",
@@ -123,7 +128,8 @@
         "squirephp/repository": "self.version",
         "squirephp/rule": "self.version",
         "squirephp/timezones": "self.version",
-        "squirephp/timezones-en": "self.version"
+        "squirephp/timezones-en": "self.version",
+        "squirephp/timezones-uk": "self.version"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
