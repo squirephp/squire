@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ContinentsUaServiceProvider"
+                "Squire\\ContinentsUaServiceProvider"
             ]
         }
     },
