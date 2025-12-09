@@ -15,6 +15,7 @@ use Squire\CountriesEnServiceProvider;
 use Squire\CountriesEsServiceProvider;
 use Squire\CountriesFrServiceProvider;
 use Squire\CountriesServiceProvider;
+use Squire\CountriesUaServiceProvider;
 use Squire\CurrenciesEnServiceProvider;
 use Squire\CurrenciesServiceProvider;
 use Squire\GbCountiesEnServiceProvider;
@@ -41,6 +42,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
             CountriesServiceProvider::class,
             CountriesDeServiceProvider::class,
             CountriesEnServiceProvider::class,
+            CountriesUaServiceProvider::class,
             CountriesEsServiceProvider::class,
             CountriesFrServiceProvider::class,
             CurrenciesServiceProvider::class,
