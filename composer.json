@@ -33,7 +33,7 @@
                 "packages/continents-de/src",
                 "packages/continents-en/src",
                 "packages/continents-pl/src",
-                "packages/continents-uk/src",
+                "packages/continents-ua/src",
                 "packages/continents/src",
                 "packages/countries-de/src",
                 "packages/countries-en/src",
@@ -89,7 +89,7 @@
                 "Squire\\CurrenciesServiceProvider",
                 "Squire\\RegionsServiceProvider",
                 "Squire\\RepositoryServiceProvider",
-                "Squire\\ContinentsUkServiceProvider"
+                "ContinentsUaServiceProvider"
             ],
             "aliases": {
                 "RepositoryManager": "Squire\\Repository\\Facades\\Repository"

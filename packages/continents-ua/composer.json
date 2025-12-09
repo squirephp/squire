@@ -1,6 +1,6 @@
 {
-    "name": "squirephp/continents-uk",
-    "description": "A library containing the English translation of Squire's Continent model.",
+    "name": "squirephp/continents-ua",
+    "description": "A library containing the Ukrainian translation of Squire's Continent model.",
     "keywords": [
         "squire"
     ],
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ContinentsUkServiceProvider"
+                "ContinentsUaServiceProvider"
             ]
         }
     },
