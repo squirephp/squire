@@ -148,15 +148,16 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 
 #### Installation
 
-| Locale  | Installation Command                                    |
-| ------- | ------------------------------------------------------- |
-| English | `composer require squirephp/countries-en`               |
-| French  | `composer require squirephp/countries-fr`               |
-| German  | `composer require squirephp/countries-de`               |
-| Polish  | `composer require squirephp/countries-pl`               |
-| Spanish | `composer require squirephp/countries-es`               |
-| Dutch   | `composer require quickstreambe/squirephp-countries-nl` |
-| Italian | `composer require squirephp-italian/countries-it`       |
+| Locale    | Installation Command                                    |
+|-----------|---------------------------------------------------------|
+| English   | `composer require squirephp/countries-en`               |
+| French    | `composer require squirephp/countries-fr`               |
+| German    | `composer require squirephp/countries-de`               |
+| Polish    | `composer require squirephp/countries-pl`               |
+| Spanish   | `composer require squirephp/countries-es`               |
+| Dutch     | `composer require quickstreambe/squirephp-countries-nl` |
+| Italian   | `composer require squirephp-italian/countries-it`       |
+| Ukrainian | `composer require squirephp-ukrainian/countries-uk`     |
 
 #### Schema
 
@@ -189,6 +190,7 @@ Country::where('name', 'like', 'a%')->get(); // Get information about all countr
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/currencies-en` |
+| Ukrainian | `composer require squirephp/currencies-uk` |
 
 #### Schema
 
@@ -273,6 +275,7 @@ This functionality uses [`akaunting/laravel-money`](https://github.com/akaunting
 | Locale | Installation Command |
 |--|--|
 | English | `composer require squirephp/timezones-en` |
+| Ukrainian | `composer require squirephp/timezones-uk` |
 
 #### Schema
 
@@ -418,6 +421,7 @@ de,German
 en,English
 fr,French
 es,Spanish
+uk,Ukrainan
 ```
 
 ### Creating a Validation Rule
