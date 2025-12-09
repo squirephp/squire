@@ -5,7 +5,7 @@ namespace Squire;
 use Illuminate\Support\ServiceProvider;
 use Squire\Models\Continent;
 
-class ContinentsUaServiceProvider extends ServiceProvider
+class ContinentsUkServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {

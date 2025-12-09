@@ -9,13 +9,13 @@ use Squire\AirportsServiceProvider;
 use Squire\ContinentsDeServiceProvider;
 use Squire\ContinentsEnServiceProvider;
 use Squire\ContinentsServiceProvider;
-use Squire\ContinentsUaServiceProvider;
+use Squire\ContinentsUkServiceProvider;
 use Squire\CountriesDeServiceProvider;
 use Squire\CountriesEnServiceProvider;
 use Squire\CountriesEsServiceProvider;
 use Squire\CountriesFrServiceProvider;
 use Squire\CountriesServiceProvider;
-use Squire\CountriesUaServiceProvider;
+use Squire\CountriesUkServiceProvider;
 use Squire\CurrenciesEnServiceProvider;
 use Squire\CurrenciesServiceProvider;
 use Squire\GbCountiesEnServiceProvider;
@@ -38,11 +38,11 @@ class TestCase extends \Orchestra\Testbench\TestCase
             ContinentsServiceProvider::class,
             ContinentsDeServiceProvider::class,
             ContinentsEnServiceProvider::class,
-            ContinentsUaServiceProvider::class,
+            ContinentsUkServiceProvider::class,
             CountriesServiceProvider::class,
             CountriesDeServiceProvider::class,
             CountriesEnServiceProvider::class,
-            CountriesUaServiceProvider::class,
+            CountriesUkServiceProvider::class,
             CountriesEsServiceProvider::class,
             CountriesFrServiceProvider::class,
             CurrenciesServiceProvider::class,

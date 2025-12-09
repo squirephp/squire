@@ -1,6 +1,6 @@
 {
-    "name": "squirephp/continents-ua",
-    "description": "A library containing the Ukrainian translation of Squire's Continent model.",
+    "name": "squirephp/countries-uk",
+    "description": "A library containing the Ukrainian translation of Squire's Country model.",
     "keywords": [
         "squire"
     ],
@@ -23,7 +23,7 @@
     "require": {
         "php": "^8.0",
         "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
-        "squirephp/continents": "self.version",
+        "squirephp/countries": "self.version",
         "squirephp/repository": "self.version"
     },
     "autoload": {
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ContinentsUaServiceProvider"
+                "CountriesUkServiceProvider"
             ]
         }
     },
