@@ -139,7 +139,7 @@ abstract class Model extends Eloquent\Model
 
         $data->transform(function (string $line) use ($schema): Collection {
             return $schema->combine(
-                array_map(fn ($value) => $value !== '' ? $value : null, str_getcsv($line))
+                array_map(fn ($value) => $value !== '' ? $value : null, str_getcsv($line, escape: '\\'))
             );
         });
 
