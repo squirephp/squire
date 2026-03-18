@@ -15,8 +15,7 @@ use Squire\Repository;
 
 class ModelTest extends TestCase
 {
-    /** @test */
-    public function can_query_models(): void
+    public function test_can_query_models(): void
     {
         Repository::registerSource(Models\Foo::class, App::getLocale(), __DIR__ . '/data/foo-en.csv');
 
@@ -46,8 +45,7 @@ class ModelTest extends TestCase
         }
     }
 
-    /** @test */
-    public function can_translate_models(): void
+    public function test_can_translate_models(): void
     {
         Repository::registerSource(Models\Foo::class, 'en', __DIR__ . '/data/foo-en.csv');
         Repository::registerSource(Models\Foo::class, 'es', __DIR__ . '/data/foo-es.csv');
@@ -61,8 +59,7 @@ class ModelTest extends TestCase
         $this->assertEquals('es', Models\Foo::first()->lang);
     }
 
-    /** @test */
-    public function can_format_usd(): void
+    public function test_can_format_usd(): void
     {
         $this->assertSame('$5.00', Currency::find('usd')->format(500));
         $this->assertSame('$500.00', Currency::find('usd')->format(500, true));
