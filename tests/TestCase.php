@@ -26,6 +26,16 @@ use Squire\TimezonesServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
+    /**
+     * Compatibility shim for Testbench/Laravel testing internals.
+     *
+     * Some matrix combinations (e.g., Laravel 11) access this static property.
+     * Declaring it here keeps older and newer versions compatible.
+     *
+     * @var mixed
+     */
+    protected static $latestResponse;
+
     protected function getPackageProviders($app): array
     {
         return [
