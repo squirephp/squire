@@ -34,7 +34,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
      *
      * @var mixed
      */
-    protected static $latestResponse;
+    public static $latestResponse;
 
     protected function getPackageProviders($app): array
     {
