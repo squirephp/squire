@@ -125,7 +125,7 @@ abstract class Model extends Eloquent\Model
 
     public static function migrate(?string $locale = null): void
     {
-        $tableName = (new static())->getTable();
+        $tableName = static::getTableName();
 
         static::resolveConnection()->getSchemaBuilder()->create($tableName, function (Blueprint $table): void {
             foreach (static::$schema as $name => $type) {
@@ -133,7 +133,7 @@ abstract class Model extends Eloquent\Model
             }
         });
 
-        $data = collect(Repository::fetchData(static::class));
+        $data = collect(Repository::fetchData(static::class, $locale));
 
         $schema = collect(str_getcsv($data->first()));
 
@@ -150,8 +150,19 @@ abstract class Model extends Eloquent\Model
                 continue;
             }
 
-            static::insert($dataToInsert);
+            static::resolveConnection()->table($tableName)->insert($dataToInsert);
         }
+    }
+
+    protected static function getTableName(): string
+    {
+        $defaultProperties = (new ReflectionClass(static::class))->getDefaultProperties();
+
+        if (isset($defaultProperties['table']) && is_string($defaultProperties['table']) && $defaultProperties['table'] !== '') {
+            return $defaultProperties['table'];
+        }
+
+        return Str::snake(Str::pluralStudly(class_basename(static::class)));
     }
 
     public static function resolveConnection($connection = null): SQLiteConnection
