@@ -8,8 +8,7 @@ class TranslationsConsistencyTest extends TestCase
 {
     protected const PACKAGES_DIRECTORY = './packages/';
 
-    /** @test */
-    public function are_data_files_consistent(): void
+    public function test_are_data_files_consistent(): void
     {
         collect(glob(static::PACKAGES_DIRECTORY . '*', GLOB_ONLYDIR))
             ->filter(fn (string $name): bool => $this->isTranslatedPackageDirectory($name))

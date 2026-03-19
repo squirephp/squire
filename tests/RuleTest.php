@@ -24,8 +24,7 @@ use Squire\Rules\TimezoneRule;
 
 class RuleTest extends TestCase
 {
-    /** @test */
-    public function can_be_validated(): void
+    public function test_can_be_validated(): void
     {
         Repository::registerSource(Models\Foo::class, App::getLocale(), __DIR__ . '/data/foo-en.csv');
 
