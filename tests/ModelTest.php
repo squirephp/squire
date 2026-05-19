@@ -45,6 +45,33 @@ class ModelTest extends TestCase
         }
     }
 
+    public function test_can_migrate_models_without_php_deprecations(): void
+    {
+        Repository::registerSource(Models\Foo::class, App::getLocale(), __DIR__ . '/data/foo-en.csv');
+
+        $deprecations = [];
+        $errorReporting = error_reporting(E_ALL);
+
+        set_error_handler(function (int $severity, string $message) use (&$deprecations): bool {
+            if (($severity === E_DEPRECATED) || ($severity === E_USER_DEPRECATED)) {
+                $deprecations[] = $message;
+
+                return true;
+            }
+
+            return false;
+        });
+
+        try {
+            Models\Foo::cache([App::getLocale()]);
+        } finally {
+            restore_error_handler();
+            error_reporting($errorReporting);
+        }
+
+        $this->assertSame([], $deprecations);
+    }
+
     public function test_can_translate_models(): void
     {
         Repository::registerSource(Models\Foo::class, 'en', __DIR__ . '/data/foo-en.csv');

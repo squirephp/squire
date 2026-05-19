@@ -135,7 +135,7 @@ abstract class Model extends Eloquent\Model
 
         $data = collect(Repository::fetchData(static::class, $locale));
 
-        $schema = collect(str_getcsv($data->first()));
+        $schema = collect(str_getcsv($data->first(), escape: '\\'));
 
         $data->transform(function (string $line) use ($schema): Collection {
             return $schema->combine(
