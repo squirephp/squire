@@ -22,7 +22,7 @@ be,32,Brussels,be,bel,eu,eur,🇧🇪,Belgium
 bf,226,Ouagadougou,bf,bfa,af,xof,🇧🇫,Burkina Faso
 bg,359,Sofia,bg,bgr,eu,bgn,🇧🇬,Bulgaria
 bh,973,Manama,bh,bhr,as,bhd,🇧🇭,Bahrain
-bi,257,Bujumbura,bi,bdi,af,bif,🇧🇮,Burundi
+bi,257,Gitega,bi,bdi,af,bif,🇧🇮,Burundi
 bj,229,Porto-Novo,bj,ben,af,xof,🇧🇯,Benin
 bl,590,Gustavia,bl,blm,na,eur,🇧🇱,Saint Barthelemy
 bm,1441,Hamilton,bm,bmu,na,bmd,🇧🇲,Bermuda
@@ -86,7 +86,7 @@ gl,299,Nuuk,gl,grl,na,dkk,🇬🇱,Greenland
 gm,220,Banjul,gm,gmb,af,gmd,🇬🇲,Gambia
 gn,224,Conakry,gn,gin,af,gnf,🇬🇳,Guinea
 gp,590,Basse-Terre,gp,glp,na,eur,🇬🇵,Guadeloupe
-gq,240,Malabo,gq,gnq,af,xaf,🇬🇶,Equatorial Guinea
+gq,240,Ciudad de la Paz,gq,gnq,af,xaf,🇬🇶,Equatorial Guinea
 gr,30,Athens,gr,grc,eu,eur,🇬🇷,Greece
 gs,500,Grytviken,gs,sgs,an,gbp,🇬🇸,South Georgia and the South Sandwich Islands
 gt,502,Guatemala City,gt,gtm,na,gtq,🇬🇹,Guatemala
@@ -123,7 +123,7 @@ kp,850,Pyongyang,kp,prk,as,kpw,🇰🇵,North Korea
 kr,82,Seoul,kr,kor,as,krw,🇰🇷,South Korea
 kw,965,Kuwait City,kw,kwt,as,kwd,🇰🇼,Kuwait
 ky,1345,George Town,ky,cym,na,kyd,🇰🇾,Cayman Islands
-kz,7,Nur-Sultan,kz,kaz,as,kzt,🇰🇿,Kazakhstan
+kz,7,Astana,kz,kaz,as,kzt,🇰🇿,Kazakhstan
 la,856,Vientiane,la,lao,as,lak,🇱🇦,Laos
 lb,961,Beirut,lb,lbn,as,lbp,🇱🇧,Lebanon
 lc,1758,Castries,lc,lca,na,xcd,🇱🇨,Saint Lucia
@@ -211,7 +211,7 @@ st,239,Sao Tome,st,stp,af,std,🇸🇹,Sao Tome and Principe
 sv,503,San Salvador,sv,slv,na,usd,🇸🇻,El Salvador
 sx,599,Philipsburg,sx,sxm,na,ang,🇸🇽,Sint Maarten
 sy,963,Damascus,sy,syr,as,syp,🇸🇾,Syria
-sz,268,Mbabane,sz,swz,af,szl,🇸🇿,Swaziland
+sz,268,Mbabane,sz,swz,af,szl,🇸🇿,Eswatini
 tc,1649,Cockburn Town,tc,tca,na,usd,🇹🇨,Turks and Caicos Islands
 td,235,N'Djamena,td,tcd,af,xaf,🇹🇩,Chad
 tf,262,Port-aux-Francais,tf,atf,an,eur,🇹🇫,French Southern Territories
