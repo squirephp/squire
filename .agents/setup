@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+SECONDS=0
+echo 'Checking PHP 8.2 and Composer prerequisites...'
+packages=(php8.2-cli php8.2-curl php8.2-intl php8.2-mbstring php8.2-sqlite3 php8.2-xml php8.2-zip composer unzip)
+missing=()
+for package in "${packages[@]}"; do
+    if ! dpkg-query -W -f='${Status}' "$package" 2>/dev/null | grep -qx 'install ok installed'; then
+        missing+=("$package")
+    fi
+done
+
+if ((${#missing[@]})); then
+    sudo apt-get update -qq
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends "${missing[@]}"
+fi
+echo "Toolchain ready (${SECONDS}s)."
+
+SECONDS=0
+echo 'Installing Composer dependencies...'
+# The library intentionally ignores composer.lock. Reuse the snapshot's lock unless
+# composer.json changed, in which case resolve dependencies for the new manifest.
+if [[ -f composer.lock ]] && ! composer validate --check-lock --no-check-publish --no-check-all --quiet; then
+    composer update --no-interaction --prefer-dist --no-progress
+else
+    composer install --no-interaction --prefer-dist --no-progress
+fi
+echo "Dependencies ready (${SECONDS}s)."
