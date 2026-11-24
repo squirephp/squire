@@ -1355,7 +1355,7 @@ kr-29,kr-29,kr,Gwangju-gwangyeoksi
 kr-30,kr-30,kr,Daejeon-gwangyeoksi
 kr-31,kr-31,kr,Ulsan-gwangyeoksi
 kr-41,kr-41,kr,Gyeonggi-do
-kr-42,kr-42,kr,Gangwon-do
+kr-42,kr-42,kr,Gangwon-teukbyeoljachido
 kr-43,kr-43,kr,Chungcheongbuk-do
 kr-44,kr-44,kr,Chungcheongnam-do
 kr-45,kr-45,kr,Jeollabuk-do
@@ -1363,6 +1363,7 @@ kr-46,kr-46,kr,Jeollanam-do
 kr-47,kr-47,kr,Gyeongsangbuk-do
 kr-48,kr-48,kr,Gyeongsangnam-do
 kr-49,kr-49,kr,Jeju-teukbyeoljachido
+kr-50,kr-50,kr,Sejong
 kw-ah,kw-ah,kw,Al Ahmadi
 kw-fa,kw-fa,kw,Al Farwaniyah
 kw-ha,kw-ha,kw,Hawalli
